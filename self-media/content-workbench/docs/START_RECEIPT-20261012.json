@@ -1,0 +1,51 @@
+{
+  "threadId": "01a12ed9-113b-7fd1-8d30-fdc616bbf2bb",
+  "hostId": "local",
+  "projectId": "b9165eb7-7447-4908-bfe8-5619703c3198",
+  "prdPath": "/Volumes/EXTERNAL/自媒体/content-workbench/docs/EXECUTION_PRD-20261012.md",
+  "prdSha256": "49aba231ad63d281982050addf088f945602eea193706ee0494ee7210d45c541",
+  "engineeringRoot": "/Volumes/EXTERNAL/自媒体/content-workbench",
+  "dataRoot": "/Volumes/EXTERNAL/自媒体/content-workbench/data/synthetic-demo",
+  "goalTool": "create_goal",
+  "goalStatus": "active",
+  "goalId": "UNKNOWN",
+  "goalRawReceipt": {
+    "goal": {
+      "threadId": "01a12ed9-113b-7fd1-8d30-fdc616bbf2bb",
+      "objective": "按Rev2 PRD /Volumes/EXTERNAL/自媒体/content-workbench/docs/EXECUTION_PRD-20261012.md 及本轮实施派单完成自媒体内容工作台的B1—B4、S01—S05：在本机隔离合成根实现、修复、验证、交付已测启动入口/虚构样例/实际导出/重启和隔离恢复/原始回执与已知问题。累计最多12小时，普通问题自主处理，必需验收未通过不标complete，不接真实数据/账户/媒体或外发/生产。",
+      "status": "active",
+      "tokensUsed": 0,
+      "timeUsedSeconds": 0,
+      "createdAt": 1791794515,
+      "updatedAt": 1791794515
+    },
+    "remainingTokens": null,
+    "completionBudgetReport": null
+  },
+  "priorGetGoal": {
+    "goal": null,
+    "remainingTokens": null,
+    "completionBudgetReport": null
+  },
+  "startedAt": "2026-10-12T16:41:55+08:00",
+  "rules": [
+    "HANDOFF-2026-10-10-v2",
+    "ROUTING-2026-09-30-v3",
+    "BLOCKERS-2026-09-23-v1"
+  ],
+  "targetSettings": "preserve user client model/effort/speed",
+  "actualModel": "UNKNOWN",
+  "actualEffort": "UNKNOWN",
+  "actualSpeed": "UNKNOWN",
+  "activeSeconds": 0,
+  "phase": "M1",
+  "next": "runtime/isolated fixtures/read-only raw field check then B1-B4 implementation",
+  "deviations": [],
+  "runtime": {
+    "path": "/Users/USER/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "version": "v24.19.0"
+  },
+  "authorizationSource": "IMPLEMENTATION_DISPATCH-20261012.md: human request via PMO",
+  "boundary": "synthetic/local-only; no media/accounts/production/external models",
+  "git": "no Git repository; no Git mutation"
+}

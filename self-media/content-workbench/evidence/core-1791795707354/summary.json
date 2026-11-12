@@ -1,0 +1,147 @@
+{
+  "runId": "core-1791795707354",
+  "recordedAt": "2026-10-12T09:01:48.027Z",
+  "status": "TEST_RUN_COMPLETED",
+  "records": [
+    {
+      "scenario": "S01",
+      "name": "real-save-export-restart",
+      "status": "PASS",
+      "details": {
+        "root": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791795707354/data/main",
+        "exportId": "f24d8006-919b-493d-8b31-760852860536",
+        "publicFileCount": 2,
+        "restartApproval": "invalidated",
+        "requiredDuplicateBodyInputs": 0
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S02",
+      "name": "versions-dependency",
+      "status": "PASS",
+      "details": {
+        "v1Preserved": true,
+        "oneTitleOnlyAffectsOwnPlatform": true,
+        "oldNotesMarkedByVersion": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S02",
+      "name": "raw-sources",
+      "status": "PASS",
+      "details": {
+        "firstStatus": "PARTIAL_ACCEPTED",
+        "changed": true,
+        "damagedStatus": "HISTORICAL_EXPIRED",
+        "paths": [
+          "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791795707354/data/authority-fixtures/registry.json",
+          "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791795707354/data/authority-fixtures/state.json"
+        ]
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S03",
+      "name": "nine-platforms-public-filter",
+      "status": "PASS",
+      "details": {
+        "configured": 9,
+        "simplified": 5,
+        "traditional": 4,
+        "privateFieldExcluded": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S03",
+      "name": "mid-export-post-completion-revoke",
+      "status": "PASS",
+      "details": {
+        "lockedPublicStatus": "REVOKED",
+        "completedDownloadDenied": true,
+        "internalPreserved": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "locking-conflict-capacity",
+      "status": "PASS",
+      "details": {
+        "secondWriterRejected": true,
+        "conflict": 409,
+        "block": 413,
+        "capacity": 413,
+        "priorSavedTextPreserved": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "unpersisted-revoke-restart",
+      "status": "PASS",
+      "details": {
+        "diskStillHasOldPermission": true,
+        "bootApprovalEmpty": true,
+        "publicDownloadDenied": true,
+        "explicitReconfirmationRequired": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "api-session-root-isolation",
+      "status": "PASS",
+      "details": {
+        "auth": 401,
+        "externalOrigin": 403,
+        "oversize": 413,
+        "otherRootCannotUseCookie": true,
+        "logoutDoesNotAffectOtherRoot": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S05",
+      "name": "draft-isolated-restore",
+      "status": "PASS",
+      "details": {
+        "exportId": "82239e74-d192-486c-bf85-ae719b8ca98e",
+        "restoredRoots": [
+          "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791795707354/data/restored/copy-a",
+          "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791795707354/data/restored/copy-b"
+        ],
+        "independentIds": true,
+        "permissionsHistorical": true,
+        "suspendedRelationsRejected": true,
+        "tamperRejected": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S05",
+      "name": "multi-file-failures",
+      "status": "PASS",
+      "details": {
+        "oldExport": "d3a601f5-f312-481c-abbd-eeeac2923ee8",
+        "secondAndLastFileFailuresRetained": true,
+        "partialNotDownloadable": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "symlink-protection",
+      "status": "PASS",
+      "details": {
+        "protectedFixtureHash": "178394a79d960a04a30b0404263a4c5296b5ece3bb6d6fe151d5460f135bf888",
+        "sourceUnchanged": true
+      },
+      "deviations": []
+    }
+  ],
+  "deviations": [],
+  "limits": "synthetic data only; browser separate"
+}

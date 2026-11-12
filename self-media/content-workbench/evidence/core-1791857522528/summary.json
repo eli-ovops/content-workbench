@@ -1,0 +1,320 @@
+{
+  "runId": "core-1791857522528",
+  "recordedAt": "2026-10-13T02:12:02.975Z",
+  "status": "TEST_RUN_COMPLETED",
+  "sourceFingerprint": {
+    "hash": "c825ea399104bf1671da3f2608f19921ba2ce97ead7499179424c28fceb521ed",
+    "files": [
+      {
+        "relativePath": "package.json",
+        "sha256": "6c399757c8cefecb94d3d371e83c80d9c42aa7ab51e1e858e4f5440d1f2a9023",
+        "bytes": 237
+      },
+      {
+        "relativePath": "public/app.js",
+        "sha256": "9a664062238f043f8cca78c836fd67736aaa9e783caf19bb8cd3610b4acfe191",
+        "bytes": 24295
+      },
+      {
+        "relativePath": "public/index.html",
+        "sha256": "c46fe63c743de7f352cd9da298cb91f6508ada8e534fd90b693c19e2879b8915",
+        "bytes": 10441
+      },
+      {
+        "relativePath": "public/preview-data.js",
+        "sha256": "4622f554ecf2c41d7f4db37a14cc32294a15c90b367f9a4569f156f79011d7ca",
+        "bytes": 3202
+      },
+      {
+        "relativePath": "public/style.css",
+        "sha256": "bda2012d10b273cdf707568d7e9ededcc1bae36ae414a01d03528cfba890d3a5",
+        "bytes": 23146
+      },
+      {
+        "relativePath": "src/authority.mjs",
+        "sha256": "6d2429b2efc21b03514a755f7aba60429f8c11e24c30f236738fb16708a779e5",
+        "bytes": 1160
+      },
+      {
+        "relativePath": "src/config.mjs",
+        "sha256": "31f45c8c4aba9724d49fa92a11792bb44f100fab6402ea19901b417afbd009c2",
+        "bytes": 1093
+      },
+      {
+        "relativePath": "src/copy-workspaces.mjs",
+        "sha256": "1dc5f07d6f22badebbc2412bf5fd1fac849f0c8c24c13fd27303e6c41432b291",
+        "bytes": 2650
+      },
+      {
+        "relativePath": "src/default-workspace.mjs",
+        "sha256": "d75ba827e92e678ce182c309f24d9dbce1478c6554e51110c3be800bc112e58c",
+        "bytes": 572
+      },
+      {
+        "relativePath": "src/fixture.mjs",
+        "sha256": "fdde3c98597de92d372d3adf4c58d25dc37f0286795eab5f08857e81ada7d909",
+        "bytes": 1196
+      },
+      {
+        "relativePath": "src/init.mjs",
+        "sha256": "03b82ee3d9252ef6aad981fd110aaf4d49bee623d887b9ebb1c3381faa82e9ac",
+        "bytes": 434
+      },
+      {
+        "relativePath": "src/launch.mjs",
+        "sha256": "0ca2e4b009cb24b2f26758836bbea96466b9a9a875ac523afc491db453b7d690",
+        "bytes": 3263
+      },
+      {
+        "relativePath": "src/model.mjs",
+        "sha256": "d88ad4d623f9d9e463deb833edce72b84a033feca0dd3e4bfa6d725236e1f5e9",
+        "bytes": 5683
+      },
+      {
+        "relativePath": "src/pairing.mjs",
+        "sha256": "a10502aa705bd41dbfe7fc0f715ca7f25abf21a4880e8976fbb518942ccd725a",
+        "bytes": 4054
+      },
+      {
+        "relativePath": "src/prepare-sample.mjs",
+        "sha256": "36f0868b316112583600afc36ab81b509d4ec3dfb709b14b6dbb29592dcc9e91",
+        "bytes": 2795
+      },
+      {
+        "relativePath": "src/recover.mjs",
+        "sha256": "8f4da3b2cafae15c8a35c582f1d6dad3a21ab4d660adff9932b680671dfb4ee4",
+        "bytes": 2417
+      },
+      {
+        "relativePath": "src/server.mjs",
+        "sha256": "a1adcbf549efde66486798e6c6e84ed5675f00dff21bfda4cda6812bad30d9e0",
+        "bytes": 9516
+      },
+      {
+        "relativePath": "src/stop.mjs",
+        "sha256": "187706ceb3992962aadf010e7a6a0391f8f95d4b181e3540557ae3a38bc750c6",
+        "bytes": 727
+      },
+      {
+        "relativePath": "src/store.mjs",
+        "sha256": "d14c18ab2de5cc8ac44e011763dd9927c902e66e0d8273075d52d48bbdeec0fe",
+        "bytes": 16934
+      },
+      {
+        "relativePath": "workspace.json",
+        "sha256": "ac7ff0c7c833176bb7a4c08aa169f170d9302c3d687263a91fefd7aba6ec3d82",
+        "bytes": 234
+      },
+      {
+        "relativePath": "停止内容工作台.command",
+        "sha256": "6d6d4d7d52ad451047486ee73b233afa9c0df874919909fab6dc871b9115863c",
+        "bytes": 177
+      },
+      {
+        "relativePath": "停止已验收工作台.command",
+        "sha256": "f7826430d44d200b134cc31f261379222c7dc6c0c27cb4260d0a82a3e7280402",
+        "bytes": 112
+      },
+      {
+        "relativePath": "启动内容工作台.command",
+        "sha256": "59caa74b2f2d912b0d807887492b7dfb66bfbd148d9ca826ddb543d4e7322320",
+        "bytes": 179
+      },
+      {
+        "relativePath": "启动已验收工作台.command",
+        "sha256": "a73eeabb33539be6fad8c281ae7345b75c51061fc0f961d621ee70bedaeffa29",
+        "bytes": 112
+      },
+      {
+        "relativePath": "恢复上一副本.command",
+        "sha256": "b0a45fc15e471a6e66ad73195fd67bd71efaacba0bcdfff0ba45fc523abadeea",
+        "bytes": 189
+      }
+    ],
+    "nodeVersion": "v24.19.0"
+  },
+  "records": [
+    {
+      "scenario": "S01",
+      "name": "real-save-export-restart",
+      "status": "PASS",
+      "details": {
+        "root": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791857522528/data/main",
+        "exportId": "ca9e6bac-85fe-4eca-85f8-ad880197fe78",
+        "publicFileCount": 2,
+        "restartApproval": "invalidated",
+        "requiredDuplicateBodyInputs": 0
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S02",
+      "name": "versions-dependency",
+      "status": "PASS",
+      "details": {
+        "v1Preserved": true,
+        "oneTitleOnlyAffectsOwnPlatform": true,
+        "oldNotesMarkedByVersion": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S02",
+      "name": "raw-sources",
+      "status": "PASS",
+      "details": {
+        "firstStatus": "PARTIAL_ACCEPTED",
+        "changed": true,
+        "damagedStatus": "HISTORICAL_EXPIRED",
+        "paths": [
+          "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791857522528/data/authority-fixtures/registry.json",
+          "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791857522528/data/authority-fixtures/state.json"
+        ]
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S03",
+      "name": "nine-platforms-public-filter",
+      "status": "PASS",
+      "details": {
+        "configured": 9,
+        "simplified": 5,
+        "traditional": 4,
+        "privateFieldExcluded": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S03",
+      "name": "mid-export-post-completion-revoke",
+      "status": "PASS",
+      "details": {
+        "lockedPublicStatus": "REVOKED",
+        "completedDownloadDenied": true,
+        "internalPreserved": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "locking-conflict-capacity",
+      "status": "PASS",
+      "details": {
+        "secondWriterRejected": true,
+        "conflict": 409,
+        "block": 413,
+        "capacity": 413,
+        "priorSavedTextPreserved": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "unpersisted-revoke-restart",
+      "status": "PASS",
+      "details": {
+        "diskStillHasOldPermission": true,
+        "bootApprovalEmpty": true,
+        "publicDownloadDenied": true,
+        "explicitReconfirmationRequired": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "api-session-root-isolation",
+      "status": "PASS",
+      "details": {
+        "auth": 401,
+        "externalOrigin": 403,
+        "oversize": 413,
+        "otherRootCannotUseCookie": true,
+        "logoutDoesNotAffectOtherRoot": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S05",
+      "name": "draft-isolated-restore",
+      "status": "PASS",
+      "details": {
+        "exportId": "9b8a4342-49ec-49ac-9332-4ecd4179552a",
+        "restoredRoots": [
+          "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791857522528/data/restored/copy-a",
+          "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791857522528/data/restored/copy-b"
+        ],
+        "independentIds": true,
+        "permissionsHistorical": true,
+        "suspendedRelationsRejected": true,
+        "tamperRejected": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S05",
+      "name": "multi-file-failures",
+      "status": "PASS",
+      "details": {
+        "oldExport": "0981314d-ec12-4a61-8722-153cd5633f1e",
+        "secondAndLastFileFailuresRetained": true,
+        "partialNotDownloadable": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "symlink-protection",
+      "status": "PASS",
+      "details": {
+        "protectedFixtureHash": "178394a79d960a04a30b0404263a4c5296b5ece3bb6d6fe151d5460f135bf888",
+        "sourceUnchanged": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S03",
+      "name": "permission-expiry",
+      "status": "PASS",
+      "details": {
+        "injectedClock": true,
+        "expiredPublicDownloadDenied": true,
+        "malformedDateRejected": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S02",
+      "name": "startup-cached-history",
+      "status": "PASS",
+      "details": {
+        "status": "HISTORICAL_EXPIRED",
+        "oldTimePreserved": true,
+        "noEmptyReset": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S02",
+      "name": "paragraph-identity",
+      "status": "PASS",
+      "details": {
+        "stableUnchangedParagraph": true,
+        "danglingNoteRejected": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "export-parent-symlink",
+      "status": "PASS",
+      "details": {
+        "externalFixtureReadRefused": true,
+        "externalFixtureUnchanged": true
+      },
+      "deviations": []
+    }
+  ],
+  "deviations": [],
+  "limits": "synthetic data only; browser separate"
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "scenario": "S01",
+    "name": "real-save-export-restart",
+    "status": "PASS",
+    "details": {
+      "root": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791873957341/data/main",
+      "exportId": "48870083-00ca-41cd-80fc-c40c2d44f450",
+      "publicFileCount": 2,
+      "restartApproval": "invalidated",
+      "requiredDuplicateBodyInputs": 0
+    },
+    "deviations": []
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "workspaceId": "a7db5e94-94b5-49a6-b92d-75ad810efe44",
+  "exportId": "b9308220-9043-4dd1-95ce-3941dc56ec72",
+  "kind": "SYNTHETIC_ONLY",
+  "status": "COMPLETED",
+  "publicFiles": [
+    {
+      "relativePath": "platforms/xiaohongshu.md",
+      "sha256": "92e53d340ebcf0e0c45add6ac40883c3059d40e917a60bcc8e9db7f16537f0fe",
+      "bytes": 301
+    },
+    {
+      "relativePath": "platforms/youtube.md",
+      "sha256": "69a75321fb0f8aa6b482ac56606820787d38fb388fa392a9f6c34b89014925bc",
+      "bytes": 391
+    }
+  ],
+  "deviations": [],
+  "note": "服务重启后需重新确认公开文字；这些文件是已取得的合成样例，不是视频或发布回执。"
+}

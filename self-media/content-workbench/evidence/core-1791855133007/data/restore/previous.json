@@ -1,0 +1,63 @@
+{
+  "rootId": "880768f2-f715-4bfb-ba46-56f7966ff838",
+  "schemaName": "content-workbench.workspace",
+  "schemaVersion": 1,
+  "revision": 1,
+  "workspaces": [
+    {
+      "id": "674a3221-b996-4bda-9300-55cd4066f395",
+      "revision": 1,
+      "title": "虚构样例｜把三段周报汇成表",
+      "topic": "虚构选题卡：普通人如何把三段示例周报汇总成表；没有真实工具效果或客户数据。",
+      "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+      "common": {
+        "title": "用一张表整理三段示例周报",
+        "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+        "hashtags": "#AI工具 #工作方法",
+        "backendTags": "AI, 工作方法"
+      },
+      "sources": [
+        {
+          "id": "34cfec5d-d17d-4994-8f16-e3f37e791ea8",
+          "title": "本人撰写的虚构样例",
+          "reference": "synthetic://weekly-example",
+          "date": "2026-10-12",
+          "scope": "全文",
+          "privacy": "PUBLIC",
+          "permission": "ALLOWED",
+          "version": 1,
+          "expiresAt": "",
+          "text": "公开合成示例，无真实客户或媒体"
+        }
+      ],
+      "facts": [
+        {
+          "id": "a473c1cf-fb94-4cf9-8bac-df4cafe120f7",
+          "text": "工具效果尚未实测",
+          "status": "UNVERIFIED",
+          "sourceIds": [
+            "34cfec5d-d17d-4994-8f16-e3f37e791ea8"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "2ee1ca95-1ece-4efd-bdad-52aa212118fe",
+          "text": "录屏备注：显示三列汇总表；检查文字可读。只是计划，不是已录素材。",
+          "sourceIds": [
+            "34cfec5d-d17d-4994-8f16-e3f37e791ea8"
+          ],
+          "scriptVersion": null,
+          "mediaPath": ""
+        }
+      ],
+      "checks": [],
+      "versions": [],
+      "selectedVersion": null,
+      "overrides": {},
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-13T01:32:13.435Z"
+    }
+  ]
+}

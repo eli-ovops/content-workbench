@@ -1,0 +1,11 @@
+HTTP/1.1 206 Partial Content
+Content-Type: video/mp4
+Accept-Ranges: bytes
+Cache-Control: no-cache
+X-Content-Type-Options: nosniff
+Content-Range: bytes 0-99/2328662
+Content-Length: 100
+Date: Wed, 14 Oct 2026 06:18:39 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+

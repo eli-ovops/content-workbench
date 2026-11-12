@@ -1,0 +1,69 @@
+{
+  "rootId": "7571b52b-e1c6-47c3-b12e-264e3f61a0bb",
+  "schemaName": "content-workbench.workspace",
+  "schemaVersion": 1,
+  "revision": 1,
+  "workspaces": [
+    {
+      "id": "586ea507-8ea3-4c93-9c04-a17898ad18e4",
+      "revision": 1,
+      "title": "虚构样例｜把三段周报汇成表",
+      "topic": "虚构选题卡：普通人如何把三段示例周报汇总成表；没有真实工具效果或客户数据。",
+      "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+      "common": {
+        "title": "用一张表整理三段示例周报",
+        "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+        "hashtags": "#AI工具 #工作方法",
+        "backendTags": "AI, 工作方法"
+      },
+      "sources": [
+        {
+          "id": "2255f9f3-191f-4592-845b-3323dcee36c0",
+          "title": "本人撰写的虚构样例",
+          "reference": "synthetic://weekly-example",
+          "date": "2026-10-12",
+          "scope": "全文",
+          "privacy": "UNKNOWN",
+          "permission": "UNKNOWN",
+          "version": 1,
+          "expiresAt": "",
+          "text": "公开合成示例，无真实客户或媒体",
+          "originalPermission": "ALLOWED"
+        }
+      ],
+      "facts": [
+        {
+          "id": "4ebfb428-5b9b-43a8-b2a0-8add45d8d246",
+          "text": "工具效果尚未实测",
+          "status": "UNVERIFIED",
+          "sourceIds": [
+            "2255f9f3-191f-4592-845b-3323dcee36c0"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "03c639a1-5c51-47d7-a112-4775fb218c81",
+          "text": "录屏备注：显示三列汇总表；检查文字可读。只是计划，不是已录素材。",
+          "sourceIds": [
+            "2255f9f3-191f-4592-845b-3323dcee36c0"
+          ],
+          "scriptVersion": null,
+          "mediaPath": ""
+        }
+      ],
+      "checks": [],
+      "versions": [],
+      "selectedVersion": null,
+      "overrides": {},
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-12T09:29:13.585Z",
+      "namespace": "586ea507-8ea3-4c93-9c04-a17898ad18e4",
+      "originalRef": {
+        "workspaceId": "7b34ad07-be44-4db6-a904-e423835c3bf3"
+      },
+      "restoredAt": "2026-10-12T09:29:20.578Z"
+    }
+  ]
+}

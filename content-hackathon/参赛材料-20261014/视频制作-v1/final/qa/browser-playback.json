@@ -1,0 +1,31 @@
+{
+  "startedAt": 0.165445,
+  "laterPlayingAt": 11.301088,
+  "seeks": [
+    {
+      "duration": 180,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "time": 0
+    },
+    {
+      "duration": 180,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "time": 0
+    },
+    {
+      "duration": 180,
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "time": 0
+    }
+  ],
+  "width": 1920,
+  "height": 1080,
+  "duration": 180,
+  "proof": "播放验收截图.png"
+}

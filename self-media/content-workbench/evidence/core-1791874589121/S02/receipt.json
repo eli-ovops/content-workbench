@@ -1,0 +1,49 @@
+[
+  {
+    "scenario": "S02",
+    "name": "versions-dependency",
+    "status": "PASS",
+    "details": {
+      "v1Preserved": true,
+      "oneTitleOnlyAffectsOwnPlatform": true,
+      "oldNotesMarkedByVersion": true
+    },
+    "deviations": []
+  },
+  {
+    "scenario": "S02",
+    "name": "raw-sources",
+    "status": "PASS",
+    "details": {
+      "firstStatus": "PARTIAL_ACCEPTED",
+      "changed": true,
+      "damagedStatus": "HISTORICAL_EXPIRED",
+      "paths": [
+        "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791874589121/data/authority-fixtures/registry.json",
+        "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791874589121/data/authority-fixtures/state.json"
+      ]
+    },
+    "deviations": []
+  },
+  {
+    "scenario": "S02",
+    "name": "startup-cached-history",
+    "status": "PASS",
+    "details": {
+      "status": "HISTORICAL_EXPIRED",
+      "oldTimePreserved": true,
+      "noEmptyReset": true
+    },
+    "deviations": []
+  },
+  {
+    "scenario": "S02",
+    "name": "paragraph-identity",
+    "status": "PASS",
+    "details": {
+      "stableUnchangedParagraph": true,
+      "danglingNoteRejected": true
+    },
+    "deviations": []
+  }
+]

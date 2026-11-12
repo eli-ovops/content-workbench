@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-12T15:44:17+08:00",
+  "jobId": "3eb1376b-a134-4114-9459-7a1930d277b5",
+  "phase": "prepared",
+  "titleInputVerified": true,
+  "titlePreviewVerified": true,
+  "bodyInputVerified": true,
+  "bodyPreviewVerified": true,
+  "imageCount": 1,
+  "imageCountVerified": true,
+  "published": false,
+  "declaredOriginal": false,
+  "providerScreenshot": "/Volumes/EXTERNAL/黑客松/evidence/小红书图文预览已同步-20261012.png",
+  "screenshotSha256": "2ff7058c3243487d2c4d18a7c88295ac488be1d0132b77e1cc9c51c707589b31",
+  "codeSha256": {
+    "app/xhs_note.py": "d9c30a6cf09b392fa518009b6be065e7501ef3ca8f80a0cfb4bb95749c30d8b9",
+    "app/xhs_worker.py": "9c44caaad42d78dc1114046ec93c8cf12c500eaf82daf560bf6482e3169b404b",
+    "app/app.js": "338870cd93c54b9e65515d037170041b128881c81602f78f87ee5aae0619ae97",
+    "app/test_xhs_editor.py": "c3a522a94e2d2f0bb2b99ee7ab955a5827691b246d3a6a07578792105fd326e6"
+  },
+  "tests": {
+    "editorRegression": {
+      "passed": 4,
+      "failed": 0
+    },
+    "nodeBridgeBroker": {
+      "passed": 5,
+      "failed": 0
+    }
+  },
+  "scope": "小红书普通创作者账号图文准备与预览；未点击发布或暂存离开，未创建平台Key或调用模型"
+}

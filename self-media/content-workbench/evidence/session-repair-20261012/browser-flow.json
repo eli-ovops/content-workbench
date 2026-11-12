@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "scope": "ISOLATED_REAL_PERSISTED_ROOT_NOT_PREVIEW",
+  "url": "http://127.0.0.1:56442/",
+  "steps": [
+    {
+      "body": "问题：三段周报分散，整理时容易漏项。\n\n材料：本人编写的虚构周报。\n\n操作：按事项、负责人、下一步三列整理；没写的信息标记待确认。\n\n检查：逐条对照原文，不把计划写成完成。",
+      "revision": "本地 revision 5",
+      "status": "已保存 · 21:47",
+      "step": "write-save",
+      "title": "验收测试稿｜写稿与保存"
+    },
+    {
+      "body": "问题：三段周报分散，整理时容易漏项。\n\n材料：本人编写的虚构周报。\n\n操作：按事项、负责人、下一步三列整理；没写的信息标记待确认。\n\n检查：逐条对照原文，不把计划写成完成。",
+      "status": "已保存 · 21:47",
+      "step": "refresh-reopen",
+      "title": "验收测试稿｜写稿与保存"
+    },
+    {
+      "preview": "所选版本 · v1问题：三段周报分散，整理时容易漏项。\n\n材料：本人编写的虚构周报。\n\n操作：按事项、负责人、下一步三列整理；没写的信息标记待确认。\n\n检查：逐条对照原文，不把计划写成完成。这是首个留存版本，没有更早的稿件可供对照。",
+      "step": "freeze-v1",
+      "version": "v1 · 21:47"
+    },
+    {
+      "dependency": "有 1 项备注尚未关联当前版本，使用前请重新核对。",
+      "options": [
+        {
+          "id": "",
+          "text": "未选择版本"
+        },
+        {
+          "id": "41c3bcc6-9115-4eb3-8f5b-3d9f9dacdea7",
+          "text": "v1 · 21:47"
+        },
+        {
+          "id": "000517dd-587d-4881-b231-7e24ec19317d",
+          "text": "v2 · 21:49"
+        }
+      ],
+      "panels": [
+        "问题：三段周报分散，整理时容易漏项。\n\n材料：本人编写的虚构周报。\n\n操作：按事项、负责人、下一步三列整理；没写的信息标记待确认。\n\n检查：逐条对照原文，不把计划写成完成。\n\n补充：把待确认的信息单独列出，方便后续核对。",
+        "问题：三段周报分散，整理时容易漏项。\n\n材料：本人编写的虚构周报。\n\n操作：按事项、负责人、下一步三列整理；没写的信息标记待确认。\n\n检查：逐条对照原文，不把计划写成完成。"
+      ],
+      "status": "已保存 · 21:49",
+      "step": "freeze-v2"
+    },
+    {
+      "body": "问题：三段周报分散，整理时容易漏项。\n\n材料：本人编写的虚构周报。\n\n操作：按事项、负责人、下一步三列整理；没写的信息标记待确认。\n\n检查：逐条对照原文，不把计划写成完成。\n\n补充：把待确认的信息单独列出，方便后续核对。",
+      "previewMode": false,
+      "saveEnabled": true,
+      "status": "已保存 · 21:49",
+      "step": "new-window-reopen",
+      "title": "验收测试稿｜写稿与保存"
+    },
+    {
+      "step": "standard-launcher-server-restart-repair",
+      "body": "问题：三段周报分散，整理时容易漏项。\n\n材料：本人编写的虚构周报。\n\n操作：按事项、负责人、下一步三列整理；没写的信息标记待确认。\n\n检查：逐条对照原文，不把计划写成完成。\n\n补充：把待确认的信息单独列出，方便后续核对。",
+      "preview": false,
+      "saveEnabled": true,
+      "status": "已保存 · 21:49",
+      "title": "验收测试稿｜写稿与保存",
+      "version": "v2"
+    }
+  ],
+  "approvalScope": "Synthetic acceptance root only; no original file pairing/cookies/credentials copied. Final service launched through production launcher and owner socket verified.",
+  "defaultRootSession": "NOT_VERIFIED"
+}

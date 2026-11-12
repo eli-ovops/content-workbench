@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-13T06:53:20.015Z",
+  "timezone": "Asia/Shanghai",
+  "scope": "Local Douyin preparation implementation; real account workflow pending",
+  "status": "pending_real_page_verification",
+  "userReportedLogin": true,
+  "currentLoginVerified": false,
+  "actualUploadPerformed": false,
+  "realTitleBodyReadbackVerified": false,
+  "published": false,
+  "cloudDraftSaved": false,
+  "declarationSelected": false,
+  "tests": {
+    "nodeGroups": 12,
+    "pythonEditorCases": 4,
+    "pythonLoginCases": 4,
+    "pythonSessionCases": 6,
+    "passed": true,
+    "syntax": "pass",
+    "network": "intercepted fixture only"
+  },
+  "blocker": "Prior browser security policy refusal remains; no alternate UI/API/CDP route attempted",
+  "serviceSession": 95156,
+  "sourceHashes": {
+    "app/douyin_note.py": "e2be8da2004a384408341ba280d25551ff9b5ec582a698d8cc2b6c86e24febb8",
+    "app/test_douyin_editor.py": "db86eb670add10bfc8ab5feebdc9746b1e8a48b328c3787b56884e33e721e55a",
+    "app/provider_worker.py": "e3517c44a1469309e7bf5a8c4226ba5e7dbf44fb03668838812a38811b50eadf",
+    "app/provider_bridge.mjs": "48f4f31c794966b11e97fae93906a2d7f459af8218bec11c0d6c9cd6d23fd1c0",
+    "app/provider_bridge.test.mjs": "546dd6327e7303f648f5c81cb509ea861bb37dbe90786b36645674f28d69b3e1",
+    "app/test_provider_session.py": "ff81e6a8612c82d30dc0a5161796edfaaf9807a3c532e0fcdad8c58df319517d",
+    "app/app.js": "44c4ba571a49b46a3fac81d598dade9dbb07c925b0402de5eff2d4ee30ce1ae7",
+    "app/index.html": "6e73f3dc33abc81c441d2ef2423db748c9fe0e019fa502c52a6d7860f7fc4292",
+    "app/server.mjs": "062f6df5f197bc73396857bc8fd4521e6219395ac02a97092d1a245bbf0228b0"
+  }
+}

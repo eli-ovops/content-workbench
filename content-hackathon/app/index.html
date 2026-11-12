@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Eli 社媒发布工作台</title><link rel="icon" href="/icon.png"><link rel="stylesheet" href="/style.css"></head>
+<body>
+<a class="skip" href="#composer">跳到内容编辑</a>
+<aside class="sidebar">
+  <div class="brand"><img src="/icon.png" width="42" height="42" alt=""><div><strong>Eli</strong><span>社媒发布工作台</span></div></div>
+  <button id="new-draft" class="primary wide">新建内容</button>
+  <nav aria-label="工作区"><button class="nav active" data-view="editor">内容工作台</button><button class="nav" data-view="connections">平台连接</button><button class="nav" data-view="wallet">Token 钱包</button></nav>
+  <div class="drafts-heading"><h2>我的草稿</h2><span id="draft-count">0</span></div>
+  <input id="draft-search" class="draft-search" type="search" placeholder="搜索草稿" aria-label="搜索草稿">
+  <p id="draft-search-status" class="hint" role="status" hidden></p>
+  <div id="draft-list" class="draft-list"></div>
+  <p class="local-note">素材与草稿保存在此浏览器。使用同一浏览器和地址，可继续编辑。</p>
+  <button id="backup-export" class="secondary wide">备份全部草稿与素材</button>
+  <label class="field">恢复完整备份（另存副本）<input id="backup-import" type="file" accept="application/json,.json"></label>
+</aside>
+<main>
+  <header class="topbar"><span id="workspace-name">内容工作台</span><span id="save-state" role="status">正在读取草稿</span></header>
+  <button id="save-conflict-copy" class="secondary" hidden>将冲突修改另存副本</button>
+  <section id="editor-view" class="workspace">
+    <div class="heading-row"><div><h1>多平台投稿准备助手</h1><p>一份母稿，各平台分别准备；原生编辑与App接续按通路显示。</p></div><button id="save-draft" class="secondary">保存草稿</button></div>
+    <div class="editor-grid">
+      <section id="composer" class="composer" aria-labelledby="composer-heading">
+        <div class="section-heading"><h2 id="composer-heading">内容母稿</h2><span>共用素材与文字</span></div>
+        <div class="segmented" role="group" aria-label="内容类型"><button data-kind="video" aria-pressed="true">短视频</button><button data-kind="image" aria-pressed="false">图文</button><button data-kind="text" aria-pressed="false">纯文字</button></div>
+        <section id="asset-section"><label class="dropzone" id="dropzone" for="asset-input"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 22V5m0 0-6 6m6-6 6 6M5 21v6h22v-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><strong id="upload-label">添加视频或封面</strong><span>点击选择，或将素材拖到这里</span><input id="asset-input" type="file" accept="image/*,video/*" multiple></label><div id="asset-list" class="asset-list"></div><p class="hint">本地预览素材合计上限100 MB；自动视频准备支持单个100 MB以内的MP4。</p></section>
+        <button id="undo-assets" class="secondary" disabled>撤销上次素材移除或替换</button>
+        <label class="field">标题<input id="master-title" placeholder="给这份内容一个标题" maxlength="1000"></label>
+        <label class="field">正文<textarea id="master-body" placeholder="写下想分享的内容……" rows="8" maxlength="20000"></textarea></label>
+        <label class="field">话题标签<input id="master-tags" placeholder="输入标签，用空格分隔" maxlength="2000"></label>
+        <div class="section-heading channels-heading"><h2>发布到</h2><span>可多选</span></div>
+        <div id="channels" class="channels"><label class="channel"><input type="checkbox" value="xhs"><span class="platform xhs">小红书</span></label><label class="channel"><input type="checkbox" value="douyin"><span class="platform douyin">抖音</span></label><label class="channel"><input type="checkbox" value="bilibili"><span class="platform bilibili">B站</span></label></div>
+        <section id="preparation-panel" class="preflight" aria-labelledby="preparation-heading">
+          <div class="section-heading"><h2 id="preparation-heading">准备到编辑页</h2><span>不会发布</span></div>
+          <p class="hint">使用各平台版本依次填写。已有稿件保留在原页；一个平台待处理时，其他平台继续。</p>
+          <label id="bili-agreement-row" class="reuse" hidden><input id="bili-agreement" type="checkbox">我已阅读并同意B站上传页的使用协议与社区公约</label>
+          <button id="prepare-selected" class="primary wide" disabled>准备到所选平台</button><button id="stop-preparation" class="secondary wide" hidden>停止后续准备</button>
+          <p id="preparation-summary" class="hint" role="status" aria-live="polite"></p><ul id="preparation-results" aria-label="各平台准备结果"></ul>
+        </section>
+        <details class="preflight"><summary>实际使用 · 省时对照</summary>
+          <p class="hint">用同一份真实内容、相同平台比较手动和工作台准备。扫码、失败、App接续和维护时间计入工作台成本。不包含发布。</p>
+          <label class="field">手动准备（分钟）<input id="time-manual" type="number" min="0" step="0.1"></label>
+          <label class="field">工作台准备（分钟）<input id="time-workbench" type="number" min="0" step="0.1"></label>
+          <label class="field">额外处理与维护（分钟，已包含的勿重复计算）<input id="time-overhead" type="number" min="0" step="0.1"></label>
+          <label class="field">观察与失败原因<textarea id="time-note" rows="2" maxlength="2000"></textarea></label>
+          <label class="field">下次同类内容是否主动再用？<select id="time-reuse"><option value="unknown">还不确定</option><option value="yes">会再用</option><option value="no">不会再用</option></select></label>
+          <button id="record-time" class="secondary">记录这次真实对照</button><p id="time-summary" class="hint" role="status"></p>
+        </details>
+        <div class="actions"><button id="export-copy" class="primary">导出发布文案</button><button id="publish" disabled aria-describedby="publish-note">一键发布</button></div><p id="publish-note" class="hint">最终发布尚未启用。小红书、抖音图文与视频及B站视频可填入编辑页；B站图文生成准备包，在App手动接续。</p>
+        <label id="douyin-agreement-row" class="reuse" hidden><input id="douyin-agreement" type="checkbox">我已阅读并同意当前抖音上传页注明的协议</label><button id="douyin-prepare" class="secondary wide xhs-prepare" disabled hidden>将视频填入抖音</button><p id="douyin-prepare-hint" class="hint" hidden></p><p id="douyin-job-status" class="hint" role="status" hidden></p>
+        <section id="douyin-settings" class="preflight" aria-labelledby="douyin-settings-heading" hidden>
+          <div class="section-heading"><h2 id="douyin-settings-heading">抖音封面和话题</h2><span>保存在本稿</span></div>
+          <div id="douyin-video-cover-controls"><div class="field"><label for="douyin-cover-mode">封面来源</label><select id="douyin-cover-mode"><option value="keep">保留当前封面</option><option value="upload">本地图片</option></select></div>
+          <button id="douyin-pick-cover" class="secondary">选择抖音封面</button><input id="douyin-cover-input" type="file" accept="image/png,image/jpeg" hidden><p id="douyin-cover-name" class="hint"></p><img id="douyin-cover-preview" alt="本地抖音封面预览" hidden>
+          <p class="hint">PNG或JPEG，最多2 MB；同一图片分别应用于横封面4:3和竖封面3:4，应用后核对裁切。</p>
+          </div><p id="douyin-image-cover-hint" class="hint" hidden>图文暂用首张图片作为封面，可在本地调整图片顺序；视频封面设置另行保留。</p><label class="field">抖音话题<input id="douyin-topics" placeholder="逗号分隔，如 AI工具，效率工具" maxlength="200"></label><p class="hint">暂限5个，每个最多20字；重复话题合并。留空可清除本工作台添加的话题。</p>
+          <button id="douyin-apply-options" class="secondary wide" disabled>应用封面和话题</button><p id="douyin-options-hint" class="hint"></p><p id="douyin-options-status" class="hint" role="status"></p>
+        </section>
+        <section id="xhs-check" class="preflight" aria-labelledby="xhs-check-heading" hidden><div class="section-heading"><h2 id="xhs-check-heading">小红书图文检查</h2><span id="xhs-check-summary"></span></div><ul id="xhs-check-list"></ul><p id="xhs-check-note" class="hint">按当前连接器限制检查。首图与图片顺序以左侧素材为准。</p></section>
+        <button id="prepare-xhs" class="secondary wide xhs-prepare" disabled>将图文填入小红书</button><p id="prepare-xhs-hint" class="hint">会将本稿图片、标题、正文和标签上传至本人小红书编辑页，供你核对；不会点击发布。</p><p id="xhs-job-status" class="hint" role="status"></p><button id="bili-prepare" class="secondary wide xhs-prepare" disabled hidden>将视频填入B站</button><p id="bili-prepare-hint" class="hint" hidden></p><p id="bili-job-status" class="hint" role="status"></p>
+        <section id="bili-image-handoff" class="preflight" aria-labelledby="bili-image-heading" hidden>
+          <div class="section-heading"><h2 id="bili-image-heading">B站图文 · App接续</h2><span>尚未发布</span></div>
+          <p class="hint">B站网页专栏编辑器已下线。准备包包含本稿B站文案和按顺序编号的原图；传到手机解压后，在B站App逐项填写并核对。</p>
+          <button id="bili-image-package" class="secondary wide">导出B站图文准备包</button><p id="bili-image-package-hint" class="hint" role="status"></p>
+        </section>
+        <section id="bili-settings" class="preflight" aria-labelledby="bili-settings-heading" hidden>
+          <div class="section-heading"><h2 id="bili-settings-heading">B站封面、分区和标签</h2><span>保存在本稿</span></div>
+          <div class="field"><label for="bili-cover-mode">封面来源</label><select id="bili-cover-mode"><option value="frame:0">平台推荐帧1</option><option value="frame:1">平台推荐帧2</option><option value="frame:2">平台推荐帧3</option><option value="upload">本地图片</option></select></div>
+          <div id="bili-frame-previews" class="bili-frame-previews" role="group" aria-label="B站推荐封面" hidden></div>
+          <button id="bili-pick-cover" class="secondary">选择本地封面</button><input id="bili-cover-input" type="file" accept="image/png,image/jpeg" hidden>
+          <p id="bili-cover-name" class="hint">PNG或JPEG，最多2 MB</p><img id="bili-cover-preview" alt="本地B站封面预览" hidden>
+          <p class="hint">B站会展示4:3和16:9两种比例，应用后请核对裁切。</p>
+          <div class="field"><label for="bili-category">B站分区</label><select id="bili-category"><option value="">先读取当前B站分区列表</option></select></div><button id="bili-load-categories" class="secondary" disabled>读取B站分区</button>
+          <label class="field">B站标签<input id="bili-tags" placeholder="逗号分隔，如 AI工具，效率工具" maxlength="600"></label><p class="hint">1至10个，每个最多20字符；重复标签会合并。这些标签会填入B站标签栏。</p>
+          <button id="bili-apply-options" class="secondary wide" disabled>应用封面、分区和标签</button><p id="bili-options-hint" class="hint">先将本稿视频填入B站，再应用这些设置；修改设置不会重传视频。</p><p id="bili-options-status" class="hint" role="status"></p>
+        </section>
+      </section>
+      <section class="preview-pane" aria-labelledby="preview-heading"><div class="section-heading"><h2 id="preview-heading">平台版本</h2><span>文字预览</span></div><div id="preview-tabs" class="preview-tabs" role="tablist" aria-label="平台版本"></div><div id="preview-empty" class="empty-preview"><svg width="56" height="56" viewBox="0 0 56 56" fill="none" aria-hidden="true"><rect x="10" y="8" width="36" height="40" rx="6" stroke="currentColor" stroke-width="1.5"/><path d="M19 20h18M19 28h18M19 36h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><h3>选择要发布的平台</h3><p>平台版本会出现在这里。可以沿用母稿，也可以分别调整。</p></div>
+        <div id="version-editor" hidden><label class="reuse"><input type="checkbox" id="use-master" checked>使用母稿，随母稿一起更新（独立版本保留，取消勾选可恢复）</label><label class="field">平台标题<input id="version-title" maxlength="1000"></label><label class="field">平台正文<textarea id="version-body" rows="7" maxlength="20000"></textarea></label><label class="field">平台标签<input id="version-tags" maxlength="2000"></label><article class="copy-preview"><h3 id="copy-title"></h3><p id="copy-body"></p><p id="copy-tags"></p></article><button id="copy-version" class="secondary wide">复制当前平台文案</button><p class="hint">这是内容版本预览。平台排版、字数限制与发布权限尚待接入验证。</p></div>
+      </section>
+    </div>
+    <section class="preflight" aria-labelledby="ai-heading"><h2 id="ai-heading">AI平台文案候选 · 本人审阅后采用</h2><p id="ai-status" class="hint" role="status">AI调用未启用</p><button id="ai-generate" class="secondary" disabled>为当前平台生成候选文案</button><div id="ai-review" hidden><pre id="ai-candidate"></pre><label class="reuse"><input id="ai-facts-confirmed" type="checkbox">我已核对候选的事实、数字和语气</label><button id="ai-adopt" class="secondary" disabled>采用为当前平台版本</button></div><button id="ai-undo" class="secondary" disabled>恢复上次AI采用前版本</button></section>
+  </section>
+  <section id="connections-view" class="settings-view" hidden>
+    <h1>平台连接</h1><p>连接状态以当前回读为准。关闭专用窗口后，本地稿件保留，平台编辑页是否可恢复需核对。</p>
+    <table><caption>当前准备通路 · 最终发布由本人完成</caption><thead><tr><th>平台</th><th>图文</th><th>视频</th></tr></thead><tbody><tr><td>小红书</td><td>原生编辑页</td><td>原生编辑页，单MP4 ≤100 MB</td></tr><tr><td>抖音</td><td>原生编辑页</td><td>原生编辑页，单MP4 ≤100 MB</td></tr><tr><td>B站</td><td>准备包 → 手机App手动接续</td><td>原生编辑页，单MP4 ≤100 MB</td></tr></tbody></table>
+    <p class="hint">纯文字可本地编辑和导出。原生准备需本人登录及当前内容回读；较大视频暂未完成接入验收。</p>
+    <div class="connection-list">
+      <article><span class="platform xhs">小红书</span><div><strong id="xhs-connect-status" role="status">尚未连接</strong><p>图文或视频准备使用独立的本地 Chrome 窗口。请本人登录；登录状态保留在此电脑的专用浏览器，不导出或读取你已有浏览器的 Cookie。</p><button id="connect-xhs" class="primary">打开小红书登录</button><button id="refresh-xhs" class="secondary">刷新连接状态</button><button id="new-xhs-page" class="secondary" disabled>打开新的编辑页</button><div id="xhs-login-preview" hidden><img id="xhs-login-image" alt="专用浏览器的小红书官方登录区域"><p class="hint" id="xhs-login-hint"></p></div><p class="hint">本阶段将图文或视频填入编辑页供核对，最终发布由你在小红书确认。</p></div></article>
+      <article><span class="platform douyin">抖音</span><div><strong id="douyin-connect-status" role="status">尚未连接</strong><p>使用独立的本地Chrome窗口，由你本人登录。登录状态保存在本机专用浏览器，不读取既有浏览器Cookie。</p><button class="primary" data-connect-provider="douyin">连接抖音</button><button class="secondary" data-refresh-provider="douyin">刷新抖音状态</button><button id="new-douyin-page" class="secondary" disabled>打开新的抖音编辑页</button><p class="hint" id="douyin-new-page-hint">准备下一篇时新开编辑页，上一稿保留在原标签页；未提交的编辑页限当前浏览器会话。</p></div></article>
+      <article><span class="platform bilibili">B站</span><div><strong id="bilibili-connect-status" role="status">尚未连接</strong><p>使用独立的本地Chrome窗口，由你本人登录。登录状态保存在本机专用浏览器，不读取既有浏览器Cookie。</p><button class="primary" data-connect-provider="bilibili">连接B站</button><button class="secondary" data-refresh-provider="bilibili">刷新B站状态</button><button id="new-bili-page" class="secondary" disabled>打开新的B站编辑页</button><p class="hint">视频、标题和简介可先填入编辑页核对。准备下一篇时新开编辑页，上一稿保留在原标签页；尚未投稿。</p></div></article>
+    </div>
+  </section>
+  <section id="wallet-view" class="settings-view" hidden><h1>Token 钱包</h1><p>AI验证目标：辅助平台文案适配，保留母稿事实与独立版本，由本人审阅后采用。</p><div class="wallet"><h2>TokenPay授权与调用</h2><p id="tokenpay-status" role="status">接入状态待核对</p><button id="tokenpay-authorize" class="secondary" disabled>打开TokenDance本人授权</button><button id="tokenpay-refresh" class="secondary">刷新接入状态</button><p>本地编辑不会调用模型或消耗额度。官方接入采用S256 PKCE授权，确认后会创建新的API Key；需本人确认权限和额度。密钥不得放入浏览器草稿或备份。</p><p>先对照人工调整时间、AI后续修改时间及事实错误，再判断是否有价值。调用量、余额和收益分别核实，不能互相代替。</p><code>app://eli-social-publisher</code><a href="https://tokendance.space/docs/api-key-oauth" target="_blank" rel="noopener noreferrer" class="secondary">查看官方授权说明</a><a href="https://tokendance.space/credits" target="_blank" rel="noopener noreferrer" class="secondary">查看 TokenDance 账户</a>
+    <h2>调用与归因核对</h2><p id="tokenpay-receipt" role="status">尚无真实调用回执，归因和收益未核实。</p><button id="tokenpay-usage" class="secondary" disabled>核对本次用量记录</button><a href="https://tokendance.space/application/integration" target="_blank" rel="noopener noreferrer">到产品方后台核对归因</a>
+    <section id="tokenpay-recharge" hidden><h2>余额不足 · 本人充值</h2><p>本次请求已暂停，原文保留。充值进入当前Key所属账户；支付须本人完成，到账后也不会自动重试。</p><label class="field">充值金额（元）<input id="tokenpay-amount" type="number" min="1" step="1" value="1"></label><label class="reuse"><input id="tokenpay-payment-confirm" type="checkbox">我确认充值金额，并创建一个支付会话</label><button id="tokenpay-create-payment" class="secondary" disabled>创建充值二维码</button><p id="tokenpay-payment-status" role="status">尚未创建支付会话。</p><img id="tokenpay-payment-qr" alt="本人充值二维码，仅在本人确认金额后生成" width="240" height="240" hidden><a id="tokenpay-alipay" class="secondary" hidden>支付宝支付（本人点击）</a><button id="tokenpay-check-payment" class="secondary" disabled>查询是否到账</button><label class="reuse"><input id="tokenpay-retry-confirm" type="checkbox">到账后，按原文和原模型重试一次，计入调用预算</label><button id="tokenpay-resume" class="secondary" disabled>重试已暂停的文案请求</button></section>
+  </div></section>
+  <div id="toast" class="toast" role="status" hidden></div>
+</main><script type="module" src="/app.js"></script>
+</body></html>

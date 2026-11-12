@@ -1,0 +1,22 @@
+[
+  {
+    "background": "rgb(255, 255, 255)",
+    "button": "rgb(107, 70, 217)",
+    "buttonText": "rgb(255, 255, 255)",
+    "logo": "rgb(96, 55, 200)",
+    "paper": "rgb(255, 255, 255)",
+    "saveEnabled": true,
+    "scrollWidth": 1332,
+    "selected": "rgb(96, 55, 200)",
+    "step": "desktop",
+    "width": 1332
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "button": "rgb(107, 70, 217)",
+    "saveEnabled": true,
+    "scrollWidth": 375,
+    "step": "narrow",
+    "width": 390
+  }
+]

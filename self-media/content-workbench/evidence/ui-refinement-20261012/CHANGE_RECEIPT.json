@@ -1,0 +1,148 @@
+{
+  "request": "继续完善",
+  "owner": "01a12ed9-113b-7fd1-8d30-fdc616bbf2bb",
+  "date": "2026-10-12",
+  "scope": "Existing local writing UI; no schema/authentication/deployment changes",
+  "skills": [
+    "impeccable",
+    "motion-design",
+    "website-delivery-sop (P12/P13/P17 local continuation)"
+  ],
+  "changes": [
+    "writing focus and Escape exit",
+    "workspace search/empty result",
+    "selected version + predecessor; matching header and no-selection state",
+    "per-field platform copying with verified traditional text",
+    "roving tab keyboard navigation and panel semantics",
+    "dismissable notices; success clears on tab switch"
+  ],
+  "sourceFingerprint": {
+    "hash": "1f2208603d7cffeb59f6c8d788f5f8c41d8c354f9b654a7e8a2ed275d6e8af14",
+    "files": [
+      {
+        "relativePath": "package.json",
+        "sha256": "ad34bb066e686c9d1f63510e483554131e87df532fcd064dbb985f8fd759ddb1",
+        "bytes": 246
+      },
+      {
+        "relativePath": "public/app.js",
+        "sha256": "6a5c20298cdd0c77cd1927c4f072d68586d0810159965c0866fd9334461c1610",
+        "bytes": 21068
+      },
+      {
+        "relativePath": "public/index.html",
+        "sha256": "5a0cb9300df4b6effa8a9e18b1344d62ba86571895f4f0aa22a711d585283ba8",
+        "bytes": 9934
+      },
+      {
+        "relativePath": "public/preview-data.js",
+        "sha256": "4622f554ecf2c41d7f4db37a14cc32294a15c90b367f9a4569f156f79011d7ca",
+        "bytes": 3202
+      },
+      {
+        "relativePath": "public/style.css",
+        "sha256": "30911044e8db6cfe1a8ca85676e511d93753e079b145704de888673134defe99",
+        "bytes": 19670
+      },
+      {
+        "relativePath": "src/authority.mjs",
+        "sha256": "6d2429b2efc21b03514a755f7aba60429f8c11e24c30f236738fb16708a779e5",
+        "bytes": 1160
+      },
+      {
+        "relativePath": "src/config.mjs",
+        "sha256": "64e30b8c545242d2966c8bc9f185f3e300261fc99d98325e5ec6d5e9d095b07c",
+        "bytes": 1093
+      },
+      {
+        "relativePath": "src/fixture.mjs",
+        "sha256": "fdde3c98597de92d372d3adf4c58d25dc37f0286795eab5f08857e81ada7d909",
+        "bytes": 1196
+      },
+      {
+        "relativePath": "src/init.mjs",
+        "sha256": "7e7c28fd7c2bdbfa4698145a64152e469cbba89e800dcd40c0524b856f2d9148",
+        "bytes": 407
+      },
+      {
+        "relativePath": "src/launch.mjs",
+        "sha256": "d8a620dd9cf6c5a4995ea7b7c8cb199a054ef8519043a302f6bfcbe6bb6f402b",
+        "bytes": 1400
+      },
+      {
+        "relativePath": "src/model.mjs",
+        "sha256": "d88ad4d623f9d9e463deb833edce72b84a033feca0dd3e4bfa6d725236e1f5e9",
+        "bytes": 5683
+      },
+      {
+        "relativePath": "src/prepare-sample.mjs",
+        "sha256": "9bb8d80b921257e0ceb752ae0ecb7dadaefccdf23d8399853c561524b5fbd43c",
+        "bytes": 2768
+      },
+      {
+        "relativePath": "src/recover.mjs",
+        "sha256": "2ead2328cff2d6a251159c8a2020fdbff1a058d828f4f7f4b8a3a00754d505b6",
+        "bytes": 2348
+      },
+      {
+        "relativePath": "src/server.mjs",
+        "sha256": "3d411e78ab01aedbe252a16871c8b48e9d85a322389531a74fceae5efdd2ffef",
+        "bytes": 8052
+      },
+      {
+        "relativePath": "src/stop.mjs",
+        "sha256": "a0fe27f7bb2a13fcdf6870d7111ebb7534c5ecf0fb76ab984190b97480aac5b4",
+        "bytes": 684
+      },
+      {
+        "relativePath": "src/store.mjs",
+        "sha256": "14d11a05da1156ec6a573d0db000f5bb27982210ce34ee3a17a677fe28c594da",
+        "bytes": 15902
+      },
+      {
+        "relativePath": "停止内容工作台.command",
+        "sha256": "2dc1830b83f6b90ea5cbb51e2085f9f81ca9a1119c732fab9c3c9908ea345260",
+        "bytes": 243
+      },
+      {
+        "relativePath": "启动内容工作台.command",
+        "sha256": "864020549eac85f625afe1753fb143d8744d0807dace7f29e571790923d8c2de",
+        "bytes": 245
+      },
+      {
+        "relativePath": "恢复上一副本.command",
+        "sha256": "d7fa9815a0feb0f55caff27c1c0d056d55345790ae15b5a84dc75ecbb96775dd",
+        "bytes": 251
+      }
+    ],
+    "nodeVersion": "v24.19.0"
+  },
+  "coreEvidence": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791805842851/summary.json",
+  "browserEvidence": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/ui-refinement-20261012/browser-confirmation.json",
+  "preview": "http://127.0.0.1:56676/?preview=1&ui=20261012-v3",
+  "mandatoryBoundary": "Synthetic UI browser only. Saved-data browser workflow not exercised because file pairing remains policy blocked; no workaround. Core/API layer tested separately.",
+  "designReview": "Same Owner bounded inspection and confirmation; not independent review",
+  "detector": "One pass; existing tonal palette/type-ramp advisories and mobile border/padding warning; no clean-scan/WCAG claim",
+  "noNewDependencies": true,
+  "noUserDataMutation": true,
+  "routeActual": {
+    "model": "UNKNOWN",
+    "effort": "UNKNOWN",
+    "speed": "UNKNOWN"
+  },
+  "evidenceFiles": [
+    "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/ui-refinement-20261012/browser-confirmation.json",
+    "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/ui-refinement-20261012/desktop-writing.png",
+    "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/ui-refinement-20261012/focused-writing.png",
+    "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/ui-refinement-20261012/narrow-versions.png",
+    "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/ui-refinement-20261012/narrow-writing.png",
+    "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/ui-refinement-20261012/platform-copy.png"
+  ],
+  "finalVerification": {
+    "sourceMatchesCore": true,
+    "hash": "1f2208603d7cffeb59f6c8d788f5f8c41d8c354f9b654a7e8a2ed275d6e8af14",
+    "coreTests": 15,
+    "uiConfirmation": "PASS (synthetic UI)",
+    "viewportResetScreenshot": "First immediate screenshot invalid during resize settling; replaced using verified 1280px DOM width. No app-code change or policy bypass."
+  }
+}

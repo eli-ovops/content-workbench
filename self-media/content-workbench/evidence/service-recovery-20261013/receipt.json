@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-13",
+  "issue": "ERR_CONNECTION_REFUSED",
+  "diagnosis": {
+    "previousPid": 997,
+    "previousProcessAbsent": true,
+    "noPortListener": true,
+    "priorHealthError": "ECONNREFUSED"
+  },
+  "repair": "existing launcher; same default root and port; no UI launch attempted",
+  "service": {
+    "url": "http://127.0.0.1:56442",
+    "pid": 12063,
+    "rootIdMatches": true,
+    "healthPidMatches": true,
+    "app": "eli-content-workbench",
+    "version": "0.1.2"
+  },
+  "http": {
+    "html": 200,
+    "css": 200
+  },
+  "whiteBackground": true,
+  "purpleActions": true,
+  "dataByteUnchanged": true,
+  "beforeDataSha256": "446ddb135cba0a78901c5873d971bc59f3740cd6ea8778ab9e1ec0908ae7aa7a",
+  "afterDataSha256": "446ddb135cba0a78901c5873d971bc59f3740cd6ea8778ab9e1ec0908ae7aa7a",
+  "browserVerification": "NOT_PERFORMED; prior explicit browser policy rejection remains in effect; user supplied connection-refused screenshot",
+  "owner": "01a12ed9-113b-7fd1-8d30-fdc616bbf2bb"
+}

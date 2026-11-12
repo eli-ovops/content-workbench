@@ -1,0 +1,135 @@
+{
+  "version": "0.1.1",
+  "sourceFingerprint": {
+    "hash": "2220e80a117a7b6e2bc2124457380a088a8ad773c9de7297ff2531ac2b4084ff",
+    "files": [
+      {
+        "relativePath": "package.json",
+        "sha256": "b2bf8a32993553ee72eb6772b74b3fae1f6573b4020137db674cf7936950672d",
+        "bytes": 237
+      },
+      {
+        "relativePath": "public/app.js",
+        "sha256": "37ceaf0b8ed83de4200d4854a7cabbd0c19dcda6f2dcb3d7d08f6577d241cd4d",
+        "bytes": 23789
+      },
+      {
+        "relativePath": "public/index.html",
+        "sha256": "fd184d5a2098303946a12f86a404e38fbbfd2e6e02cb4dc89f53e624edfeccd2",
+        "bytes": 10430
+      },
+      {
+        "relativePath": "public/preview-data.js",
+        "sha256": "4622f554ecf2c41d7f4db37a14cc32294a15c90b367f9a4569f156f79011d7ca",
+        "bytes": 3202
+      },
+      {
+        "relativePath": "public/style.css",
+        "sha256": "def720c8c56e65f57b7b25e38074c1b5701bf2ff9a79af7a37cd7453dcf381b5",
+        "bytes": 20045
+      },
+      {
+        "relativePath": "src/authority.mjs",
+        "sha256": "6d2429b2efc21b03514a755f7aba60429f8c11e24c30f236738fb16708a779e5",
+        "bytes": 1160
+      },
+      {
+        "relativePath": "src/config.mjs",
+        "sha256": "9ad626adcd2cc0453210f0d8d326cb019aa9aac72b378756f654e86f4c3e4541",
+        "bytes": 1093
+      },
+      {
+        "relativePath": "src/fixture.mjs",
+        "sha256": "fdde3c98597de92d372d3adf4c58d25dc37f0286795eab5f08857e81ada7d909",
+        "bytes": 1196
+      },
+      {
+        "relativePath": "src/init.mjs",
+        "sha256": "7e7c28fd7c2bdbfa4698145a64152e469cbba89e800dcd40c0524b856f2d9148",
+        "bytes": 407
+      },
+      {
+        "relativePath": "src/launch.mjs",
+        "sha256": "83e8bccac90bbd9571fb94626d1934f19fc5c45582f229948896ff783c71a033",
+        "bytes": 3018
+      },
+      {
+        "relativePath": "src/model.mjs",
+        "sha256": "d88ad4d623f9d9e463deb833edce72b84a033feca0dd3e4bfa6d725236e1f5e9",
+        "bytes": 5683
+      },
+      {
+        "relativePath": "src/pairing.mjs",
+        "sha256": "a10502aa705bd41dbfe7fc0f715ca7f25abf21a4880e8976fbb518942ccd725a",
+        "bytes": 4054
+      },
+      {
+        "relativePath": "src/prepare-sample.mjs",
+        "sha256": "9bb8d80b921257e0ceb752ae0ecb7dadaefccdf23d8399853c561524b5fbd43c",
+        "bytes": 2768
+      },
+      {
+        "relativePath": "src/recover.mjs",
+        "sha256": "2ead2328cff2d6a251159c8a2020fdbff1a058d828f4f7f4b8a3a00754d505b6",
+        "bytes": 2348
+      },
+      {
+        "relativePath": "src/server.mjs",
+        "sha256": "22757199898f1f339e5bf25ea808602b8bf7cf0ebdb70567284861fe3d1d6dc4",
+        "bytes": 9500
+      },
+      {
+        "relativePath": "src/stop.mjs",
+        "sha256": "a0fe27f7bb2a13fcdf6870d7111ebb7534c5ecf0fb76ab984190b97480aac5b4",
+        "bytes": 684
+      },
+      {
+        "relativePath": "src/store.mjs",
+        "sha256": "14d11a05da1156ec6a573d0db000f5bb27982210ce34ee3a17a677fe28c594da",
+        "bytes": 15902
+      },
+      {
+        "relativePath": "停止内容工作台.command",
+        "sha256": "2dc1830b83f6b90ea5cbb51e2085f9f81ca9a1119c732fab9c3c9908ea345260",
+        "bytes": 243
+      },
+      {
+        "relativePath": "启动内容工作台.command",
+        "sha256": "864020549eac85f625afe1753fb143d8744d0807dace7f29e571790923d8c2de",
+        "bytes": 245
+      },
+      {
+        "relativePath": "恢复上一副本.command",
+        "sha256": "d7fa9815a0feb0f55caff27c1c0d056d55345790ae15b5a84dc75ecbb96775dd",
+        "bytes": 251
+      }
+    ],
+    "nodeVersion": "v24.19.0"
+  },
+  "coreEvidence": "evidence/core-1791813205362/summary.json",
+  "tests": 20,
+  "guiStatus": "PASS_ISOLATED_REAL_PERSISTED_WORKSPACE",
+  "guiEvidence": "evidence/session-repair-20261012/browser-flow.json",
+  "defaultRootExistingWorkspacesUnchanged": true,
+  "defaultRootSession": "NOT_VERIFIED; user confirmation and tool-observed unauthenticated state remain separate",
+  "dataRoot": "evidence/session-repair-20261012/ui-data-1791812744308",
+  "url": "http://127.0.0.1:56442/",
+  "revision": 11,
+  "versions": [
+    {
+      "label": "v1",
+      "sha256": "548862fc0a4c5011bfba56f4b4f1d563d06698a3318f4b6fdb86e6aef860cbac"
+    },
+    {
+      "label": "v2",
+      "sha256": "9f01c33b3de88a89992b4d9eeda6adead42aa8f3a6bf07b17456b116343c9d8f"
+    }
+  ],
+  "launchEntry": "启动已验收工作台.command",
+  "noCredentialRelocationOrFileAccess": true,
+  "ownerApproval": "only self-created synthetic acceptance root approved by integration fixture; default root was never approved by fixture",
+  "references": [
+    "https://nodejs.org/api/net.html",
+    "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "video": "/Volumes/EXTERNAL/\u9ed1\u5ba2\u677e/\u53c2\u8d5b\u6750\u6599-20261014/\u89c6\u9891\u5236\u4f5c-v1/final/Eli-\u53c2\u8d5b\u6f14\u793a-\u5ba1\u9605\u7248-v1.mp4",
+  "bytes": 2328662,
+  "sha256": "890049f16f90818aba14d860a37d3110857c199a1572c2fa55e967fa56f04b88",
+  "fullDecodeExit": 0,
+  "decodedFrames": 4320,
+  "expectedDuration": 180,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "audio": "none",
+  "sampleCount": 25,
+  "screenshotSources": [
+    {
+      "path": "/Volumes/EXTERNAL/\u9ed1\u5ba2\u677e/evidence/TokenPay\u9996\u6b21\u5b9e\u6d4b-\u5019\u9009\u672a\u91c7\u7528\u6b21\u6570\u8017\u5c3d-20261014.png",
+      "sha256": "6b22ad46c77ed259beeed4076d7546080931579dfa135c6a4375ac6369a6fc38"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/\u9ed1\u5ba2\u677e/evidence/TokenPay\u9996\u6b21\u5b9e\u6d4b-\u5e94\u7528\u5f52\u56e0\u6536\u76ca\u5217-20261014.png",
+      "sha256": "59ffb198457d9a72e8493b4902e377cd5bdfa990e34d88609eeebbb775ed2965"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/\u9ed1\u5ba2\u677e/evidence/\u5de5\u4f5c\u53f0\u4e09\u5e73\u53f0\u51c6\u5907\u901a\u8fc7-20261013.png",
+      "sha256": "113ba7b440452600e21d0fe224c16f23966f49f7dae3ca28384ab6413b532508"
+    }
+  ],
+  "ffprobe": "unavailable: installed x86_64 executable on arm64; FFmpeg full decode used",
+  "visualReview": "25 decoded shot midpoint frames reviewed on 3 contact sheets; corrected opener punctuation and final caption duration; not a continuous manual viewing claim",
+  "userAcceptance": "pending",
+  "submitted": false,
+  "published": false,
+  "browserPlayback": "actual visible playback 0.165 to 11.301 seconds, chapter seeks 100 and 155 seconds after HTTP206 fix, returned to 0 paused"
+}

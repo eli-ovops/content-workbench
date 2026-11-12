@@ -1,0 +1,275 @@
+{
+  "checkedAt": "2026-10-14T13:56:52.551186+08:00",
+  "drafts": [
+    {
+      "draftId": "d7e9e9f6-8842-4c97-bcb5-2f4fc1531b20",
+      "title": "\u9a8c\u8bc1\uff1aEli\u4e2a\u4eba\u4ecb\u7ecd",
+      "body": "Eli\u4e2a\u4eba\u4ecb\u7ecd\u77ed\u7247\u3002\u4ec5\u7528\u4e8e\u5de5\u4f5c\u53f0\u771f\u5b9e\u89c6\u9891\u4e0a\u4f20\u4e0e\u6587\u6848\u56de\u8bfb\u9a8c\u8bc1\uff0c\u4fdd\u7559\u5728\u7f16\u8f91\u9875\uff0c\u6682\u4e0d\u53d1\u5e03\u3002",
+      "videoJob": "0d017527-6703-410c-baec-22536b9bf284",
+      "videoStage": {
+        "stage": "prepared"
+      },
+      "videoSize": 13386003,
+      "videoSha256": "595d690d45aa67d72ba28d9103fd4da2092458483509a9e0a6884a403ff13806",
+      "settingsJob": "f8b94aac-ab81-4085-a722-4796403630be",
+      "settingsStage": {
+        "stage": "settings_verified"
+      },
+      "category": [
+        "vlog"
+      ],
+      "tags": [
+        "\u4e2a\u4eba\u4ecb\u7ecd",
+        "Eli"
+      ],
+      "coverMode": "frame",
+      "videoScreenshotExists": false,
+      "settingsScreenshotExists": false
+    },
+    {
+      "draftId": "1bf65ec9-a8d4-4583-a78d-0adf465d7bdd",
+      "title": "\u9a8c\u8bc1\uff1a\u4eba\u751f\u6307\u5357\u8131\u654f\u6bcd\u7248",
+      "body": "\u4eba\u751f\u6307\u5357\u5df2\u8131\u654f\u526a\u8f91\u6bcd\u7248\u3002\u4ec5\u7528\u4e8e\u771f\u5b9e\u7d20\u6750\u51c6\u5907\u9a8c\u8bc1\uff0c\u5c1a\u4e0d\u662f\u6700\u7ec8\u53d1\u5e03\u6210\u7247\uff1b\u4fdd\u7559\u5728\u7f16\u8f91\u9875\uff0c\u6682\u4e0d\u53d1\u5e03\u3002",
+      "videoJob": "a9610b69-a746-4852-af02-f3280d9f4925",
+      "videoStage": {
+        "stage": "prepared"
+      },
+      "videoSize": 61802739,
+      "videoSha256": "be57bb19582dac95fa163d494265bea01f4829dc5ea472134f4008e83b7fd17e",
+      "settingsJob": "a5774a20-ec8c-4a8d-9b62-a9167e6c44fe",
+      "settingsStage": {
+        "stage": "settings_verified"
+      },
+      "category": [
+        "\u751f\u6d3b\u7ecf\u9a8c"
+      ],
+      "tags": [
+        "\u4eba\u751f\u6307\u5357",
+        "\u751f\u6d3b\u7ecf\u9a8c"
+      ],
+      "coverMode": "frame",
+      "videoScreenshotExists": true,
+      "settingsScreenshotExists": true
+    },
+    {
+      "draftId": "c42f784e-89a2-4b28-b4a1-cf643d8779cc",
+      "title": "\u9a8c\u8bc1\uff1a\u5343\u95eeGo\u5b8c\u6574\u5019\u9009\u7247",
+      "body": "\u5343\u95eeGo\u5b8c\u6574v9\u5019\u9009\u7247\uff0c102\u79d2\u3002\u4ec5\u7528\u4e8e\u5de5\u4f5c\u53f0\u771f\u5b9e\u89c6\u9891\u4e0e\u6587\u6848\u51c6\u5907\u9a8c\u8bc1\uff0c\u5c1a\u672a\u901a\u8fc7\u6700\u7ec8\u6210\u7247\u9a8c\u6536\uff1b\u4fdd\u7559\u5728\u7f16\u8f91\u9875\uff0c\u6682\u4e0d\u53d1\u5e03\u3002",
+      "videoJob": "d8da0464-08a8-44e6-9a41-89ae499c4095",
+      "videoStage": {
+        "stage": "prepared"
+      },
+      "videoSize": 12617771,
+      "videoSha256": "e0e8f2003035e3612dccf8f7a39d0657eb97707e51db37c5d6fe0f28aef698fb",
+      "settingsJob": "b2d58a9f-8e65-482d-8682-fe5ae5d0958e",
+      "settingsStage": {
+        "stage": "settings_verified"
+      },
+      "category": [
+        "\u4eba\u5de5\u667a\u80fd"
+      ],
+      "tags": [
+        "\u5343\u95eeGo",
+        "AI\u5de5\u5177"
+      ],
+      "coverMode": "frame",
+      "videoScreenshotExists": true,
+      "settingsScreenshotExists": true
+    }
+  ],
+  "retainedReadback": {
+    "pageOpen": true,
+    "pageCount": 4,
+    "retainedPreparedPages": [
+      {
+        "pageOpen": true,
+        "titleUnchanged": true,
+        "bodyUnchanged": true
+      },
+      {
+        "pageOpen": true,
+        "titleUnchanged": true,
+        "bodyUnchanged": true
+      }
+    ],
+    "frames": [
+      {
+        "host": "member.bilibili.com",
+        "path": "/platform/upload/video/frame",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "file",
+            "placeholder": null,
+            "accept": ".mp4,.flv,.avi,.wmv,.mov,.webm,.mpeg4,.ts,.mpg,.rm,.rmvb,.mkv,.m4v,.vob,.swf,.3gp,.mts,.m2v,.m2ts,.f4v,.m2t,.3g2,.asf",
+            "className": "",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "placeholder": "\u8bf7\u8f93\u5165\u7a3f\u4ef6\u6807\u9898",
+            "accept": null,
+            "className": "input-val",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "placeholder": "\u8bf7\u9009\u62e9\u7b26\u5408\u60a8\u89c6\u9891\u5185\u5bb9\u7684\u521b\u4f5c\u58f0\u660e",
+            "accept": null,
+            "className": "bcc-select-input-inner",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "placeholder": "\u6309\u56de\u8f66\u952eEnter\u521b\u5efa\u6807\u7b7e",
+            "accept": null,
+            "className": "input-val",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "placeholder": null,
+            "accept": null,
+            "className": "mention-hidden-input",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "placeholder": null,
+            "accept": null,
+            "className": "mention-hidden-input",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "placeholder": "\u6309\u56de\u8f66\u952eEnter\u521b\u5efa\u6807\u7b7e",
+            "accept": null,
+            "className": "input-val",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "file",
+            "placeholder": null,
+            "accept": ".mp4,.flv,.avi,.wmv,.mov,.webm,.mpeg4,.ts,.mpg,.rm,.rmvb,.mkv,.m4v,.vob,.swf,.3gp,.mts,.m2v,.m2ts,.f4v,.m2t,.3g2,.asf",
+            "className": "",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "file",
+            "placeholder": null,
+            "accept": ".txt",
+            "className": "",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "file",
+            "placeholder": null,
+            "accept": ".zip",
+            "className": "",
+            "visible": true
+          }
+        ],
+        "editors": [
+          {
+            "tag": "DIV",
+            "role": null,
+            "className": "ql-editor",
+            "visible": true
+          },
+          {
+            "tag": "DIV",
+            "role": null,
+            "className": "ql-clipboard",
+            "visible": true
+          },
+          {
+            "tag": "DIV",
+            "role": null,
+            "className": "ql-editor ql-blank",
+            "visible": false
+          },
+          {
+            "tag": "DIV",
+            "role": null,
+            "className": "ql-clipboard",
+            "visible": false
+          }
+        ],
+        "buttons": [
+          "\u6279\u91cf\u64cd\u4f5c",
+          "\u6dfb\u52a0\u5206P"
+        ]
+      }
+    ],
+    "loginSignals": [],
+    "agreements": [],
+    "imageControls": []
+  },
+  "published": false,
+  "cloudDraftSaved": false
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "firstDraft": "b81ee718-4ebb-4379-9666-890dc34c0365",
+    "focus": "title",
+    "search": "",
+    "selectionEnd": 5,
+    "selectionStart": 0,
+    "step": "new-from-platform",
+    "tab": "writing",
+    "title": "未命名稿件"
+  },
+  {
+    "body": "交互验收：未保存的文字需要保留。\n切换或新建前先保存，再继续操作。",
+    "dialogOpen": false,
+    "draft": "b81ee718-4ebb-4379-9666-890dc34c0365",
+    "drafts": 2,
+    "step": "cancel-new"
+  },
+  {
+    "body": "交互验收：未保存的文字需要保留。\n切换或新建前先保存，再继续操作。",
+    "dialogOpen": false,
+    "step": "same-draft"
+  },
+  {
+    "drafts": 3,
+    "focus": "title",
+    "saveEnabled": true,
+    "step": "save-and-new",
+    "tab": "writing",
+    "title": "未命名稿件 2"
+  },
+  {
+    "buttons": [
+      {
+        "height": 44,
+        "text": "返回编辑"
+      },
+      {
+        "height": 44,
+        "text": "保存并继续"
+      }
+    ],
+    "dialogWidth": 358,
+    "scrollWidth": 375,
+    "step": "narrow-dialog",
+    "width": 390
+  },
+  {
+    "activeLeft": 201,
+    "activeRight": 381,
+    "dialogOpen": false,
+    "draft": "4a270bb0-33a5-41a5-b4eb-fcb8b133be24",
+    "navLeft": 16,
+    "navRight": 358,
+    "scrollWidth": 375,
+    "step": "save-and-switch",
+    "title": "写稿交互验收B｜20261013",
+    "width": 390
+  },
+  {
+    "activeFullyVisible": true,
+    "activeLeft": 178,
+    "activeRight": 358,
+    "navRight": 358,
+    "scrollWidth": 375,
+    "step": "narrow-confirmation",
+    "width": 390
+  },
+  {
+    "body": "交互验收：打开回收站前保存这句话。",
+    "dialogOpen": false,
+    "step": "escape-cancel"
+  },
+  {
+    "scrollWidth": 375,
+    "step": "save-and-trash-view",
+    "trashVisible": true,
+    "width": 390
+  },
+  {
+    "activeDrafts": 1,
+    "dialogOpen": false,
+    "draft": "9221b4b8-5c60-4596-b6be-a48926a8c233",
+    "saveEnabled": true,
+    "search": "",
+    "step": "delivery"
+  }
+]

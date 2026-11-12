@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-13",
+  "url": "http://127.0.0.1:56442",
+  "initialPid": 48644,
+  "workspaceId": "6f75a24d-9542-4b47-b609-01f71bb16c18",
+  "revision": 15,
+  "steps": {
+    "finderColdStart": true,
+    "automaticSessionWithoutCode": true,
+    "createSave": true,
+    "refreshRetainsDraft": true,
+    "twoVersionsRetained": true,
+    "unsavedDeleteBlocked": true,
+    "trashWithTwoVersions": true,
+    "restoreEntireDraft": true,
+    "closeAndReopenWithSameDraft": true,
+    "serverRestartSameUrl": true,
+    "restartedWithAutomaticSession": true,
+    "oldTabUnsavedBufferSurvives": true,
+    "oldTabCanSaveAfterAutomaticReconnect": true,
+    "fixtureMovedToTrashAtEnd": true,
+    "originalUserDraftOpened": true,
+    "inAppWindowConnectedAndNewUiLoaded": true,
+    "manualConnectionNumberNotNeededForLauncher": true
+  },
+  "restartedPid": 52672,
+  "finalFixtureRevision": 18
+}

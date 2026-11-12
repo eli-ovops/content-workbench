@@ -1,0 +1,30 @@
+[
+  {
+    "scenario": "S05",
+    "name": "draft-isolated-restore",
+    "status": "PASS",
+    "details": {
+      "exportId": "5e438dae-e62c-4b22-b3a7-4a820cb20190",
+      "restoredRoots": [
+        "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791811998658/data/restored/copy-a",
+        "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791811998658/data/restored/copy-b"
+      ],
+      "independentIds": true,
+      "permissionsHistorical": true,
+      "suspendedRelationsRejected": true,
+      "tamperRejected": true
+    },
+    "deviations": []
+  },
+  {
+    "scenario": "S05",
+    "name": "multi-file-failures",
+    "status": "PASS",
+    "details": {
+      "oldExport": "d982b6f0-a15a-424b-9fb0-a2d5e743b1fc",
+      "secondAndLastFileFailuresRetained": true,
+      "partialNotDownloadable": true
+    },
+    "deviations": []
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "producerApp": "eli-content-workbench",
+  "appVersion": "0.1.3",
+  "schemaName": "content-workbench.workspace",
+  "schemaVersion": 1,
+  "exportId": "fbe0cb8b-bd5e-40bd-93b8-c8f3985421cf",
+  "createdAt": "2026-10-13T06:55:20.923Z",
+  "sourceRevisionRefs": {
+    "workspaceRevision": 4,
+    "scriptRevision": "0e8ad08a-ff26-40c5-8823-cf539dded89e",
+    "configVersion": "platforms-20261009-v1"
+  },
+  "files": [
+    {
+      "relativePath": "platforms/bilibili.md",
+      "sha256": "00e9cdbe38b6058a36cb257443eddbd092b5b33ee82dd78885674cbf89e6dda7",
+      "bytes": 304
+    },
+    {
+      "relativePath": "platforms/douyin_cn.md",
+      "sha256": "00e9cdbe38b6058a36cb257443eddbd092b5b33ee82dd78885674cbf89e6dda7",
+      "bytes": 304
+    },
+    {
+      "relativePath": "platforms/wechat_channels.md",
+      "sha256": "00e9cdbe38b6058a36cb257443eddbd092b5b33ee82dd78885674cbf89e6dda7",
+      "bytes": 304
+    },
+    {
+      "relativePath": "platforms/youtube.md",
+      "sha256": "ac29a2903f2e6526476cc3b25304b2eabe9919cd122b1a0c8098f2f1e48398c0",
+      "bytes": 343
+    },
+    {
+      "relativePath": "platforms/linkedin.md",
+      "sha256": "00e9cdbe38b6058a36cb257443eddbd092b5b33ee82dd78885674cbf89e6dda7",
+      "bytes": 304
+    },
+    {
+      "relativePath": "platforms/x.md",
+      "sha256": "00e9cdbe38b6058a36cb257443eddbd092b5b33ee82dd78885674cbf89e6dda7",
+      "bytes": 304
+    },
+    {
+      "relativePath": "platforms/weibo.md",
+      "sha256": "00e9cdbe38b6058a36cb257443eddbd092b5b33ee82dd78885674cbf89e6dda7",
+      "bytes": 304
+    },
+    {
+      "relativePath": "platforms/tiktok.md",
+      "sha256": "00e9cdbe38b6058a36cb257443eddbd092b5b33ee82dd78885674cbf89e6dda7",
+      "bytes": 304
+    }
+  ],
+  "verificationCoverage": [
+    "text-snapshot",
+    "byte-hashes"
+  ],
+  "limitations": [
+    {
+      "platform": "xiaohongshu",
+      "reasons": [
+        "未进入公开包"
+      ]
+    }
+  ],
+  "privacyMode": "PUBLIC",
+  "status": "COMPLETED"
+}

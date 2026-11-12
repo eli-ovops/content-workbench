@@ -1,0 +1,31 @@
+{
+  "before": {
+    "xhs": {
+      "jobCount": 17,
+      "latestJob": "57957905-ecb5-4287-bd5c-23d3bf418b63"
+    },
+    "douyin": {
+      "jobCount": 13,
+      "latestJob": "3298ff7e-2d80-40b5-a373-35f4047655c0"
+    },
+    "bilibili": {
+      "jobCount": 13,
+      "latestJob": "bd15fbd4-1c3a-4e72-b969-7489d69e8286"
+    }
+  },
+  "after": {
+    "xhs": {
+      "jobCount": 17,
+      "latestJob": "57957905-ecb5-4287-bd5c-23d3bf418b63"
+    },
+    "douyin": {
+      "jobCount": 13,
+      "latestJob": "3298ff7e-2d80-40b5-a373-35f4047655c0"
+    },
+    "bilibili": {
+      "jobCount": 13,
+      "latestJob": "bd15fbd4-1c3a-4e72-b969-7489d69e8286"
+    }
+  },
+  "noNewPreparationOrSettingsJobs": true
+}

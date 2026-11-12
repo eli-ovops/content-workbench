@@ -1,0 +1,102 @@
+{
+  "rootId": "5901e86d-1ae2-4d4e-9975-991af52dc2bf",
+  "schemaName": "content-workbench.workspace",
+  "schemaVersion": 1,
+  "revision": 11,
+  "workspaces": [
+    {
+      "id": "103c78aa-cfbb-44b0-bc40-758249bdf268",
+      "revision": 11,
+      "title": "虚构样例｜把三段周报汇成表",
+      "topic": "虚构选题卡：普通人如何把三段示例周报汇总成表；没有真实工具效果或客户数据。",
+      "body": "問題示例先用簡體：三段虚构周报汇成一张表。\n材料：本人合成示例。\n操作：三列对照。\n交付：表格。\n检查：逐项核对。",
+      "common": {
+        "title": "三段示例周报，整理成一张表",
+        "body": "問題示例先用簡體：三段虚构周报汇成一张表。\n材料：本人合成示例。\n操作：三列对照。\n交付：表格。\n检查：逐项核对。",
+        "hashtags": "#AI工具 #工作方法",
+        "backendTags": "AI, 工作方法"
+      },
+      "sources": [
+        {
+          "id": "5cc553f5-16a6-44f3-95d4-1462af9c861e",
+          "title": "本人撰写的虚构样例",
+          "reference": "synthetic://weekly-example",
+          "date": "2026-10-12",
+          "scope": "全文",
+          "privacy": "PUBLIC",
+          "permission": "ALLOWED",
+          "version": 1,
+          "expiresAt": "",
+          "text": "公开合成示例，无真实客户或媒体"
+        }
+      ],
+      "facts": [
+        {
+          "id": "5389d0cf-8b88-4228-b2a6-0cb0b52d78a8",
+          "text": "工具效果尚未实测",
+          "status": "UNVERIFIED",
+          "sourceIds": [
+            "5cc553f5-16a6-44f3-95d4-1462af9c861e"
+          ],
+          "scriptVersion": "c641391b-6be3-411f-92ad-765366c8ac14"
+        }
+      ],
+      "notes": [
+        {
+          "id": "0afd0910-8297-428c-8a8a-969322ec72f4",
+          "text": "录屏计划：表格标题完整可读。只是备注，不读取媒体。",
+          "sourceIds": [
+            "5cc553f5-16a6-44f3-95d4-1462af9c861e"
+          ],
+          "scriptVersion": "c641391b-6be3-411f-92ad-765366c8ac14",
+          "mediaPath": ""
+        }
+      ],
+      "checks": [],
+      "versions": [
+        {
+          "id": "c641391b-6be3-411f-92ad-765366c8ac14",
+          "label": "v1",
+          "body": "問題示例先用簡體：三段虚构周报汇成一张表。\n材料：本人合成示例。\n操作：三列对照。\n交付：表格。\n检查：逐项核对。",
+          "hash": "c7f892d6ded9f4ac2633b7e989ef3eed1a996594c69af267aebc869798947a1e",
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "問題示例先用簡體：三段虚构周报汇成一张表。"
+            },
+            {
+              "id": "p2",
+              "text": "材料：本人合成示例。"
+            },
+            {
+              "id": "p3",
+              "text": "操作：三列对照。"
+            },
+            {
+              "id": "p4",
+              "text": "交付：表格。"
+            },
+            {
+              "id": "p5",
+              "text": "检查：逐项核对。"
+            }
+          ],
+          "createdAt": "2026-10-12T09:04:15.549Z"
+        }
+      ],
+      "selectedVersion": "c641391b-6be3-411f-92ad-765366c8ac14",
+      "overrides": {
+        "xiaohongshu": {
+          "publicBasis": "OWN",
+          "sourceIds": [],
+          "languageConfirmed": true,
+          "scriptVersion": "c641391b-6be3-411f-92ad-765366c8ac14"
+        }
+      },
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-12T09:04:12.521Z",
+      "updatedAt": "2026-10-12T09:04:16.144Z"
+    }
+  ]
+}

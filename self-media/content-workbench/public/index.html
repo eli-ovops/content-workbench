@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Eli · 内容工作台</title><link rel="stylesheet" href="/style.css"><script type="module" src="/app.js"></script></head>
+<body>
+<div id="preview-banner" hidden>界面预览 · 虚构样例 · 不读取或写入已保存数据</div>
+<div class="shell">
+<aside class="sidebar">
+<a class="brand" href="/" aria-label="内容工作台"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93 4.93 19.07"/></svg><span>Eli<small>内容工作台</small></span></a>
+<button id="new" class="new-button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12"/></svg>新建稿件</button>
+<div class="list-heading"><span>我的稿件</span><span id="workspace-count"></span></div>
+<label class="workspace-search"><span class="sr-only">查找稿件</span><input id="workspace-search" type="search" placeholder="查找稿件" autocomplete="off"></label><p id="workspace-empty" hidden>没有找到这篇稿件，换个词试试。</p><button id="clear-search" class="quiet-button" hidden>清除搜索</button>
+<nav id="workspaces" aria-label="稿件列表"></nav>
+<div class="sidebar-bottom"><button id="open-trash" class="quiet-button" aria-controls="trash-panel" aria-expanded="false">回收站<span id="trash-count">0</span></button><span class="local-indicator">本机工作空间</span><button id="logout" class="quiet-button">退出会话</button></div>
+</aside>
+<main>
+<header class="topbar"><div class="location"><span>我的稿件</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg><span id="document-name">正在读取</span></div><div class="save-tools"><span id="save-state" role="status">正在读取…</span><button id="rescue" class="quiet-button" title="下载尚未保存的编辑">下载当前编辑</button><button id="save">保存</button></div></header>
+<div id="message" role="alert" hidden><span id="message-text"></span><button id="undo-trash" class="quiet-button" hidden>恢复稿件</button><button id="dismiss-message" class="quiet-button" aria-label="关闭提示"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15"/></svg></button></div>
+<section id="login" hidden><h1>从启动器打开工作台</h1><p>双击“启动内容工作台.command”，会自动连接并打开稿件。无需输入编号。</p><p>请在启动器打开的浏览器窗口里继续写。当前页面的未保存编辑仍可下载。</p><button id="request-pair">检查连接</button><p id="pair-status" role="status"></p></section>
+<section id="workspace-welcome" class="workspace-page" hidden><h1>开始写一篇稿件</h1><p>新建稿件开始写，也可以从回收站恢复。</p><button id="empty-new">新建稿件</button></section>
+<section id="trash-panel" class="workspace-page" aria-labelledby="trash-heading" hidden><h1 id="trash-heading">回收站</h1><p>正文、资料和历史版本都保留，恢复后可以继续写。</p><div id="trash-list"></div><p id="trash-empty" hidden>回收站是空的。</p><button id="back-to-writing" class="secondary">返回稿件</button></section>
+<section id="editor" hidden>
+<div class="document-heading"><label class="title-label"><span class="sr-only">稿件标题</span><input id="title" placeholder="给这篇稿件起个名字" aria-label="稿件标题" maxlength="200"></label><div class="document-meta"><span id="version-status">草稿</span><span id="word-count">0 字</span><span>本地文字稿</span><button id="trash-current" class="quiet-button" title="移到回收站，保留历史版本"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M7 5V3h6v2M5 5l1 12h8l1-12M8 8v6M12 8v6"/></svg>删除稿件</button></div></div>
+<div class="tabs" role="tablist" aria-label="稿件工作区"><span id="tab-indicator" aria-hidden="true"></span><button id="tab-writing" data-tab="writing" role="tab" aria-controls="writing" aria-selected="true" tabindex="0">写稿</button><button id="tab-versions" data-tab="versions" role="tab" aria-controls="versions" aria-selected="false" tabindex="-1">版本与画面</button><button id="tab-platforms" data-tab="platforms" role="tab" aria-controls="platforms" aria-selected="false" tabindex="-1">平台文案</button><button id="tab-restore" data-tab="restore" role="tab" aria-controls="restore" aria-selected="false" tabindex="-1">资料与恢复</button></div>
+<section id="writing" class="tab" role="tabpanel" aria-labelledby="tab-writing">
+<div class="writing-layout">
+<div class="writing-sheet">
+<details class="topic-details"><summary>选题与提纲<span>把已有选题卡放在这里</span></summary><label class="sr-only" for="topic">选题卡与提纲</label><textarea id="topic" rows="3" placeholder="这条内容帮谁，解决什么问题？"></textarea></details>
+<div class="sheet-toolbar"><span>正文</span><button id="focus-writing" class="quiet-button" aria-pressed="false" aria-controls="writing" title="隐藏导航与资料，Esc 返回"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 3H3v4M13 3h4v4M3 13v4h4M17 13v4h-4"/></svg><span>专注写稿</span></button></div><label class="sr-only" for="body">脚本文字</label><textarea id="body" rows="18" spellcheck="false" placeholder="从一个具体问题开始。&#10;&#10;给什么材料，怎么操作，交付什么，怎样检查？"></textarea>
+<div class="sheet-bottom"><span>文字会留在这台 Mac 上</span><kbd>⌘ S 保存</kbd></div>
+</div>
+<div class="inspector">
+<div class="inspector-heading"><h2>资料与核对</h2><p>写下依据，也保留待核的部分。</p></div>
+<div class="section-heading"><h3>来源</h3><button id="add-source" class="quiet-button">添加</button></div><div id="sources"></div>
+<div class="inspector-section"><label for="facts">待核事实</label><textarea id="facts" rows="4" placeholder="哪些数字、效果或条件还没有依据？每行一项。"></textarea></div>
+<details class="association"><summary>关联原内容流程</summary><label for="content-id">内容编号</label><input id="content-id" placeholder="可留空"><p>只引用原流程，不改变放行状态。</p></details>
+</div>
+</div>
+</section>
+<section id="versions" class="tab" role="tabpanel" aria-labelledby="tab-versions" hidden>
+<div class="section-heading page-section-heading"><div><h2>留住每一次修改</h2><p>新版本保存为独立快照，旧稿仍可继续查看。</p></div><button id="freeze">留存新版本</button></div>
+<div class="version-controls"><label>稿件适用版本<select id="version-select" aria-describedby="version-help"></select></label><button id="copy-version" class="secondary">以这个版本继续写</button></div><p id="version-help" class="muted">左侧是所选版本，右侧是它的上一版；更换适用版本后需保存并核对关联记录。</p><div id="version-preview" class="version-grid"></div>
+<div class="notes-layout"><div><label for="notes">画面备注</label><p class="muted">每行一项，默认关联第1段；可写“[段落2]”指定段落。</p><textarea id="notes" rows="6" placeholder="这段话需要录屏、截图还是本人出镜？"></textarea></div><div><label for="checks">参考审片记录</label><p class="muted">写明适用版本和还未检查的部分。</p><textarea id="checks" rows="6" placeholder="例如：v1看过静态采样，尚未完整看听。"></textarea></div></div><div id="dependency-note" class="notice"></div>
+</section>
+<section id="platforms" class="tab" role="tabpanel" aria-labelledby="tab-platforms" hidden>
+<div class="platform-layout">
+<div class="copy-editor">
+<div class="section-heading"><div><h2>通用文案</h2><p>共同内容写一次。</p></div></div><label>标题<input id="common-title" placeholder="这条内容最具体的用途"></label><label class="checkbox"><input id="inherit-script" type="checkbox">正文沿用脚本</label><label>正文<textarea id="common-body" rows="7"></textarea></label><div class="field-grid"><label>正文话题<input id="common-hashtags" placeholder="#相关话题"></label><label>YouTube 后台标签<input id="common-backendTags" placeholder="与正文话题分别填写"></label></div>
+<div class="platform-panel"><div class="section-heading"><h2>本站差异</h2><label class="sr-only" for="platform">目标平台</label><select id="platform"></select></div><p id="platform-language" class="muted"></p><div id="overrides"></div></div>
+</div>
+<div class="preview-column">
+<div class="preview-heading"><h2>文字预览</h2><span id="preview-platform">小红书</span></div><div class="publication-paper"><pre id="public-preview"></pre></div><div class="copy-actions" aria-label="复制本站文案"><button id="copy-title" class="secondary">复制标题</button><button id="copy-body" class="secondary">复制正文</button><button id="copy-hashtags" class="secondary">复制话题</button><button id="copy-backendTags" class="secondary" hidden>复制后台标签</button></div><p class="copy-note">复制当前页面文字；公开前仍需核对依据与语言。</p>
+<div class="publish-checks"><details open><summary>公开前核对</summary><div class="field-grid"><label>文字依据<select id="public-basis"><option value="UNKNOWN">尚未确认</option><option value="OWN">本人授权自有文字</option><option value="SOURCES">关联来源</option></select></label><label>来源<select id="public-source"><option value="">无关联</option></select></label></div><label class="checkbox"><input id="language-confirmed" type="checkbox">已核对语言与专有名称</label><button id="approve" class="secondary">确认本站公开文字</button><p id="approval-state" class="muted"></p></details></div>
+<div class="export-block"><h3>整理准备包</h3><p>选择需要的平台。</p><select id="export-platforms" multiple hidden aria-hidden="true"></select><div id="platform-choices" class="platform-choices"></div><div class="export-actions"><button id="export-draft" class="secondary">内部草稿包</button><button id="export-frozen">冻结准备包</button></div><p class="muted">话题为文字计划。原生挂载与最终发布仍由本人完成。</p></div>
+</div>
+</div><div id="exports"></div>
+</section>
+<section id="restore" class="tab" role="tabpanel" aria-labelledby="tab-restore" hidden>
+<div class="recovery-layout"><div><div class="section-heading"><div><h2>原流程资料</h2><p>保留原字段和读取时间，只读引用。</p></div><button id="refresh" class="secondary">刷新来源</button></div><pre id="authority"></pre></div><div class="recovery-panel"><h2>恢复一份准备包</h2><p>校验完整内部包，创建独立副本。当前数据保持原样。</p><label>内部准备包 JSON<input id="restore-file" type="file" accept=".json"></label><button id="restore-button" class="secondary">校验并创建副本</button><div id="restore-result" class="notice" hidden></div><details class="runtime-details"><summary>运行位置与技术信息</summary><pre id="runtime"></pre></details></div></div>
+</section>
+</section>
+</main>
+</div>
+<dialog id="save-before-action" class="save-dialog" aria-labelledby="save-dialog-title" aria-describedby="pending-action"><form method="dialog"><h2 id="save-dialog-title">有未保存的修改</h2><p id="pending-action"></p><div class="dialog-actions"><button value="cancel" class="secondary" autofocus>返回编辑</button><button value="save">保存并继续</button></div></form></dialog>
+</body></html>

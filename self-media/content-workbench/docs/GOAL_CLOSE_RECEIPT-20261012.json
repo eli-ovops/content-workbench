@@ -1,0 +1,20 @@
+{
+  "toolAction": "update_goal complete; get_goal verification",
+  "rawReceipt": {
+    "goal": {
+      "threadId": "01a12ed9-113b-7fd1-8d30-fdc616bbf2bb",
+      "objective": "按Rev2 PRD /Volumes/EXTERNAL/自媒体/content-workbench/docs/EXECUTION_PRD-20261012.md 及本轮实施派单完成自媒体内容工作台的B1—B4、S01—S05：在本机隔离合成根实现、修复、验证、交付已测启动入口/虚构样例/实际导出/重启和隔离恢复/原始回执与已知问题。累计最多12小时，普通问题自主处理，必需验收未通过不标complete，不接真实数据/账户/媒体或外发/生产。",
+      "status": "complete",
+      "tokensUsed": 224840,
+      "timeUsedSeconds": 4219,
+      "createdAt": 1791794515,
+      "updatedAt": 1791798734
+    },
+    "remainingTokens": null,
+    "completionBudgetReport": null
+  },
+  "recordedAt": "2026-10-12T17:52:14+08:00",
+  "technicalScope": "B1-B4/S01-S05 delivered; current required evidence passed",
+  "pmoReview": "PENDING",
+  "deviations": []
+}

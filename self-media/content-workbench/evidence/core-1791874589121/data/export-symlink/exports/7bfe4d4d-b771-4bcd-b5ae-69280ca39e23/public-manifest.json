@@ -1,0 +1,21 @@
+{
+  "producerApp": "eli-content-workbench",
+  "appVersion": "0.1.3",
+  "schemaName": "content-workbench.workspace",
+  "schemaVersion": 1,
+  "exportId": "7bfe4d4d-b771-4bcd-b5ae-69280ca39e23",
+  "createdAt": "2026-10-13T06:56:30.642Z",
+  "sourceRevisionRefs": {
+    "workspaceRevision": 1,
+    "scriptRevision": null,
+    "configVersion": "platforms-20261009-v1"
+  },
+  "files": [],
+  "verificationCoverage": [
+    "text-snapshot",
+    "byte-hashes"
+  ],
+  "limitations": [],
+  "privacyMode": "PUBLIC",
+  "status": "INTERNAL_ONLY"
+}

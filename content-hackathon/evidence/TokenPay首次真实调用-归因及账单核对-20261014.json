@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-10-14T13:41:43.502494+08:00",
+  "status": {
+    "keyCreationAllowed": false,
+    "modelCallsAllowed": true,
+    "connected": true,
+    "appUrl": "app://eli-social-publisher",
+    "model": "qwen3.8-flash",
+    "maxCalls": 1,
+    "callsAttempted": 1,
+    "lastOutcome": "candidate_received",
+    "authorizationPhase": "not_started",
+    "authorizationExpiresAt": null,
+    "pendingRetry": false,
+    "payment": {
+      "phase": "not_started",
+      "amount": null,
+      "expiresAt": null,
+      "paid": false,
+      "sessionCreated": false,
+      "rechargeAllowed": false,
+      "maxRechargeYuan": 0
+    },
+    "receipt": {
+      "requestedAt": 1791956296781,
+      "model": "qwen3.8-flash",
+      "appUrl": "app://eli-social-publisher",
+      "requestId": "chatcmpl-fe0a7456-aeac-9c73-9ee4-a2238e54cd24",
+      "traceId": "6ee58cf849b47a2dc169b32efacffd4a",
+      "appUrlSent": true,
+      "attributionVerified": false,
+      "revenueVerified": false,
+      "inputTokens": 177,
+      "outputTokens": 758,
+      "costMicros": 2188,
+      "usageRecordMatched": true
+    },
+    "reservedMicros": 6273,
+    "maxCostMicros": 100000
+  },
+  "balanceAfter": {
+    "balanceMicros": 19997812
+  },
+  "balanceBeforeMicros": 20000000,
+  "officialAppVerification": {
+    "app": "Eli 社媒发布工作台",
+    "date": "2026-10-14",
+    "time": "13:38:16",
+    "model": "Qwen: Qwen3.8 Flash",
+    "provider": "阿里云",
+    "successful": true,
+    "inputTokens": 177,
+    "outputTokens": 758,
+    "revenueYuan": "0.000267",
+    "evidence": "TokenPay首次实测-应用归因后台-20261014.png",
+    "verifiedBy": "live official product UI; baseline had no calls"
+  }
+}

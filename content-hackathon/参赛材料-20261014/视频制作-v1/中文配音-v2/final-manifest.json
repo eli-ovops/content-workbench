@@ -1,0 +1,19 @@
+{
+  "file": "/Volumes/EXTERNAL/黑客松/参赛材料-20261014/视频制作-v1/中文配音-v2/Eli-参赛演示-中文配音审阅版-v2-final.mp4",
+  "sha256": "3df54ffc9408ee947e457b714471b5cf2a510f50976cd068fc2ce24600eaec8e",
+  "bytes": 6320984,
+  "captionCorrections": [
+    {
+      "start": 43,
+      "end": 49.999,
+      "text": "如果上传结果不明，先核对，不重复上传。"
+    },
+    {
+      "start": 123,
+      "end": 129.999,
+      "text": "候选不会自动上传，最终发布仍然禁用。"
+    }
+  ],
+  "modelApiCalls": 0,
+  "paymentActions": 0
+}

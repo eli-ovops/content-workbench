@@ -1,0 +1,6 @@
+.Executing <Task pending name='Task-23' coro=<BiliSettingsRegression.test_native_image_cover_category_and_tags_keep_copy_and_do_not_submit() running at /Volumes/EXTERNAL/黑客松/app/test_bilibili_settings.py:42> wait_for=<Future pending cb=[Task.task_wakeup()] created at /Users/USER/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/base_events.py:428> cb=[_run_until_complete_cb() at /Users/USER/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/base_events.py:181, ProtocolCallback.__init__.<locals>.cb() at /Volumes/EXTERNAL/黑客松/app/.venv/lib/python3.11/site-packages/playwright/_impl/_connection.py:230] created at /Users/USER/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/runners.py:100> took 0.114 seconds
+....
+----------------------------------------------------------------------
+Ran 5 tests in 15.886s
+
+OK

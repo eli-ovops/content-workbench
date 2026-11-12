@@ -1,0 +1,208 @@
+{
+  "manifest": {
+    "producerApp": "eli-content-workbench",
+    "appVersion": "0.1.0",
+    "schemaName": "content-workbench.workspace",
+    "schemaVersion": 1,
+    "exportId": "c78adc87-8974-49fc-9027-e22bbbf883dc",
+    "createdAt": "2026-10-12T09:08:09.321Z",
+    "sourceRevisionRefs": {
+      "workspaceId": "457da6fd-c4b0-4b69-bb6a-fb5f200a47be",
+      "workspaceRevision": 12,
+      "scriptRevision": "56309734-f959-46e6-9c42-d5e538185e31",
+      "configVersion": "platforms-20261009-v1",
+      "authority": [
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/流程协作/会话登记.json",
+          "sha256": "c290cc66e17ac9c4a033754527fd6e7989a85308556d006be415c3e797fcebf5",
+          "readAt": "2026-10-12T09:08:09.320Z",
+          "status": "CURRENT_RAW",
+          "value": {
+            "version": "CONTENT-FLOW-2026-10-08-v1",
+            "stages": [
+              {
+                "id": "01",
+                "label": "研究热点与选题",
+                "thread_id": "01a11442-a6d9-7413-88b3-191ce5cb037b"
+              },
+              {
+                "id": "02",
+                "label": "脚本与分镜",
+                "thread_id": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb"
+              },
+              {
+                "id": "03",
+                "label": "拍摄指导与素材接收",
+                "thread_id": "01a11a73-6bcd-7451-975f-95e05c883fa8"
+              },
+              {
+                "id": "04",
+                "label": "剪辑与视觉制作",
+                "thread_id": "01a11a6f-49ef-7653-934a-4312979fd4e7"
+              },
+              {
+                "id": "05",
+                "label": "成品质检与审片",
+                "thread_id": "01a11a79-f636-7823-9350-3c5f7526e6c7"
+              },
+              {
+                "id": "06",
+                "label": "多平台适配与发布包",
+                "thread_id": "01a11a7f-9a85-7481-9e6c-75f11280ba56"
+              },
+              {
+                "id": "07",
+                "label": "本人发布与回执",
+                "thread_id": "01a11a88-68d7-7250-93c0-1fb2218c0e3e"
+              },
+              {
+                "id": "08",
+                "label": "数据复盘与反馈",
+                "thread_id": "01a11a95-ef09-7da2-9846-c8157050e112"
+              }
+            ],
+            "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444"
+          },
+          "changed": false
+        },
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/流程协作/流程状态.json",
+          "sha256": "290bdb2d9370c6bcca7f9f3043c4271770f40267c614092bce66f6b97f6d01db",
+          "readAt": "2026-10-12T09:08:09.320Z",
+          "status": "CURRENT_RAW",
+          "value": {
+            "version": "CONTENT-FLOW-2026-10-08-v1",
+            "active_content_id": "motion-sample-20261012",
+            "runs": {
+              "first-video-life-guide-visual-fix-v7": {
+                "current_stage": "05",
+                "status": "UNKNOWN",
+                "stages": {
+                  "01": "IMPORTED_VERIFIED_BASELINE",
+                  "02": "IMPORTED_VERIFIED_BASELINE",
+                  "03": "IMPORTED_VERIFIED_BASELINE",
+                  "04": "PASSED",
+                  "05": "RELEASED",
+                  "06": "WAITING",
+                  "07": "WAITING",
+                  "08": "WAITING"
+                }
+              },
+              "ai-content-benchmarks-30-20261008": {
+                "current_stage": "01",
+                "status": "UNKNOWN",
+                "stages": {
+                  "01": "RELEASED",
+                  "02": "WAITING",
+                  "03": "WAITING",
+                  "04": "WAITING",
+                  "05": "WAITING",
+                  "06": "WAITING",
+                  "07": "WAITING",
+                  "08": "WAITING"
+                }
+              },
+              "sun-shao-interview-20261009": {
+                "current_stage": "06",
+                "status": "UNKNOWN",
+                "stages": {
+                  "01": "IMPORTED_VERIFIED_BASELINE",
+                  "02": "IMPORTED_VERIFIED_BASELINE",
+                  "03": "IMPORTED_VERIFIED_BASELINE",
+                  "04": "IMPORTED_VERIFIED_BASELINE",
+                  "05": "PASSED",
+                  "06": "BLOCKED",
+                  "07": "WAITING",
+                  "08": "WAITING"
+                }
+              },
+              "eli-brand-intro-20261010": {
+                "current_stage": "07",
+                "status": "PUBLICATION_USER_CONFIRMED_9_NATIVE_RECORDS_8",
+                "stages": {
+                  "04": "PMO_ACCEPTED_RATIO_ADAPTATION",
+                  "05": "PASSED",
+                  "06": "PARTIAL_ACCEPTED_5_READY_4_BLOCKED",
+                  "07": "PUBLICATION_RECEIPTS_PARTIAL_VERIFIED",
+                  "08": "WAITING"
+                }
+              },
+              "content-radar-20261012": {
+                "current_stage": "01",
+                "status": "TOPIC_CARDS_READY_WAITING_USER_SELECTION",
+                "stages": {
+                  "01": "PARTIAL_ACCEPTED_EVENTS_AND_TOPIC_CARDS",
+                  "02": "WAITING",
+                  "03": "WAITING",
+                  "04": "WAITING",
+                  "05": "WAITING",
+                  "06": "WAITING",
+                  "07": "WAITING",
+                  "08": "WAITING"
+                }
+              },
+              "motion-sample-20261012": {
+                "current_stage": "04",
+                "status": "V2_READY_WAITING_USER_REVIEW",
+                "stages": {
+                  "04": "DELIVERED_PMO_RECEIVED_FOR_USER_REVIEW",
+                  "05": "WAITING_USER_STYLE_REVIEW_NO_PUBLICATION_RELEASE"
+                }
+              },
+              "motion-reference-20261012": {
+                "current_stage": "01",
+                "status": "RESEARCH_ACCEPTED_WAITING_USER_NEXT_EDIT_CHOICE",
+                "stages": {
+                  "01": "PMO_ACCEPTED_SCOPED_COMPARISON",
+                  "02": "WAITING",
+                  "03": "WAITING",
+                  "04": "WAITING",
+                  "05": "WAITING",
+                  "06": "WAITING",
+                  "07": "WAITING",
+                  "08": "WAITING"
+                }
+              }
+            }
+          },
+          "changed": false
+        }
+      ]
+    },
+    "files": [
+      {
+        "relativePath": "工作档案.json",
+        "sha256": "f2a46ac293c2716cba7762664678c111c5c9bc40f1a522565b21cd277785a26f",
+        "bytes": 9481
+      },
+      {
+        "relativePath": "准备包.md",
+        "sha256": "7219cf9f1563d97baac99bf0cdc8d50c3309d3e3bf05aeaaee43ba2bc03d7472",
+        "bytes": 305
+      },
+      {
+        "relativePath": "platforms/xiaohongshu.md",
+        "sha256": "1658594bc39a170de147ccb3e014c31d6dbb03f617c241b647d330256b791444",
+        "bytes": 232
+      },
+      {
+        "relativePath": "platforms/youtube.md",
+        "sha256": "9d7a00fcce9c19909c7b366de8c06aa4a3df587f73af203e24d7a899be97fad9",
+        "bytes": 333
+      }
+    ],
+    "verificationCoverage": [
+      "text-snapshot",
+      "byte-hashes"
+    ],
+    "limitations": [],
+    "privacyMode": "INTERNAL",
+    "status": "COMPLETED"
+  },
+  "files": {
+    "工作档案.json": "{\n  \"producerApp\": \"eli-content-workbench\",\n  \"schemaName\": \"content-workbench.workspace\",\n  \"schemaVersion\": 1,\n  \"workspace\": {\n    \"id\": \"457da6fd-c4b0-4b69-bb6a-fb5f200a47be\",\n    \"revision\": 12,\n    \"title\": \"虚构样例｜把三段周报汇成表\",\n    \"topic\": \"虚构选题卡：普通人如何把三段示例周报汇总成表；没有真实工具效果或客户数据。\",\n    \"body\": \"問題示例先用簡體：三段虚构周报汇成一张表。\\n材料：本人合成示例。\\n操作：三列对照。\\n交付：表格。\\n检查：逐项核对。\",\n    \"common\": {\n      \"title\": \"三段示例周报，整理成一张表\",\n      \"body\": \"問題示例先用簡體：三段虚构周报汇成一张表。\\n材料：本人合成示例。\\n操作：三列对照。\\n交付：表格。\\n检查：逐项核对。\",\n      \"hashtags\": \"#AI工具 #工作方法\",\n      \"backendTags\": \"AI, 工作方法\"\n    },\n    \"sources\": [\n      {\n        \"id\": \"23d3782f-87cf-4498-a289-9035d5065035\",\n        \"title\": \"本人撰写的虚构样例\",\n        \"reference\": \"synthetic://weekly-example\",\n        \"date\": \"2026-10-12\",\n        \"scope\": \"全文\",\n        \"privacy\": \"PUBLIC\",\n        \"permission\": \"ALLOWED\",\n        \"version\": 1,\n        \"expiresAt\": \"\",\n        \"text\": \"公开合成示例，无真实客户或媒体\"\n      }\n    ],\n    \"facts\": [\n      {\n        \"id\": \"f2fed1f2-b393-47d4-b4b6-ca92fae132eb\",\n        \"text\": \"工具效果尚未实测\",\n        \"status\": \"UNVERIFIED\",\n        \"sourceIds\": [\n          \"23d3782f-87cf-4498-a289-9035d5065035\"\n        ],\n        \"scriptVersion\": \"56309734-f959-46e6-9c42-d5e538185e31\"\n      }\n    ],\n    \"notes\": [\n      {\n        \"id\": \"b0f7c3f6-6d4d-40d4-ae33-eb9bcfbeab8c\",\n        \"text\": \"录屏计划：表格标题完整可读。只是备注，不读取媒体。\",\n        \"sourceIds\": [\n          \"23d3782f-87cf-4498-a289-9035d5065035\"\n        ],\n        \"scriptVersion\": \"56309734-f959-46e6-9c42-d5e538185e31\",\n        \"mediaPath\": \"\"\n      }\n    ],\n    \"checks\": [],\n    \"versions\": [\n      {\n        \"id\": \"56309734-f959-46e6-9c42-d5e538185e31\",\n        \"label\": \"v1\",\n        \"body\": \"問題示例先用簡體：三段虚构周报汇成一张表。\\n材料：本人合成示例。\\n操作：三列对照。\\n交付：表格。\\n检查：逐项核对。\",\n        \"hash\": \"c7f892d6ded9f4ac2633b7e989ef3eed1a996594c69af267aebc869798947a1e\",\n        \"paragraphs\": [\n          {\n            \"id\": \"p1\",\n            \"text\": \"問題示例先用簡體：三段虚构周报汇成一张表。\"\n          },\n          {\n            \"id\": \"p2\",\n            \"text\": \"材料：本人合成示例。\"\n          },\n          {\n            \"id\": \"p3\",\n            \"text\": \"操作：三列对照。\"\n          },\n          {\n            \"id\": \"p4\",\n            \"text\": \"交付：表格。\"\n          },\n          {\n            \"id\": \"p5\",\n            \"text\": \"检查：逐项核对。\"\n          }\n        ],\n        \"createdAt\": \"2026-10-12T09:08:08.820Z\"\n      }\n    ],\n    \"selectedVersion\": \"56309734-f959-46e6-9c42-d5e538185e31\",\n    \"overrides\": {\n      \"xiaohongshu\": {\n        \"publicBasis\": \"OWN\",\n        \"sourceIds\": [],\n        \"languageConfirmed\": true,\n        \"scriptVersion\": \"56309734-f959-46e6-9c42-d5e538185e31\"\n      },\n      \"youtube\": {\n        \"publicBasis\": \"OWN\",\n        \"sourceIds\": [],\n        \"languageConfirmed\": true,\n        \"scriptVersion\": \"56309734-f959-46e6-9c42-d5e538185e31\",\n        \"title\": \"三段示例週報，整理成一張表\",\n        \"body\": \"問題：三段虛構週報分散。\\n材料：本人撰寫的合成文字。\\n操作：按事項、負責人、下一步列三欄。\\n交付：一張示例表格。\\n檢查：逐項對照，不把未知當完成。\",\n        \"backendTags\": \"AI, 工作方法, 示例週報\"\n      }\n    },\n    \"linkedContentId\": \"\",\n    \"authority\": [\n      {\n        \"path\": \"/Volumes/EXTERNAL/自媒体/流程协作/会话登记.json\",\n        \"sha256\": \"c290cc66e17ac9c4a033754527fd6e7989a85308556d006be415c3e797fcebf5\",\n        \"readAt\": \"2026-10-12T09:08:09.320Z\",\n        \"status\": \"CURRENT_RAW\",\n        \"value\": {\n          \"version\": \"CONTENT-FLOW-2026-10-08-v1\",\n          \"stages\": [\n            {\n              \"id\": \"01\",\n              \"label\": \"研究热点与选题\",\n              \"thread_id\": \"01a11442-a6d9-7413-88b3-191ce5cb037b\"\n            },\n            {\n              \"id\": \"02\",\n              \"label\": \"脚本与分镜\",\n              \"thread_id\": \"01a11a70-35e6-7db1-86ac-80a7ce40a9cb\"\n            },\n            {\n              \"id\": \"03\",\n              \"label\": \"拍摄指导与素材接收\",\n              \"thread_id\": \"01a11a73-6bcd-7451-975f-95e05c883fa8\"\n            },\n            {\n              \"id\": \"04\",\n              \"label\": \"剪辑与视觉制作\",\n              \"thread_id\": \"01a11a6f-49ef-7653-934a-4312979fd4e7\"\n            },\n            {\n              \"id\": \"05\",\n              \"label\": \"成品质检与审片\",\n              \"thread_id\": \"01a11a79-f636-7823-9350-3c5f7526e6c7\"\n            },\n            {\n              \"id\": \"06\",\n              \"label\": \"多平台适配与发布包\",\n              \"thread_id\": \"01a11a7f-9a85-7481-9e6c-75f11280ba56\"\n            },\n            {\n              \"id\": \"07\",\n              \"label\": \"本人发布与回执\",\n              \"thread_id\": \"01a11a88-68d7-7250-93c0-1fb2218c0e3e\"\n            },\n            {\n              \"id\": \"08\",\n              \"label\": \"数据复盘与反馈\",\n              \"thread_id\": \"01a11a95-ef09-7da2-9846-c8157050e112\"\n            }\n          ],\n          \"pmo_thread_id\": \"01a11194-c40d-7bf0-8396-5bb5d6449444\"\n        },\n        \"changed\": false\n      },\n      {\n        \"path\": \"/Volumes/EXTERNAL/自媒体/流程协作/流程状态.json\",\n        \"sha256\": \"290bdb2d9370c6bcca7f9f3043c4271770f40267c614092bce66f6b97f6d01db\",\n        \"readAt\": \"2026-10-12T09:08:09.320Z\",\n        \"status\": \"CURRENT_RAW\",\n        \"value\": {\n          \"version\": \"CONTENT-FLOW-2026-10-08-v1\",\n          \"active_content_id\": \"motion-sample-20261012\",\n          \"runs\": {\n            \"first-video-life-guide-visual-fix-v7\": {\n              \"current_stage\": \"05\",\n              \"status\": \"UNKNOWN\",\n              \"stages\": {\n                \"01\": \"IMPORTED_VERIFIED_BASELINE\",\n                \"02\": \"IMPORTED_VERIFIED_BASELINE\",\n                \"03\": \"IMPORTED_VERIFIED_BASELINE\",\n                \"04\": \"PASSED\",\n                \"05\": \"RELEASED\",\n                \"06\": \"WAITING\",\n                \"07\": \"WAITING\",\n                \"08\": \"WAITING\"\n              }\n            },\n            \"ai-content-benchmarks-30-20261008\": {\n              \"current_stage\": \"01\",\n              \"status\": \"UNKNOWN\",\n              \"stages\": {\n                \"01\": \"RELEASED\",\n                \"02\": \"WAITING\",\n                \"03\": \"WAITING\",\n                \"04\": \"WAITING\",\n                \"05\": \"WAITING\",\n                \"06\": \"WAITING\",\n                \"07\": \"WAITING\",\n                \"08\": \"WAITING\"\n              }\n            },\n            \"sun-shao-interview-20261009\": {\n              \"current_stage\": \"06\",\n              \"status\": \"UNKNOWN\",\n              \"stages\": {\n                \"01\": \"IMPORTED_VERIFIED_BASELINE\",\n                \"02\": \"IMPORTED_VERIFIED_BASELINE\",\n                \"03\": \"IMPORTED_VERIFIED_BASELINE\",\n                \"04\": \"IMPORTED_VERIFIED_BASELINE\",\n                \"05\": \"PASSED\",\n                \"06\": \"BLOCKED\",\n                \"07\": \"WAITING\",\n                \"08\": \"WAITING\"\n              }\n            },\n            \"eli-brand-intro-20261010\": {\n              \"current_stage\": \"07\",\n              \"status\": \"PUBLICATION_USER_CONFIRMED_9_NATIVE_RECORDS_8\",\n              \"stages\": {\n                \"04\": \"PMO_ACCEPTED_RATIO_ADAPTATION\",\n                \"05\": \"PASSED\",\n                \"06\": \"PARTIAL_ACCEPTED_5_READY_4_BLOCKED\",\n                \"07\": \"PUBLICATION_RECEIPTS_PARTIAL_VERIFIED\",\n                \"08\": \"WAITING\"\n              }\n            },\n            \"content-radar-20261012\": {\n              \"current_stage\": \"01\",\n              \"status\": \"TOPIC_CARDS_READY_WAITING_USER_SELECTION\",\n              \"stages\": {\n                \"01\": \"PARTIAL_ACCEPTED_EVENTS_AND_TOPIC_CARDS\",\n                \"02\": \"WAITING\",\n                \"03\": \"WAITING\",\n                \"04\": \"WAITING\",\n                \"05\": \"WAITING\",\n                \"06\": \"WAITING\",\n                \"07\": \"WAITING\",\n                \"08\": \"WAITING\"\n              }\n            },\n            \"motion-sample-20261012\": {\n              \"current_stage\": \"04\",\n              \"status\": \"V2_READY_WAITING_USER_REVIEW\",\n              \"stages\": {\n                \"04\": \"DELIVERED_PMO_RECEIVED_FOR_USER_REVIEW\",\n                \"05\": \"WAITING_USER_STYLE_REVIEW_NO_PUBLICATION_RELEASE\"\n              }\n            },\n            \"motion-reference-20261012\": {\n              \"current_stage\": \"01\",\n              \"status\": \"RESEARCH_ACCEPTED_WAITING_USER_NEXT_EDIT_CHOICE\",\n              \"stages\": {\n                \"01\": \"PMO_ACCEPTED_SCOPED_COMPARISON\",\n                \"02\": \"WAITING\",\n                \"03\": \"WAITING\",\n                \"04\": \"WAITING\",\n                \"05\": \"WAITING\",\n                \"06\": \"WAITING\",\n                \"07\": \"WAITING\",\n                \"08\": \"WAITING\"\n              }\n            }\n          }\n        },\n        \"changed\": false\n      }\n    ],\n    \"createdAt\": \"2026-10-12T09:08:07.038Z\",\n    \"updatedAt\": \"2026-10-12T09:08:09.186Z\"\n  }\n}",
+    "准备包.md": "# 虚构样例｜把三段周报汇成表\n\n类型：FROZEN；离线准备，非发布回执。\n\n問題示例先用簡體：三段虚构周报汇成一张表。\n材料：本人合成示例。\n操作：三列对照。\n交付：表格。\n检查：逐项核对。\n\n来源与备注见内部JSON。\n\n缺口：[]",
+    "platforms/xiaohongshu.md": "# 三段示例周报，整理成一张表\n\n問題示例先用簡體：三段虚构周报汇成一张表。\n材料：本人合成示例。\n操作：三列对照。\n交付：表格。\n检查：逐项核对。\n\n#AI工具 #工作方法\n",
+    "platforms/youtube.md": "# 三段示例週報，整理成一張表\n\n問題：三段虛構週報分散。\n材料：本人撰寫的合成文字。\n操作：按事項、負責人、下一步列三欄。\n交付：一張示例表格。\n檢查：逐項對照，不把未知當完成。\n\n#AI工具 #工作方法\n\n后台标签计划：AI, 工作方法, 示例週報\n"
+  }
+}

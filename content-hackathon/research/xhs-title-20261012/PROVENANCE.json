@@ -1,0 +1,45 @@
+{
+  "readAt": "2026-10-12T15:44:17+08:00",
+  "sourcePage": "https://creator.xiaohongshu.com/publish/publish",
+  "purpose": "只读核标题组件事件和预览更新；公开脚本仅作证据，未执行下载脚本",
+  "files": [
+    {
+      "file": "project-publish-vue.474cd180.js",
+      "source": "https://fe-static.xhscdn.com/formula-static/ugc/public/resource/js/project-publish-vue.474cd180.js",
+      "sha256": "d1e447e41dec2810527b32c41a44355436e40431e8b3d61f997d31d6fe8f7df4",
+      "bytes": 2284329
+    },
+    {
+      "file": "index.7cd017a9.js",
+      "source": "https://fe-static.xhscdn.com/formula-static/ugc/public/resource/js/index.7cd017a9.js",
+      "sha256": "7d016dab8e5fa69044cd306412507888364d93d498317322d0b6488302ae29e2",
+      "bytes": 926331
+    },
+    {
+      "file": "project-publish-components.c6f26def.js",
+      "source": "https://fe-static.xhscdn.com/formula-static/ugc/public/resource/js/project-publish-components.c6f26def.js",
+      "sha256": "f915d6fe199d7cc63fd0ed0e1afa777760a5a888156333b124e108ac4b48851b",
+      "bytes": 484937
+    },
+    {
+      "file": "bundler-runtime.58ba186c.js",
+      "source": "https://fe-static.xhscdn.com/formula-static/ugc/public/resource/js/bundler-runtime.58ba186c.js",
+      "sha256": "de40d2aa8b80089f31150d3afa86dbfc2bda170de27049864acef37c78513c9b",
+      "bytes": 16126
+    },
+    {
+      "file": "library-delight.e52bb502.js",
+      "source": "https://fe-static.xhscdn.com/formula-static/ugc/public/resource/js/library-delight.e52bb502.js",
+      "sha256": "46a7eca7094160353bac95210c888e389f92fd66d77721172692523b23e41db8",
+      "bytes": 1815073
+    },
+    {
+      "file": "2931.4342c569.js",
+      "source": "https://fe-static.xhscdn.com/formula-static/ugc/public/resource/js/2931.4342c569.js",
+      "sha256": "78c3892d23fb682a62e846beb13a3a8e98c6832487875f6123b3cfd3ab2061be",
+      "bytes": 2281388
+    }
+  ],
+  "finding": "project-publish-vue.474cd180.js 的Title组件将modifyTitle置于300ms debounce；ImagePreview通过state.title渲染.image-preview .title。",
+  "repair": "填入标题后先等待可见预览标题一致，再填写正文；结束前再次核标题、正文预览及图片数量。不改平台内部状态、脚本或安全机制。"
+}

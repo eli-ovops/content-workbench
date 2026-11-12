@@ -1,0 +1,149 @@
+{
+  "rootId": "1a028755-6eca-42ef-9106-8c4c6dd0bddb",
+  "schemaName": "content-workbench.workspace",
+  "schemaVersion": 1,
+  "revision": 3,
+  "workspaces": [
+    {
+      "id": "e473e101-a8c2-406f-b195-8d4e36c1f42d",
+      "revision": 3,
+      "title": "虚构样例｜把三段周报汇成表",
+      "topic": "虚构选题卡：普通人如何把三段示例周报汇总成表；没有真实工具效果或客户数据。",
+      "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+      "common": {
+        "title": "用一张表整理三段示例周报",
+        "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+        "hashtags": "#AI工具 #工作方法",
+        "backendTags": "AI, 工作方法"
+      },
+      "sources": [
+        {
+          "id": "bc606da1-0ab1-4d8d-99aa-1989543f93f4",
+          "title": "本人撰写的虚构样例",
+          "reference": "synthetic://weekly-example",
+          "date": "2026-10-12",
+          "scope": "全文",
+          "privacy": "PUBLIC",
+          "permission": "ALLOWED",
+          "version": 1,
+          "expiresAt": "",
+          "text": "公开合成示例，无真实客户或媒体"
+        }
+      ],
+      "facts": [
+        {
+          "id": "fd8ddbe4-3f6f-4e8f-84ce-a50657f1facf",
+          "text": "工具效果尚未实测",
+          "status": "UNVERIFIED",
+          "sourceIds": [
+            "bc606da1-0ab1-4d8d-99aa-1989543f93f4"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "eaaa967d-2946-40ec-90d4-d21518c655c2",
+          "text": "录屏备注：显示三列汇总表；检查文字可读。只是计划，不是已录素材。",
+          "sourceIds": [
+            "bc606da1-0ab1-4d8d-99aa-1989543f93f4"
+          ],
+          "scriptVersion": null,
+          "mediaPath": ""
+        }
+      ],
+      "checks": [],
+      "versions": [
+        {
+          "id": "cdd9fc60-4044-4112-aee1-bf6be9f62c36",
+          "label": "v1",
+          "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+          "hash": "8d01521aa6fa983fce883ac344dfe0b8b88bb07b54d711b43ca5f6b8565dd19b",
+          "paragraphs": [
+            {
+              "id": "c745de68-61da-4413-9f84-b72a3d1478dd",
+              "text": "问题：三段虚构周报分散，想汇成一张表。"
+            },
+            {
+              "id": "89e6557c-33c2-46e8-a43e-4f82acdddd3c",
+              "text": "材料：三段公开示例文字。"
+            },
+            {
+              "id": "76950976-567c-45e7-a640-c7860ecd75ce",
+              "text": "操作：按事项、负责人、下一步列三列。"
+            },
+            {
+              "id": "1047bd70-19f9-440c-9f46-d23c6582e6f1",
+              "text": "交付：一张示例汇总表。"
+            },
+            {
+              "id": "401084ba-4941-4229-9e8c-d254e2e7bc0b",
+              "text": "检查：逐条对照原文，不把未知当完成。"
+            }
+          ],
+          "createdAt": "2026-10-12T09:37:40.944Z"
+        }
+      ],
+      "selectedVersion": "cdd9fc60-4044-4112-aee1-bf6be9f62c36",
+      "overrides": {
+        "xiaohongshu": {
+          "publicBasis": "OWN",
+          "sourceIds": [],
+          "languageConfirmed": true,
+          "scriptVersion": "cdd9fc60-4044-4112-aee1-bf6be9f62c36"
+        },
+        "bilibili": {
+          "publicBasis": "OWN",
+          "sourceIds": [],
+          "languageConfirmed": true,
+          "scriptVersion": "cdd9fc60-4044-4112-aee1-bf6be9f62c36"
+        },
+        "douyin_cn": {
+          "publicBasis": "OWN",
+          "sourceIds": [],
+          "languageConfirmed": true,
+          "scriptVersion": "cdd9fc60-4044-4112-aee1-bf6be9f62c36"
+        },
+        "wechat_channels": {
+          "publicBasis": "OWN",
+          "sourceIds": [],
+          "languageConfirmed": true,
+          "scriptVersion": "cdd9fc60-4044-4112-aee1-bf6be9f62c36"
+        },
+        "youtube": {
+          "publicBasis": "OWN",
+          "sourceIds": [],
+          "languageConfirmed": true,
+          "scriptVersion": "cdd9fc60-4044-4112-aee1-bf6be9f62c36"
+        },
+        "linkedin": {
+          "publicBasis": "OWN",
+          "sourceIds": [],
+          "languageConfirmed": true,
+          "scriptVersion": "cdd9fc60-4044-4112-aee1-bf6be9f62c36"
+        },
+        "x": {
+          "publicBasis": "OWN",
+          "sourceIds": [],
+          "languageConfirmed": true,
+          "scriptVersion": "cdd9fc60-4044-4112-aee1-bf6be9f62c36"
+        },
+        "weibo": {
+          "publicBasis": "OWN",
+          "sourceIds": [],
+          "languageConfirmed": true,
+          "scriptVersion": "cdd9fc60-4044-4112-aee1-bf6be9f62c36"
+        },
+        "tiktok": {
+          "publicBasis": "OWN",
+          "sourceIds": [],
+          "languageConfirmed": true,
+          "scriptVersion": "cdd9fc60-4044-4112-aee1-bf6be9f62c36"
+        }
+      },
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-12T09:37:40.936Z",
+      "updatedAt": "2026-10-12T09:37:40.952Z"
+    }
+  ]
+}

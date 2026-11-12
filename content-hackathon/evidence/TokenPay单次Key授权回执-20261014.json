@@ -1,0 +1,17 @@
+{
+  "status": {
+    "keyCreationAllowed": true,
+    "modelCallsAllowed": false,
+    "connected": true,
+    "appUrl": "app://eli-social-publisher",
+    "model": null,
+    "maxCalls": 0,
+    "callsAttempted": 0,
+    "lastOutcome": "authorized",
+    "authorizationPhase": "complete",
+    "authorizationExpiresAt": 1791947704639
+  },
+  "keyFileExists": true,
+  "keyFileIsSymlink": false,
+  "keyFilePermissions": "0o600"
+}

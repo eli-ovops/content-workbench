@@ -1,0 +1,23 @@
+[
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/eli-brand-intro-20261010/sources/Eli个人品牌-用户指定修订版-20261010.mp4",
+    "decodeExit": 0,
+    "errors": "",
+    "sha256Now": "595d690d45aa67d72ba28d9103fd4da2092458483509a9e0a6884a403ff13806",
+    "originalHashMatches": true
+  },
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/first-video-life-guide-20261008/edit/redaction-v2/master-redacted.mp4",
+    "decodeExit": 0,
+    "errors": "",
+    "sha256Now": "be57bb19582dac95fa163d494265bea01f4829dc5ea472134f4008e83b7fd17e",
+    "originalHashMatches": true
+  },
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/qianwen-go-case-20261013/flow/04/output/qianwen-go-full-v9.mp4",
+    "decodeExit": 0,
+    "errors": "",
+    "sha256Now": "e0e8f2003035e3612dccf8f7a39d0657eb97707e51db37c5d6fe0f28aef698fb",
+    "originalHashMatches": true
+  }
+]

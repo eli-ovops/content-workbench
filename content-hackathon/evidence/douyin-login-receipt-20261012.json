@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-12T13:34:19.324Z",
+  "timezone": "Asia/Shanghai",
+  "scope": "Douyin login diagnosis; waiting for human scan; no upload or publication",
+  "status": {
+    "phase": "awaiting_login",
+    "message": "请在专用Chrome窗口本人扫码登录",
+    "preparationVerified": false,
+    "loginDiagnostics": {
+      "phase": "awaiting_login",
+      "signals": [],
+      "qrVisible": true,
+      "loginUiVisible": true,
+      "uploadInputPresent": false,
+      "controls": [
+        "扫码登录"
+      ]
+    }
+  },
+  "bilibiliRetained": {
+    "phase": "prepared",
+    "optionsVerified": true,
+    "titleBodyUnchanged": true
+  },
+  "rootCause": "UNKNOWN",
+  "loginVerified": false,
+  "uploadVerified": false,
+  "published": false,
+  "tests": {
+    "douyinCases": 4,
+    "providerSessionCases": 4,
+    "passed": true,
+    "frontendSyntax": "pass"
+  },
+  "evidence": "evidence/抖音登录诊断-343bc90a-7cdb-4dee-a816-12c32f4befea.png",
+  "sourceHashes": {
+    "app/provider_worker.py": "05f8f61f41cad738b5402379bfd231c9b782b9a4ac43f181e7b497fe73005948",
+    "app/douyin_login.py": "e0bb8b939f1f7369154b7ece9654fdeb06640e71e7d38af56366fffe650ca191",
+    "app/test_douyin_login.py": "f157cdedf6de32533b645ce256487bb0a68b395b5cca6b0745068dedc89202ce",
+    "app/app.js": "2dca685dd6cf8a0d577dbf0fef9d813c325d502d6ee9390449440b41b904bbea"
+  }
+}

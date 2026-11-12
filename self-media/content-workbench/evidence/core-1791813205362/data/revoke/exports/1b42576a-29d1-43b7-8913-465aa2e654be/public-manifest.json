@@ -1,0 +1,27 @@
+{
+  "producerApp": "eli-content-workbench",
+  "appVersion": "0.1.1",
+  "schemaName": "content-workbench.workspace",
+  "schemaVersion": 1,
+  "exportId": "1b42576a-29d1-43b7-8913-465aa2e654be",
+  "createdAt": "2026-10-12T13:53:25.560Z",
+  "sourceRevisionRefs": {
+    "workspaceRevision": 3,
+    "scriptRevision": "70c373ba-90d7-4866-962c-b41cf84b5a22",
+    "configVersion": "platforms-20261009-v1"
+  },
+  "files": [
+    {
+      "relativePath": "platforms/youtube.md",
+      "sha256": "fd8412bb802580e27ed1c85682b0674917669f2e1a2d8f54ab066dbae3d59104",
+      "bytes": 343
+    }
+  ],
+  "verificationCoverage": [
+    "text-snapshot",
+    "byte-hashes"
+  ],
+  "limitations": [],
+  "privacyMode": "PUBLIC",
+  "status": "REVOKED"
+}

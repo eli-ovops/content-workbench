@@ -1,0 +1,63 @@
+{
+  "rootId": "087f706d-85b0-483f-894a-c25fed6c6699",
+  "schemaName": "content-workbench.workspace",
+  "schemaVersion": 1,
+  "revision": 6,
+  "workspaces": [
+    {
+      "id": "54e4950e-ae3f-4384-8415-0749466d7672",
+      "revision": 5,
+      "title": "SYNTHETIC UI acceptance draft",
+      "topic": "",
+      "body": "合成测试 v1：准备材料，整理三列，逐条检查。\n合成测试 v2：未知信息单独列出。",
+      "common": {
+        "title": "",
+        "body": "",
+        "hashtags": "",
+        "backendTags": ""
+      },
+      "sources": [],
+      "facts": [],
+      "notes": [],
+      "checks": [],
+      "versions": [
+        {
+          "id": "9f25b229-18e5-42fc-9fa8-e0d02079a524",
+          "label": "v1",
+          "body": "合成测试 v1：准备材料，整理三列，逐条检查。",
+          "hash": "6ac2a7d3bd700e8be13fd93e317f070c39113b2a7f1db20a06efd2da5829fb28",
+          "paragraphs": [
+            {
+              "id": "4e9ca2bb-1d92-4345-8c98-4e6fba47907e",
+              "text": "合成测试 v1：准备材料，整理三列，逐条检查。"
+            }
+          ],
+          "createdAt": "2026-10-13T06:56:29.724Z"
+        },
+        {
+          "id": "2bbe0eae-6046-44de-af51-f1bca0b96b92",
+          "label": "v2",
+          "body": "合成测试 v1：准备材料，整理三列，逐条检查。\n合成测试 v2：未知信息单独列出。",
+          "hash": "379e80bcdb66c8146fc0e31097b98c21ce73d70731f2270bddde4764ed351ee5",
+          "paragraphs": [
+            {
+              "id": "4e9ca2bb-1d92-4345-8c98-4e6fba47907e",
+              "text": "合成测试 v1：准备材料，整理三列，逐条检查。"
+            },
+            {
+              "id": "879307fc-aca2-4fd5-9f0e-becf06c5b844",
+              "text": "合成测试 v2：未知信息单独列出。"
+            }
+          ],
+          "createdAt": "2026-10-13T06:56:29.767Z"
+        }
+      ],
+      "selectedVersion": "2bbe0eae-6046-44de-af51-f1bca0b96b92",
+      "overrides": {},
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-13T06:56:29.567Z",
+      "updatedAt": "2026-10-13T06:56:29.746Z"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+schema_version: '1.0'
+status: bounded-image-hosting
+site_id: eli-social-publisher-icon
+project: Eli 社媒发布工作台申请图标
+confirmed_by: Eli
+confirmed_at: '2026-10-10'
+no_secret_values: true
+server:
+  reference: /Users/USER/.codex/servers/jdcloud-[REDACTED_HOST]/AGENTS.md
+  owner: Eli
+environments:
+  preview:
+    enabled: true
+    public_url: http://[REDACTED_HOST]/sites/eli-social-publisher/icon-v5.png
+    admin_path: null
+  production:
+    enabled: false
+    public_url: null
+    admin_path: null
+repository:
+  repo_url: null
+  approved_branch: null
+  production_branch: null
+  commit_sha_required: false
+architecture: static-image-only
+toolchain:
+  node: null
+  pnpm_major: null
+  package_manager: null
+  lockfile: null
+  payload_version: null
+runtime:
+  app_port_reference: null
+  health_port_reference: null
+deployment:
+  mechanism: ssh-shell
+  call_carrier: local SSH/SCP per shared-server guide
+  forced_command_reference: null
+  allowed_modes: [single-png]
+  guide_reference: 图标托管记录.md
+  production_approval_required: true
+  authorization_reference: 用户本轮确认v5并要求上传，承接前述具体服务器方案
+  deploy_owner: 本会话唯一Owner
+  validate_required: not-applicable
+  status_required: true
+  eli_preview_exception: false
+storage:
+  code_reference: null
+  releases_reference: 图标托管记录.md
+  database_reference: null
+  media_reference: 图标托管记录.md
+database:
+  type: none
+  credential_secret_ref: null
+  business_data_in_file: false
+media:
+  credential_secret_ref: null
+  managed_separately_from_code: true
+roles:
+  owner: Eli
+  developer: 本会话有界图片上传执行者
+  server_owner: Eli
+migration:
+  required: false
+  required_for_localization: false
+  procedure_reference: null
+  production_approval_required: true
+backup:
+  procedure_reference: 图标托管记录.md
+  database_and_media_separate: true
+  restore_rehearsal_required: false
+release_retention:
+  policy_reference: 保留当前单PNG及配置备份，不自动删除
+  previous_accepted_release_required: false
+health_checks:
+  public_page: HTTP图片类型尺寸与SHA核对、公网浏览器可见
+  application: nginx与既有ERP回归
+  admin: null
+  api: null
+rollback:
+  procedure_reference: 图标托管记录.md
+  explicit_authorization_required: true

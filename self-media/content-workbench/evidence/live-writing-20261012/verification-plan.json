@@ -1,0 +1,165 @@
+{
+  "owner": "01a12ed9-113b-7fd1-8d30-fdc616bbf2bb",
+  "date": "2026-10-12",
+  "userRequest": "打开能真正写稿、保存的版本，把实际使用流程也验证一下",
+  "actualUrl": "http://127.0.0.1:56676/",
+  "status": "WAITING_FOR_HUMAN_PAIRING",
+  "sourceFingerprint": {
+    "hash": "aa960a2e1ac274881dd9a584b7f7f04337bdba61e7e4ea8d8a2ded8928daff3c",
+    "files": [
+      {
+        "relativePath": "package.json",
+        "sha256": "ad34bb066e686c9d1f63510e483554131e87df532fcd064dbb985f8fd759ddb1",
+        "bytes": 246
+      },
+      {
+        "relativePath": "public/app.js",
+        "sha256": "623e3009124c7d15bdb86bc6678cdbc947097c749370ed50cc9dbff438574f32",
+        "bytes": 21676
+      },
+      {
+        "relativePath": "public/index.html",
+        "sha256": "5a0cb9300df4b6effa8a9e18b1344d62ba86571895f4f0aa22a711d585283ba8",
+        "bytes": 9934
+      },
+      {
+        "relativePath": "public/preview-data.js",
+        "sha256": "4622f554ecf2c41d7f4db37a14cc32294a15c90b367f9a4569f156f79011d7ca",
+        "bytes": 3202
+      },
+      {
+        "relativePath": "public/style.css",
+        "sha256": "30911044e8db6cfe1a8ca85676e511d93753e079b145704de888673134defe99",
+        "bytes": 19670
+      },
+      {
+        "relativePath": "src/authority.mjs",
+        "sha256": "6d2429b2efc21b03514a755f7aba60429f8c11e24c30f236738fb16708a779e5",
+        "bytes": 1160
+      },
+      {
+        "relativePath": "src/config.mjs",
+        "sha256": "64e30b8c545242d2966c8bc9f185f3e300261fc99d98325e5ec6d5e9d095b07c",
+        "bytes": 1093
+      },
+      {
+        "relativePath": "src/fixture.mjs",
+        "sha256": "fdde3c98597de92d372d3adf4c58d25dc37f0286795eab5f08857e81ada7d909",
+        "bytes": 1196
+      },
+      {
+        "relativePath": "src/init.mjs",
+        "sha256": "7e7c28fd7c2bdbfa4698145a64152e469cbba89e800dcd40c0524b856f2d9148",
+        "bytes": 407
+      },
+      {
+        "relativePath": "src/launch.mjs",
+        "sha256": "d8a620dd9cf6c5a4995ea7b7c8cb199a054ef8519043a302f6bfcbe6bb6f402b",
+        "bytes": 1400
+      },
+      {
+        "relativePath": "src/model.mjs",
+        "sha256": "d88ad4d623f9d9e463deb833edce72b84a033feca0dd3e4bfa6d725236e1f5e9",
+        "bytes": 5683
+      },
+      {
+        "relativePath": "src/prepare-sample.mjs",
+        "sha256": "9bb8d80b921257e0ceb752ae0ecb7dadaefccdf23d8399853c561524b5fbd43c",
+        "bytes": 2768
+      },
+      {
+        "relativePath": "src/recover.mjs",
+        "sha256": "2ead2328cff2d6a251159c8a2020fdbff1a058d828f4f7f4b8a3a00754d505b6",
+        "bytes": 2348
+      },
+      {
+        "relativePath": "src/server.mjs",
+        "sha256": "3d411e78ab01aedbe252a16871c8b48e9d85a322389531a74fceae5efdd2ffef",
+        "bytes": 8052
+      },
+      {
+        "relativePath": "src/stop.mjs",
+        "sha256": "a0fe27f7bb2a13fcdf6870d7111ebb7534c5ecf0fb76ab984190b97480aac5b4",
+        "bytes": 684
+      },
+      {
+        "relativePath": "src/store.mjs",
+        "sha256": "14d11a05da1156ec6a573d0db000f5bb27982210ce34ee3a17a677fe28c594da",
+        "bytes": 15902
+      },
+      {
+        "relativePath": "停止内容工作台.command",
+        "sha256": "2dc1830b83f6b90ea5cbb51e2085f9f81ca9a1119c732fab9c3c9908ea345260",
+        "bytes": 243
+      },
+      {
+        "relativePath": "启动内容工作台.command",
+        "sha256": "864020549eac85f625afe1753fb143d8744d0807dace7f29e571790923d8c2de",
+        "bytes": 245
+      },
+      {
+        "relativePath": "恢复上一副本.command",
+        "sha256": "d7fa9815a0feb0f55caff27c1c0d056d55345790ae15b5a84dc75ecbb96775dd",
+        "bytes": 251
+      }
+    ],
+    "nodeVersion": "v24.19.0"
+  },
+  "baseline": {
+    "rootId": "ddbbc5d8-afc8-4f24-927f-87af101b49e9",
+    "revision": 5,
+    "workspaces": [
+      {
+        "id": "c84515aa-db6e-4ab2-aa20-21f6970e9105",
+        "sha256": "66a986c91f2eda7d3c5d1ea89af7a89f2122eacad824c62970d709a3ce4bb4a3"
+      },
+      {
+        "id": "a7db5e94-94b5-49a6-b92d-75ad810efe44",
+        "sha256": "220e21232a8301850f7942970abdd46fe118f330d0b973166b4f6ee379ec3aa5"
+      }
+    ]
+  },
+  "steps": [
+    "User manually completes existing file pairing; agent does not access blocked pairing resource",
+    "Create distinct 验收测试稿 inside actual saved-data UI",
+    "Edit title/body/topic, save, read actual confirmation",
+    "Reload and reopen the draft, compare title/body and on-disk data",
+    "Retain v1, modify/save, retain v2, compare old/new bodies",
+    "Verify common platform text inherits script; edit a site-only override and preserve other sites",
+    "Leave one fresh usable draft and actual authenticated window visible"
+  ],
+  "limitations": [
+    "Protected file pairing policy rejection remains; no credentials read/relocated or authentication bypass",
+    "No posting, real sources, user existing draft changes or cleanup"
+  ],
+  "completedIndependentChecks": {
+    "coreTests": 15,
+    "evidence": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791806457215/summary.json",
+    "sessionUI": "Actual unauthenticated page shows need-session; save/new/logout disabled; rescue disabled unless there is buffered draft"
+  },
+  "observedHumanReply": "已打开",
+  "observedAfterReply": "Native Chrome actual HTTP route still shows no session; follow-up question pending",
+  "authFlowUnchanged": true,
+  "currentObservedStatus": "BLOCKED: user reports paired list, but accessible native Chrome and actual IAB still unauthenticated",
+  "directInspection": {
+    "browserTabs": [
+      "56676 preview v2",
+      "56676 preview v3",
+      "56676 actual unauthenticated"
+    ],
+    "nativeChrome": "actual 56676 needs session, screenshot retained",
+    "processes": "one workbench server and two Chrome processes; this alone does not identify a paired window",
+    "terminal": "explicit safety refusal; B008 checked; no alternate terminal access",
+    "health": "app/root/PID matches; service alive",
+    "savedUIAcceptance": "NOT_EXECUTED"
+  },
+  "afterHumanForeground": {
+    "humanConfirmation": "能保存的 Chrome 已置前，继续验证",
+    "observed": "Native app selected by path; actual 127.0.0.1:56676 refreshed once; still needs session and all write controls disabled",
+    "recordingStatus": "Computer History stopped; no recording settings changed or historical activity read",
+    "result": "BLOCKED: cannot acquire confirmed authenticated UI session; live writing/save/reopen/version tests not performed",
+    "userDraftMutation": false,
+    "security": "No file pairing access, credential read, alternate terminal access, cookie injection, or auth changes",
+    "evidence": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/live-writing-20261012/chrome-after-human-foreground.png"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "scenario": "S05",
+    "name": "real-ui-isolated-restore",
+    "status": "PASS",
+    "details": {
+      "input": "S05-internal-download.json",
+      "newRootCreated": true,
+      "oldRootUnchanged": true,
+      "publicApprovalsHistorical": true
+    },
+    "deviations": []
+  }
+]

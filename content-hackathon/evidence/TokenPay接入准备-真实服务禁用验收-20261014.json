@@ -1,0 +1,14 @@
+{
+  "defaultPermissions": {
+    "keyCreationAllowed": false,
+    "modelCallsAllowed": false
+  },
+  "liveDeniedPostCodes": {
+    "authorize": 400,
+    "suggest": 400
+  },
+  "publicStatusUnchanged": true,
+  "modelCallsAttempted": 0,
+  "serverOnlyModuleNotPublic": true,
+  "runtimeKeyDirectoryCreated": false
+}

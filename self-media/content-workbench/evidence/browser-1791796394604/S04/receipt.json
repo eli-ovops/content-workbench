@@ -1,0 +1,36 @@
+[
+  {
+    "scenario": "S04",
+    "name": "restart-public-confirmation-not-revived",
+    "status": "PASS",
+    "details": {
+      "savedBodyMatches": true,
+      "previousPublicDownload": 403
+    },
+    "deviations": []
+  },
+  {
+    "scenario": "S04",
+    "name": "ui-conflict-capacity-editor-rescue",
+    "status": "PASS",
+    "details": {
+      "conflict": 409,
+      "blockTooLarge": 413,
+      "editorRetained": true,
+      "actualBrowserDownload": "S04-unsaved-editor.json"
+    },
+    "deviations": []
+  },
+  {
+    "scenario": "S04",
+    "name": "same-browser-root-session-isolation",
+    "status": "PASS",
+    "details": {
+      "sameContext": true,
+      "logoutA": 401,
+      "rootBStillAuthenticated": 200,
+      "unrelatedRootUnaffected": true
+    },
+    "deviations": []
+  }
+]

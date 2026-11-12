@@ -1,0 +1,43 @@
+✖ owner startup ticket establishes an HttpOnly session once, with origin/root/expiry checks (99.396083ms)
+✖ restart rejects old sessions and old launch tickets; fresh automatic launch retains saved drafts and versions (24.33425ms)
+✖ startup tickets are bounded and stale launch lock with unknown ownership is not removed (0.360209ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 0
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 205.894042
+
+✖ failing tests:
+
+test at tests/startup-session.test.mjs:16:1
+✖ owner startup ticket establishes an HttpOnly session once, with origin/root/expiry checks (99.396083ms)
+  TypeError: pairingModule.requestStartup is not a function
+      at requestStartup (file:///Volumes/EXTERNAL/%E8%87%AA%E5%AA%92%E4%BD%93/content-workbench/tests/startup-session.test.mjs:11:47)
+      at TestContext.<anonymous> (file:///Volumes/EXTERNAL/%E8%87%AA%E5%AA%92%E4%BD%93/content-workbench/tests/startup-session.test.mjs:21:24)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at tests/startup-session.test.mjs:32:1
+✖ restart rejects old sessions and old launch tickets; fresh automatic launch retains saved drafts and versions (24.33425ms)
+  TypeError: app.pairing.issueStartup is not a function
+      at connect (file:///Volumes/EXTERNAL/%E8%87%AA%E5%AA%92%E4%BD%93/content-workbench/tests/startup-session.test.mjs:34:51)
+      at TestContext.<anonymous> (file:///Volumes/EXTERNAL/%E8%87%AA%E5%AA%92%E4%BD%93/content-workbench/tests/startup-session.test.mjs:36:12)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at tests/startup-session.test.mjs:55:1
+✖ startup tickets are bounded and stale launch lock with unknown ownership is not removed (0.360209ms)
+  TypeError: p.issueStartup is not a function
+      at TestContext.<anonymous> (file:///Volumes/EXTERNAL/%E8%87%AA%E5%AA%92%E4%BD%93/content-workbench/tests/startup-session.test.mjs:56:97)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at node:internal/test_runner/test:1285:31
+      at node:internal/process/task_queues:151:7
+      at AsyncResource.runInAsyncScope (node:async_hooks:227:14)
+      at AsyncResource.runMicrotask (node:internal/process/task_queues:148:8)

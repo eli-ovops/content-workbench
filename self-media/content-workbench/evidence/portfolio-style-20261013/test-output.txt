@@ -1,0 +1,31 @@
+✔ S01: saved content and complete frozen package survive a real store restart (126.238208ms)
+✔ S02: v1/v2 and field-specific dependency invalidation (58.894375ms)
+✔ S02: raw sources and damaged sources never imply current PASS or change binding (6.704292ms)
+✔ S03: 9 configurations, language and public fields are isolated (104.456791ms)
+✔ S03: revoke while locked export and revoke after completion prevent public delivery (60.35ms)
+✔ S04: revision, second instance, 40KiB blocks and capacity preserve prior data (15.312042ms)
+✔ S04: failed save and unpersisted revoke never resurrect approvals on restart (32.193042ms)
+✔ S04: API authentication, origin, static boundaries and app/root sessions (63.238291ms)
+✔ S05: internal DRAFT without freeze, complete restoration and nested relations (30.02475ms)
+✔ S05: multi-file failure does not become COMPLETED or override prior export (42.974166ms)
+✔ S04: symlink in a data root is refused and source files are never modified (8.570209ms)
+✔ S03: permission expiry and malformed expiry cannot use old approval (30.720417ms)
+✔ S02: startup source cache survives damaged input and restart (14.605292ms)
+✔ S02: stable paragraph IDs survive additions and note links are validated (20.615833ms)
+✔ S04: exported package refuses a symlinked parent before reading outside (15.017ms)
+Evidence: /Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791856807116
+✔ HTTP pairing requires owner approval, binds one browser, rejects other origins and replay (126.663125ms)
+✔ pairing expires, caps pending requests, and owner socket checks root and file permissions (11.825334ms)
+✔ confirmed browser can create/save/reload and retain both versions; restart requires fresh pairing (125.822125ms)
+✔ launcher cold-start reports verified child, repeated launch reuses that exact service (489.075667ms)
+✔ failed startup cannot borrow a stale metadata URL returning HTTP 200 (5190.257167ms)
+✔ workspace copy preserves originals, full relations and target edits; repeated copy is idempotent (121.189458ms)
+✔ a conflicting ID or invalid relation rejects the entire copy and preserves prior state (31.045791ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6082.802292

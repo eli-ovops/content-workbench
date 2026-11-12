@@ -1,0 +1,214 @@
+TAP version 13
+# Subtest: standard ZIP reader verifies UTF8 copy, original image bytes and safe ordered paths
+ok 1 - standard ZIP reader verifies UTF8 copy, original image bytes and safe ordered paths
+  ---
+  duration_ms: 1142.137542
+  type: 'test'
+  ...
+# Subtest: invalid type, disguised image and oversized copy fail before a package is created
+ok 2 - invalid type, disguised image and oversized copy fail before a package is created
+  ---
+  duration_ms: 1.229791
+  type: 'test'
+  ...
+# Subtest: Bili tags keep order and internal spaces, collapse duplicates without changing text
+ok 3 - Bili tags keep order and internal spaces, collapse duplicates without changing text
+  ---
+  duration_ms: 2.768083
+  type: 'test'
+  ...
+# Subtest: settings reject arbitrary paths, missing category and oversized or disguised covers
+ok 4 - settings reject arbitrary paths, missing category and oversized or disguised covers
+  ---
+  duration_ms: 0.575375
+  type: 'test'
+  ...
+# Subtest: Douyin topics deduplicate and keep order; unsafe or oversized topics are rejected
+ok 5 - Douyin topics deduplicate and keep order; unsafe or oversized topics are rejected
+  ---
+  duration_ms: 9.002834
+  type: 'test'
+  ...
+# Subtest: Douyin cover validates bytes and draft scope; caller paths have no effect
+ok 6 - Douyin cover validates bytes and draft scope; caller paths have no effect
+  ---
+  duration_ms: 0.682291
+  type: 'test'
+  ...
+# Subtest: selected platform versions are prepared serially and no publish adapter is used
+ok 7 - selected platform versions are prepared serially and no publish adapter is used
+  ---
+  duration_ms: 3.459208
+  type: 'test'
+  ...
+# Subtest: login or upload failure does not prevent remaining selected platforms
+ok 8 - login or upload failure does not prevent remaining selected platforms
+  ---
+  duration_ms: 0.85625
+  type: 'test'
+  ...
+# Subtest: same verified receipts do not reupload; another draft opens a new page retaining the previous one
+ok 9 - same verified receipts do not reupload; another draft opens a new page retaining the previous one
+  ---
+  duration_ms: 0.863083
+  type: 'test'
+  ...
+# Subtest: uncertain upload is never automatically retried, while settings retry never reuploads video
+ok 10 - uncertain upload is never automatically retried, while settings retry never reuploads video
+  ---
+  duration_ms: 0.519916
+  type: 'test'
+  ...
+# Subtest: invalid and unsupported platforms and unconfirmed agreements do not mutate any browser
+ok 11 - invalid and unsupported platforms and unconfirmed agreements do not mutate any browser
+  ---
+  duration_ms: 0.796708
+  type: 'test'
+  ...
+# Subtest: upload marker is saved first; stopping completes the in-flight platform and skips later ones
+ok 12 - upload marker is saved first; stopping completes the in-flight platform and skips later ones
+  ---
+  duration_ms: 80.824833
+  type: 'test'
+  ...
+# Subtest: XHS verified content fingerprint gives safe repeat protection without a draftId
+ok 13 - XHS verified content fingerprint gives safe repeat protection without a draftId
+  ---
+  duration_ms: 4.634291
+  type: 'test'
+  ...
+# Subtest: an unverified XHS preview is never marked complete from a matching fingerprint
+ok 14 - an unverified XHS preview is never marked complete from a matching fingerprint
+  ---
+  duration_ms: 0.810541
+  type: 'test'
+  ...
+# Subtest: a stopped record is not evidence that changed copy was prepared
+ok 15 - a stopped record is not evidence that changed copy was prepared
+  ---
+  duration_ms: 1.046875
+  type: 'test'
+  ...
+# Subtest: a transient login page resumes only the not-yet-uploaded platform within the same action
+ok 16 - a transient login page resumes only the not-yet-uploaded platform within the same action
+  ---
+  duration_ms: 25.917333
+  type: 'test'
+  ...
+# Subtest: edited copy with a verified previous receipt opens a new editor without overwriting it
+ok 17 - edited copy with a verified previous receipt opens a new editor without overwriting it
+  ---
+  duration_ms: 1.05125
+  type: 'test'
+  ...
+# Subtest: XHS fingerprint matches browser and worker, includes Unicode and ordered media
+ok 18 - XHS fingerprint matches browser and worker, includes Unicode and ordered media
+  ---
+  duration_ms: 862.944417
+  type: 'test'
+  ...
+# Subtest: image queue opens the matching Douyin editor and skips unsupported Bili images
+ok 19 - image queue opens the matching Douyin editor and skips unsupported Bili images
+  ---
+  duration_ms: 1.165875
+  type: 'test'
+  ...
+# Subtest: image readiness requires native upload verification and does not reuse video readiness
+ok 20 - image readiness requires native upload verification and does not reuse video readiness
+  ---
+  duration_ms: 0.888791
+  type: 'test'
+  ...
+# Subtest: Bili image manual handoff is explicit and invalid image assets still require adjustment
+ok 21 - Bili image manual handoff is explicit and invalid image assets still require adjustment
+  ---
+  duration_ms: 0.162458
+  type: 'test'
+  ...
+# Subtest: Bili image package joins the same queue, stays manual and reuses a matching package
+ok 22 - Bili image package joins the same queue, stays manual and reuses a matching package
+  ---
+  duration_ms: 0.170333
+  type: 'test'
+  ...
+# Subtest: a verified unchanged draft is never reuploaded after its native editor session closes
+ok 23 - a verified unchanged draft is never reuploaded after its native editor session closes
+  ---
+  duration_ms: 0.141375
+  type: 'test'
+  ...
+# Subtest: unknown providers are refused and read-only cold status starts no login process
+ok 24 - unknown providers are refused and read-only cold status starts no login process
+  ---
+  duration_ms: 2.808209
+  type: 'test'
+  ...
+# Subtest: image validation happens before browser mutation and Bili remains video only
+ok 25 - image validation happens before browser mutation and Bili remains video only
+  ---
+  duration_ms: 3.29975
+  type: 'test'
+  ...
+# Subtest: parallel status requests share one worker request; connect cannot queue behind them
+ok 26 - parallel status requests share one worker request; connect cannot queue behind them
+  ---
+  duration_ms: 1.977375
+  type: 'test'
+  ...
+# Subtest: timed-out command stays locked until its terminal worker response arrives
+ok 27 - timed-out command stays locked until its terminal worker response arrives
+  ---
+  duration_ms: 244.067875
+  type: 'test'
+  ...
+# Subtest: combined body and tags including separators stay within the preparation limit
+ok 28 - combined body and tags including separators stay within the preparation limit
+  ---
+  duration_ms: 0.6675
+  type: 'test'
+  ...
+# Subtest: unsupported images and both per-image and combined sizes are rejected
+ok 29 - unsupported images and both per-image and combined sizes are rejected
+  ---
+  duration_ms: 0.119958
+  type: 'test'
+  ...
+# Subtest: reordering preserves all asset identities and the original list
+ok 30 - reordering preserves all asset identities and the original list
+  ---
+  duration_ms: 3.167
+  type: 'test'
+  ...
+# Subtest: video preparation keeps literal text and rejects image bytes or oversized copy
+ok 31 - video preparation keeps literal text and rejects image bytes or oversized copy
+  ---
+  duration_ms: 35.51175
+  type: 'test'
+  ...
+# Subtest: accepted user content is preserved; file paths/names cannot select runtime destinations
+ok 32 - accepted user content is preserved; file paths/names cannot select runtime destinations
+  ---
+  duration_ms: 20.283292
+  type: 'test'
+  ...
+# Subtest: reject unsupported media and oversized title rather than silent truncation
+ok 33 - reject unsupported media and oversized title rather than silent truncation
+  ---
+  duration_ms: 13.567166
+  type: 'test'
+  ...
+# Subtest: preparing without a connected account is refused; no worker or browser starts
+ok 34 - preparing without a connected account is refused; no worker or browser starts
+  ---
+  duration_ms: 175.205917
+  type: 'test'
+  ...
+1..34
+# tests 34
+# suites 0
+# pass 34
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1720.349708

@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/eli-brand-intro-20261010/sources/Eli个人品牌-用户指定修订版-20261010.mp4",
+    "bytes": 13386003,
+    "sha256": "595d690d45aa67d72ba28d9103fd4da2092458483509a9e0a6884a403ff13806",
+    "metadata": [
+      "Duration: 00:00:15.07, start: 0.000000, bitrate: 7105 kb/s",
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 720x1280 [SAR 1:1 DAR 9:16], 6992 kb/s, 24.04 fps, 60 tbr, 15360 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)"
+    ]
+  },
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/first-video-life-guide-20261008/edit/redaction-v2/master-redacted.mp4",
+    "bytes": 61802739,
+    "sha256": "be57bb19582dac95fa163d494265bea01f4829dc5ea472134f4008e83b7fd17e",
+    "metadata": [
+      "Duration: 00:00:59.00, start: 0.000000, bitrate: 8380 kb/s",
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 8237 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 133 kb/s (default)"
+    ]
+  },
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/qianwen-go-case-20261013/flow/04/output/qianwen-go-full-v9.mp4",
+    "bytes": 12617771,
+    "sha256": "e0e8f2003035e3612dccf8f7a39d0657eb97707e51db37c5d6fe0f28aef698fb",
+    "metadata": [
+      "Duration: 00:01:42.03, start: 0.000000, bitrate: 989 kb/s",
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1080x1920, 814 kb/s, 60 fps, 60 tbr, 90k tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 161 kb/s (default)"
+    ]
+  }
+]

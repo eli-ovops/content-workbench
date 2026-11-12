@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-14T13:20:33.609999+08:00",
+  "tokenpay": {
+    "keyCreationAllowed": false,
+    "modelCallsAllowed": false,
+    "connected": true,
+    "appUrl": "app://eli-social-publisher",
+    "model": null,
+    "maxCalls": 0,
+    "callsAttempted": 0,
+    "lastOutcome": "not_started",
+    "authorizationPhase": "not_started",
+    "authorizationExpiresAt": null
+  },
+  "bilibili": {
+    "pageOpen": true,
+    "pageCount": 4,
+    "retainedPreparedPages": [
+      {
+        "pageOpen": false,
+        "titleUnchanged": false,
+        "bodyUnchanged": false
+      },
+      {
+        "pageOpen": true,
+        "titleUnchanged": true,
+        "bodyUnchanged": true
+      },
+      {
+        "pageOpen": true,
+        "titleUnchanged": true,
+        "bodyUnchanged": true
+      }
+    ]
+  },
+  "serverReloaded": false
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "scenario": "S03",
+    "name": "nine-platforms-public-filter",
+    "status": "PASS",
+    "details": {
+      "configured": 9,
+      "simplified": 5,
+      "traditional": 4,
+      "privateFieldExcluded": true
+    },
+    "deviations": []
+  },
+  {
+    "scenario": "S03",
+    "name": "mid-export-post-completion-revoke",
+    "status": "PASS",
+    "details": {
+      "lockedPublicStatus": "REVOKED",
+      "completedDownloadDenied": true,
+      "internalPreserved": true
+    },
+    "deviations": []
+  },
+  {
+    "scenario": "S03",
+    "name": "permission-expiry",
+    "status": "PASS",
+    "details": {
+      "injectedClock": true,
+      "expiredPublicDownloadDenied": true,
+      "malformedDateRejected": true
+    },
+    "deviations": []
+  }
+]

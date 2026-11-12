@@ -1,0 +1,31 @@
+E
+======================================================================
+ERROR: test_screenshot_timeout_does_not_discard_verified_native_fields (test_bilibili_settings.BiliSettingsRegression.test_screenshot_timeout_does_not_discard_verified_native_fields)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/USER/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/unittest/async_case.py", line 90, in _callTestMethod
+    if self._callMaybeAsync(method) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/USER/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/unittest/async_case.py", line 112, in _callMaybeAsync
+    return self._asyncioRunner.run(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/USER/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/USER/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Volumes/EXTERNAL/黑客松/app/test_bilibili_settings.py", line 58, in test_screenshot_timeout_does_not_discard_verified_native_fields
+    result=await apply_settings(self.page,self.job,AsyncMock())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/EXTERNAL/黑客松/app/bilibili_settings.py", line 194, in apply_settings
+    await page.screenshot(path=job['receipt_path'],full_page=True,timeout=10000,animations='disabled')
+  File "/Users/USER/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/unittest/mock.py", line 2240, in _execute_mock_call
+    raise effect
+TimeoutError: offline screenshot timeout
+
+----------------------------------------------------------------------
+Ran 1 test in 3.421s
+
+FAILED (errors=1)
+QA-only settings paths: /var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/tmpd_z797sn

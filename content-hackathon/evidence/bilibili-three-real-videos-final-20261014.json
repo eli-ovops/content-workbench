@@ -1,0 +1,228 @@
+{
+  "checkedAt": "2026-10-14T11:38:26.117193+08:00",
+  "status": {
+    "phase": "prepared",
+    "message": "B站视频、文案、封面、分区和标签已核对；创作声明请本人核对，尚未投稿。",
+    "preparationVerified": true,
+    "titleVerified": true,
+    "bodyVerified": true,
+    "videoUploadVerified": true,
+    "receiptCaptured": true,
+    "draftId": "d7e9e9f6-8842-4c97-bcb5-2f4fc1531b20",
+    "kind": "video",
+    "optionsVerified": true,
+    "coverVerified": true,
+    "categoryVerified": true,
+    "tagsVerified": true,
+    "titleBodyUnchanged": true,
+    "appliedCategory": [
+      "vlog"
+    ],
+    "appliedTags": [
+      "个人介绍",
+      "Eli"
+    ],
+    "coverMode": "frame",
+    "currentReadback": true,
+    "newEditorSupported": true
+  },
+  "sources": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/eli-brand-intro-20261010/sources/Eli个人品牌-用户指定修订版-20261010.mp4",
+      "bytes": 13386003,
+      "sha256": "595d690d45aa67d72ba28d9103fd4da2092458483509a9e0a6884a403ff13806",
+      "metadata": [
+        "Duration: 00:00:15.07, start: 0.000000, bitrate: 7105 kb/s",
+        "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 720x1280 [SAR 1:1 DAR 9:16], 6992 kb/s, 24.04 fps, 60 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)"
+      ]
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/first-video-life-guide-20261008/edit/redaction-v2/master-redacted.mp4",
+      "bytes": 61802739,
+      "sha256": "be57bb19582dac95fa163d494265bea01f4829dc5ea472134f4008e83b7fd17e",
+      "metadata": [
+        "Duration: 00:00:59.00, start: 0.000000, bitrate: 8380 kb/s",
+        "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 8237 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 133 kb/s (default)"
+      ]
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/qianwen-go-case-20261013/flow/04/output/qianwen-go-full-v9.mp4",
+      "bytes": 12617771,
+      "sha256": "e0e8f2003035e3612dccf8f7a39d0657eb97707e51db37c5d6fe0f28aef698fb",
+      "metadata": [
+        "Duration: 00:01:42.03, start: 0.000000, bitrate: 989 kb/s",
+        "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1080x1920, 814 kb/s, 60 fps, 60 tbr, 90k tbn (default)",
+        "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 161 kb/s (default)"
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "jobId": "409e6ff3-135a-491b-93ac-c8c348984de2",
+      "draftId": "c42f784e-89a2-4b28-b4a1-cf643d8779cc",
+      "title": "验证：千问Go完整候选片",
+      "videoBytes": 12617771,
+      "videoSha256": "e0e8f2003035e3612dccf8f7a39d0657eb97707e51db37c5d6fe0f28aef698fb",
+      "categoryPath": null,
+      "tags": "",
+      "coverMode": null,
+      "stage": {
+        "stage": "prepared"
+      },
+      "receiptExists": true
+    },
+    {
+      "jobId": "73dd0603-7537-4ba4-91c0-acfb6bc7a144",
+      "draftId": "1bf65ec9-a8d4-4583-a78d-0adf465d7bdd",
+      "title": "验证：人生指南脱敏母版",
+      "videoBytes": 61802739,
+      "videoSha256": "be57bb19582dac95fa163d494265bea01f4829dc5ea472134f4008e83b7fd17e",
+      "categoryPath": null,
+      "tags": "",
+      "coverMode": null,
+      "stage": {
+        "stage": "prepared"
+      },
+      "receiptExists": true
+    },
+    {
+      "jobId": "c0259663-a98c-421f-a491-b43bdccf7eab",
+      "draftId": "c42f784e-89a2-4b28-b4a1-cf643d8779cc",
+      "title": null,
+      "videoBytes": null,
+      "videoSha256": null,
+      "categoryPath": [
+        "人工智能"
+      ],
+      "tags": [
+        "千问Go",
+        "AI工具"
+      ],
+      "coverMode": "frame",
+      "stage": {
+        "stage": "settings_verified"
+      },
+      "receiptExists": true
+    },
+    {
+      "jobId": "5fd7daa2-eafe-4f74-85ad-703118344e5e",
+      "draftId": "d7e9e9f6-8842-4c97-bcb5-2f4fc1531b20",
+      "title": "验证：Eli个人介绍",
+      "videoBytes": 13386003,
+      "videoSha256": "595d690d45aa67d72ba28d9103fd4da2092458483509a9e0a6884a403ff13806",
+      "categoryPath": null,
+      "tags": "",
+      "coverMode": null,
+      "stage": {
+        "stage": "prepared"
+      },
+      "receiptExists": true
+    },
+    {
+      "jobId": "6193f438-9363-4c3e-ab50-d4aea1d84e2a",
+      "draftId": "1bf65ec9-a8d4-4583-a78d-0adf465d7bdd",
+      "title": null,
+      "videoBytes": null,
+      "videoSha256": null,
+      "categoryPath": [
+        "生活经验"
+      ],
+      "tags": [
+        "人生指南",
+        "生活经验"
+      ],
+      "coverMode": "frame",
+      "stage": {
+        "stage": "settings_verified"
+      },
+      "receiptExists": true
+    },
+    {
+      "jobId": "e57528a9-cba7-406b-adf1-28dc7f2cd330",
+      "draftId": "d7e9e9f6-8842-4c97-bcb5-2f4fc1531b20",
+      "title": null,
+      "videoBytes": null,
+      "videoSha256": null,
+      "categoryPath": [
+        "vlog"
+      ],
+      "tags": [
+        "个人介绍",
+        "Eli"
+      ],
+      "coverMode": "frame",
+      "stage": {
+        "stage": "settings_verified"
+      },
+      "receiptExists": true
+    },
+    {
+      "jobId": "2e904df7-12aa-4008-b269-1daaac5181f9",
+      "draftId": "d7e9e9f6-8842-4c97-bcb5-2f4fc1531b20",
+      "title": null,
+      "videoBytes": null,
+      "videoSha256": null,
+      "categoryPath": [
+        "vlog"
+      ],
+      "tags": [
+        "个人介绍",
+        "Eli"
+      ],
+      "coverMode": "frame",
+      "stage": {
+        "stage": "settings_verified"
+      },
+      "receiptExists": true
+    },
+    {
+      "jobId": "f0fa9e29-0dce-416f-b27d-05967052ba2b",
+      "draftId": "d7e9e9f6-8842-4c97-bcb5-2f4fc1531b20",
+      "title": "验证：Eli个人介绍",
+      "videoBytes": 13386003,
+      "videoSha256": "595d690d45aa67d72ba28d9103fd4da2092458483509a9e0a6884a403ff13806",
+      "categoryPath": null,
+      "tags": "",
+      "coverMode": null,
+      "stage": {
+        "stage": "prepared"
+      },
+      "receiptExists": true
+    }
+  ],
+  "pageState": {
+    "pageOpen": true,
+    "pageCount": 4,
+    "retainedPreparedPages": [
+      {
+        "pageOpen": false,
+        "titleUnchanged": false,
+        "bodyUnchanged": false
+      },
+      {
+        "pageOpen": true,
+        "titleUnchanged": true,
+        "bodyUnchanged": true
+      },
+      {
+        "pageOpen": true,
+        "titleUnchanged": true,
+        "bodyUnchanged": true
+      }
+    ]
+  },
+  "tokenpay": {
+    "keyCreationAllowed": false,
+    "modelCallsAllowed": false,
+    "connected": true,
+    "appUrl": "app://eli-social-publisher",
+    "model": null,
+    "maxCalls": 0,
+    "callsAttempted": 0,
+    "lastOutcome": "not_started",
+    "authorizationPhase": "not_started",
+    "authorizationExpiresAt": null
+  }
+}

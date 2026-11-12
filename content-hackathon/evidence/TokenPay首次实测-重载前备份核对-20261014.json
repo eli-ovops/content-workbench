@@ -1,0 +1,86 @@
+{
+  "checkedAt": "2026-10-14T13:26:58.629014+08:00",
+  "backupPath": "/Users/USER/Downloads/Eli-完整草稿备份-2026-10-14 (1).json",
+  "bytes": 131077202,
+  "backupSha256": "6d6d067381520e4e73679989e6328fc0359068206080ae7142413868085cccbb",
+  "draftCount": 11,
+  "assetCount": 14,
+  "allAssetHashesMatched": true,
+  "targets": [
+    {
+      "id": "1bf65ec9-a8d4-4583-a78d-0adf465d7bdd",
+      "title": "验证：人生指南脱敏母版",
+      "body": "人生指南已脱敏剪辑母版。仅用于真实素材准备验证，尚不是最终发布成片；保留在编辑页，暂不发布。",
+      "tags": "",
+      "biliOptions": {
+        "coverMode": "frame",
+        "frameIndex": 0,
+        "categoryPath": [
+          "生活经验"
+        ],
+        "tags": [
+          "人生指南",
+          "生活经验"
+        ]
+      },
+      "assets": [
+        {
+          "id": "e26c3a9f-a877-4b0b-b7a6-d89e94d7bcf9",
+          "name": "master-redacted.mp4",
+          "type": "video/mp4",
+          "size": 61802739
+        }
+      ]
+    },
+    {
+      "id": "c42f784e-89a2-4b28-b4a1-cf643d8779cc",
+      "title": "验证：千问Go完整候选片",
+      "body": "千问Go完整v9候选片，102秒。仅用于工作台真实视频与文案准备验证，尚未通过最终成片验收；保留在编辑页，暂不发布。",
+      "tags": "",
+      "biliOptions": {
+        "coverMode": "frame",
+        "frameIndex": 0,
+        "categoryPath": [
+          "人工智能"
+        ],
+        "tags": [
+          "千问Go",
+          "AI工具"
+        ]
+      },
+      "assets": [
+        {
+          "id": "e1a23a24-91c6-4671-a08d-60dcff5112b3",
+          "name": "qianwen-go-full-v9.mp4",
+          "type": "video/mp4",
+          "size": 12617771
+        }
+      ]
+    },
+    {
+      "id": "d7e9e9f6-8842-4c97-bcb5-2f4fc1531b20",
+      "title": "验证：Eli个人介绍",
+      "body": "Eli个人介绍短片。仅用于工作台真实视频上传与文案回读验证，保留在编辑页，暂不发布。",
+      "tags": "",
+      "biliOptions": {
+        "coverMode": "frame",
+        "frameIndex": 0,
+        "categoryPath": [
+          "vlog"
+        ],
+        "tags": [
+          "个人介绍",
+          "Eli"
+        ]
+      },
+      "assets": [
+        {
+          "id": "b9795fb1-7bcc-4ed9-81f0-08004e1905d9",
+          "name": "Eli个人品牌-用户指定修订版-20261010.mp4",
+          "type": "video/mp4",
+          "size": 13386003
+        }
+      ]
+    }
+  ]
+}

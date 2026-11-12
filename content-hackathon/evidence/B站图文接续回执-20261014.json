@@ -1,0 +1,41 @@
+{
+  "downloaded": true,
+  "zipCRCVerified": true,
+  "titleBodyTagsExact": true,
+  "imagesOriginalBytesExact": true,
+  "imageOrder": [
+    "图片/01-eli-social-publisher-icon-v5.png",
+    "图片/02-eli-social-publisher-icon-v4.png"
+  ],
+  "appDraftPrepared": false,
+  "published": false,
+  "sha256": "159ef005b698b32124ddee1409e145dbbcda7a98781feece2bd37cb5ca2b99f1",
+  "bytes": 2798551,
+  "jobsBefore": {
+    "xhs": 19,
+    "douyin": 16,
+    "bilibili": 13
+  },
+  "jobsAfter": {
+    "xhs": 19,
+    "douyin": 16,
+    "bilibili": 13
+  },
+  "checkedAt": "2026-10-14T02:00:49.513751+00:00",
+  "sourceSHA256": {
+    "app/app.js": "ebcfe9fe640cda3752bb95433c7a42c0e8b9750e0d34416eb1f38198784896ca",
+    "app/index.html": "7353e4d929e6eae00f7ec72491a1eea42ed934d3519a79eb73312761a17142d5",
+    "app/bilibili-policy.mjs": "c71367b0cc41797d7a7f34923ecf92081777f39fe50322d4ca3198620b50d76f",
+    "app/bilibili_settings.py": "9a49144d2bc8265f2e5a06dae300dbb682bd50d9a2f059b8f91718e151904e86"
+  },
+  "tests": {
+    "nodePassed": 34,
+    "biliVideoPassed": 5
+  },
+  "draftCount": 8,
+  "nativeEditorStates": {
+    "xhs": "not_connected",
+    "douyin": "not_connected"
+  },
+  "handoffChoice": "article via App manual handoff"
+}

@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-13",
+  "owner": "01a12ed9-113b-7fd1-8d30-fdc616bbf2bb",
+  "scope": "User requested white theme replacing black/violet; preserve Eli identity, layout and behavior",
+  "status": "VERIFIED_LOCAL",
+  "sourceFingerprint": {
+    "hash": "c825ea399104bf1671da3f2608f19921ba2ce97ead7499179424c28fceb521ed",
+    "files": [
+      {
+        "relativePath": "package.json",
+        "sha256": "6c399757c8cefecb94d3d371e83c80d9c42aa7ab51e1e858e4f5440d1f2a9023",
+        "bytes": 237
+      },
+      {
+        "relativePath": "public/app.js",
+        "sha256": "9a664062238f043f8cca78c836fd67736aaa9e783caf19bb8cd3610b4acfe191",
+        "bytes": 24295
+      },
+      {
+        "relativePath": "public/index.html",
+        "sha256": "c46fe63c743de7f352cd9da298cb91f6508ada8e534fd90b693c19e2879b8915",
+        "bytes": 10441
+      },
+      {
+        "relativePath": "public/preview-data.js",
+        "sha256": "4622f554ecf2c41d7f4db37a14cc32294a15c90b367f9a4569f156f79011d7ca",
+        "bytes": 3202
+      },
+      {
+        "relativePath": "public/style.css",
+        "sha256": "bda2012d10b273cdf707568d7e9ededcc1bae36ae414a01d03528cfba890d3a5",
+        "bytes": 23146
+      },
+      {
+        "relativePath": "src/authority.mjs",
+        "sha256": "6d2429b2efc21b03514a755f7aba60429f8c11e24c30f236738fb16708a779e5",
+        "bytes": 1160
+      },
+      {
+        "relativePath": "src/config.mjs",
+        "sha256": "31f45c8c4aba9724d49fa92a11792bb44f100fab6402ea19901b417afbd009c2",
+        "bytes": 1093
+      },
+      {
+        "relativePath": "src/copy-workspaces.mjs",
+        "sha256": "1dc5f07d6f22badebbc2412bf5fd1fac849f0c8c24c13fd27303e6c41432b291",
+        "bytes": 2650
+      },
+      {
+        "relativePath": "src/default-workspace.mjs",
+        "sha256": "d75ba827e92e678ce182c309f24d9dbce1478c6554e51110c3be800bc112e58c",
+        "bytes": 572
+      },
+      {
+        "relativePath": "src/fixture.mjs",
+        "sha256": "fdde3c98597de92d372d3adf4c58d25dc37f0286795eab5f08857e81ada7d909",
+        "bytes": 1196
+      },
+      {
+        "relativePath": "src/init.mjs",
+        "sha256": "03b82ee3d9252ef6aad981fd110aaf4d49bee623d887b9ebb1c3381faa82e9ac",
+        "bytes": 434
+      },
+      {
+        "relativePath": "src/launch.mjs",
+        "sha256": "0ca2e4b009cb24b2f26758836bbea96466b9a9a875ac523afc491db453b7d690",
+        "bytes": 3263
+      },
+      {
+        "relativePath": "src/model.mjs",
+        "sha256": "d88ad4d623f9d9e463deb833edce72b84a033feca0dd3e4bfa6d725236e1f5e9",
+        "bytes": 5683
+      },
+      {
+        "relativePath": "src/pairing.mjs",
+        "sha256": "a10502aa705bd41dbfe7fc0f715ca7f25abf21a4880e8976fbb518942ccd725a",
+        "bytes": 4054
+      },
+      {
+        "relativePath": "src/prepare-sample.mjs",
+        "sha256": "36f0868b316112583600afc36ab81b509d4ec3dfb709b14b6dbb29592dcc9e91",
+        "bytes": 2795
+      },
+      {
+        "relativePath": "src/recover.mjs",
+        "sha256": "8f4da3b2cafae15c8a35c582f1d6dad3a21ab4d660adff9932b680671dfb4ee4",
+        "bytes": 2417
+      },
+      {
+        "relativePath": "src/server.mjs",
+        "sha256": "a1adcbf549efde66486798e6c6e84ed5675f00dff21bfda4cda6812bad30d9e0",
+        "bytes": 9516
+      },
+      {
+        "relativePath": "src/stop.mjs",
+        "sha256": "187706ceb3992962aadf010e7a6a0391f8f95d4b181e3540557ae3a38bc750c6",
+        "bytes": 727
+      },
+      {
+        "relativePath": "src/store.mjs",
+        "sha256": "d14c18ab2de5cc8ac44e011763dd9927c902e66e0d8273075d52d48bbdeec0fe",
+        "bytes": 16934
+      },
+      {
+        "relativePath": "workspace.json",
+        "sha256": "ac7ff0c7c833176bb7a4c08aa169f170d9302c3d687263a91fefd7aba6ec3d82",
+        "bytes": 234
+      },
+      {
+        "relativePath": "停止内容工作台.command",
+        "sha256": "6d6d4d7d52ad451047486ee73b233afa9c0df874919909fab6dc871b9115863c",
+        "bytes": 177
+      },
+      {
+        "relativePath": "停止已验收工作台.command",
+        "sha256": "f7826430d44d200b134cc31f261379222c7dc6c0c27cb4260d0a82a3e7280402",
+        "bytes": 112
+      },
+      {
+        "relativePath": "启动内容工作台.command",
+        "sha256": "59caa74b2f2d912b0d807887492b7dfb66bfbd148d9ca826ddb543d4e7322320",
+        "bytes": 179
+      },
+      {
+        "relativePath": "启动已验收工作台.command",
+        "sha256": "a73eeabb33539be6fad8c281ae7345b75c51061fc0f961d621ee70bedaeffa29",
+        "bytes": 112
+      },
+      {
+        "relativePath": "恢复上一副本.command",
+        "sha256": "b0a45fc15e471a6e66ad73195fd67bd71efaacba0bcdfff0ba45fc523abadeea",
+        "bytes": 189
+      }
+    ],
+    "nodeVersion": "v24.19.0"
+  },
+  "tests": 22,
+  "corePath": "evidence/core-1791857522528/summary.json",
+  "dataByteUnchanged": true,
+  "dataSha256": "446ddb135cba0a78901c5873d971bc59f3740cd6ea8778ab9e1ec0908ae7aa7a",
+  "contrastRatios": {
+    "writing": 16.29325535858735,
+    "muted": 5.501080475292871,
+    "placeholder": 4.952143998137194,
+    "primary": 15.328417894601541
+  },
+  "browserChecks": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "button": "rgb(37, 37, 37)",
+      "draft": "虚构样例｜把三段周报汇成表",
+      "ink": "rgb(32, 32, 32)",
+      "paper": "rgb(255, 255, 255)",
+      "saveEnabled": true,
+      "scrollWidth": 1332,
+      "step": "desktop-writing",
+      "width": 1332
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "saveEnabled": true,
+      "scrollWidth": 375,
+      "step": "narrow-writing",
+      "width": 390
+    },
+    {
+      "inputBackground": "rgb(255, 255, 255)",
+      "previewBackground": "rgb(255, 255, 255)",
+      "scrollWidth": 1317,
+      "step": "desktop-platform",
+      "width": 1332
+    },
+    {
+      "panelBackground": "rgb(255, 255, 255)",
+      "scrollWidth": 1332,
+      "step": "desktop-versions",
+      "textColor": "rgb(68, 68, 68)",
+      "width": 1332
+    }
+  ],
+  "visualPasses": 1,
+  "sourceWebsiteChanged": false,
+  "dependenciesAdded": false,
+  "browserSaveMutation": false,
+  "verificationBoundary": "Existing saved drafts and versions read in live browser; synthetic save/restart/versions regression passed; no new edits made to original drafts",
+  "model": "UNKNOWN",
+  "effort": "UNKNOWN",
+  "speed": "UNKNOWN",
+  "cleanup": "NONE"
+}

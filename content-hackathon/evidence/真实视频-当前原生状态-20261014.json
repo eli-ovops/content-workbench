@@ -1,0 +1,40 @@
+{
+  "time": "2026-10-14T11:24:58.508856+08:00",
+  "xhs": {
+    "phase": "preparing",
+    "message": "正在操作专用浏览器，请勿重复提交"
+  },
+  "douyin": {
+    "phase": "login_observed",
+    "message": "已识别抖音视频投稿控件，准备待验收",
+    "preparationVerified": false,
+    "loginDiagnostics": {
+      "phase": "login_observed",
+      "signals": [],
+      "qrVisible": false,
+      "loginUiVisible": false,
+      "uploadInputPresent": true,
+      "controls": []
+    },
+    "agreementRequired": false,
+    "newEditorSupported": true,
+    "kind": "video"
+  },
+  "bilibili": {
+    "phase": "login_observed",
+    "message": "已识别投稿控件，视频上传与文案准备待验收",
+    "preparationVerified": false
+  },
+  "tokenpay": {
+    "keyCreationAllowed": false,
+    "modelCallsAllowed": false,
+    "connected": true,
+    "appUrl": "app://eli-social-publisher",
+    "model": null,
+    "maxCalls": 0,
+    "callsAttempted": 0,
+    "lastOutcome": "not_started",
+    "authorizationPhase": "not_started",
+    "authorizationExpiresAt": null
+  }
+}

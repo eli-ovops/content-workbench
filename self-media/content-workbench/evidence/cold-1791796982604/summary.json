@@ -1,0 +1,51 @@
+{
+  "runId": "cold-1791796982604",
+  "status": "PASS",
+  "records": [
+    {
+      "scenario": "S01",
+      "name": "tested-one-entry-cold-start-stop",
+      "status": "PASS",
+      "details": {
+        "entry": "/Volumes/EXTERNAL/自媒体/content-workbench/启动内容工作台.command",
+        "root": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/cold-1791796982604/data/main",
+        "bodyMatches": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S01",
+      "name": "same-entry-restart",
+      "status": "PASS",
+      "details": {
+        "sameBody": true,
+        "noBuildRequired": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S05",
+      "name": "generated-restored-copy-launcher",
+      "status": "PASS",
+      "details": {
+        "launcher": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/cold-1791796982604/data/restored/copy/启动隔离副本.command",
+        "namespace": "f2cb5221-6489-4124-b644-28608ba4362d",
+        "root": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/cold-1791796982604/data/restored/copy"
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S05",
+      "name": "damaged-current-previous-backup-new-root",
+      "status": "PASS",
+      "details": {
+        "originalDamagedFilePreserved": true,
+        "backupRoot": "/Volumes/EXTERNAL/自媒体/content-workbench/data/restored/a4808a05-8093-4e1b-b6a2-cec65d8e695f",
+        "bodyMatches": true
+      },
+      "deviations": []
+    }
+  ],
+  "deviations": [],
+  "finishedAt": "2026-10-12T09:23:04.940Z"
+}

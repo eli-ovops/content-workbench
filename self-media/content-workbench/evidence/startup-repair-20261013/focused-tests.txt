@@ -1,0 +1,12 @@
+✔ owner startup ticket establishes an HttpOnly session once, with origin/root/expiry checks (138.888292ms)
+✔ restart rejects old sessions and old launch tickets; fresh automatic launch retains saved drafts and versions (154.762541ms)
+✔ concurrent double-click starts one service and abrupt exit recovers preserved stale locks on the same port (543.821709ms)
+✔ startup tickets are bounded and stale launch lock with unknown ownership is not removed (57.598167ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 977.526708

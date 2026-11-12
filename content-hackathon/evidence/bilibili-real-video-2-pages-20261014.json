@@ -1,0 +1,188 @@
+{
+  "pageOpen": true,
+  "pageCount": 2,
+  "retainedPreparedPages": [
+    {
+      "pageOpen": false,
+      "titleUnchanged": false,
+      "bodyUnchanged": false
+    }
+  ],
+  "frames": [
+    {
+      "host": "member.bilibili.com",
+      "path": "/platform/upload/video/frame",
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "file",
+          "placeholder": null,
+          "accept": ".mp4,.flv,.avi,.wmv,.mov,.webm,.mpeg4,.ts,.mpg,.rm,.rmvb,.mkv,.m4v,.vob,.swf,.3gp,.mts,.m2v,.m2ts,.f4v,.m2t,.3g2,.asf",
+          "className": "",
+          "visible": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "请输入稿件标题",
+          "accept": null,
+          "className": "input-val",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "请选择符合您视频内容的创作声明",
+          "accept": null,
+          "className": "bcc-select-input-inner",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "按回车键Enter创建标签",
+          "accept": null,
+          "className": "input-val",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": null,
+          "accept": null,
+          "className": "mention-hidden-input",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "placeholder": null,
+          "accept": null,
+          "className": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "placeholder": null,
+          "accept": null,
+          "className": "",
+          "visible": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "placeholder": null,
+          "accept": null,
+          "className": "",
+          "visible": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "placeholder": null,
+          "accept": null,
+          "className": "",
+          "visible": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "placeholder": null,
+          "accept": null,
+          "className": "",
+          "visible": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "placeholder": null,
+          "accept": null,
+          "className": "",
+          "visible": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "placeholder": null,
+          "accept": null,
+          "className": "",
+          "visible": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": null,
+          "accept": null,
+          "className": "mention-hidden-input",
+          "visible": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "placeholder": "按回车键Enter创建标签",
+          "accept": null,
+          "className": "input-val",
+          "visible": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "file",
+          "placeholder": null,
+          "accept": ".mp4,.flv,.avi,.wmv,.mov,.webm,.mpeg4,.ts,.mpg,.rm,.rmvb,.mkv,.m4v,.vob,.swf,.3gp,.mts,.m2v,.m2ts,.f4v,.m2t,.3g2,.asf",
+          "className": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "file",
+          "placeholder": null,
+          "accept": ".txt",
+          "className": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "file",
+          "placeholder": null,
+          "accept": ".zip",
+          "className": "",
+          "visible": true
+        }
+      ],
+      "editors": [
+        {
+          "tag": "DIV",
+          "role": null,
+          "className": "ql-editor",
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "className": "ql-clipboard",
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "className": "ql-editor ql-blank",
+          "visible": false
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "className": "ql-clipboard",
+          "visible": false
+        }
+      ],
+      "buttons": [
+        "批量操作",
+        "添加分P"
+      ]
+    }
+  ],
+  "loginSignals": [],
+  "agreements": [],
+  "imageControls": []
+}

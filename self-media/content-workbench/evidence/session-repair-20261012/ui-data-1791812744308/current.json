@@ -1,0 +1,665 @@
+{
+  "rootId": "dadc09d0-b6ca-4247-b483-2dcc05b0c99b",
+  "schemaName": "content-workbench.workspace",
+  "schemaVersion": 1,
+  "revision": 70,
+  "workspaces": [
+    {
+      "id": "4d4ca24c-f4e2-4c1e-9594-dfebf56db4ad",
+      "revision": 12,
+      "title": "验收测试稿｜写稿与保存",
+      "topic": "",
+      "body": "问题：三段周报分散，整理时容易漏项。\n\n材料：本人编写的虚构周报。\n\n操作：按事项、负责人、下一步三列整理；没写的信息标记待确认。\n\n检查：逐条对照原文，不把计划写成完成。\n\n补充：把待确认的信息单独列出，方便后续核对。",
+      "common": {
+        "title": "",
+        "body": "问题：三段周报分散，整理时容易漏项。\n\n材料：本人编写的虚构周报。\n\n操作：按事项、负责人、下一步三列整理；没写的信息标记待确认。\n\n检查：逐条对照原文，不把计划写成完成。\n\n补充：把待确认的信息单独列出，方便后续核对。",
+        "hashtags": "",
+        "backendTags": ""
+      },
+      "sources": [],
+      "facts": [],
+      "notes": [
+        {
+          "id": "ebda1740-cd50-42a3-9b75-2e9031f25db8",
+          "text": "[段落1] v1备注：录屏展示三列字段。",
+          "sourceIds": [],
+          "scriptVersion": "41c3bcc6-9115-4eb3-8f5b-3d9f9dacdea7",
+          "paragraphId": "cb791774-45a0-4c1b-aa06-67167cc4f766"
+        }
+      ],
+      "checks": [],
+      "versions": [
+        {
+          "id": "41c3bcc6-9115-4eb3-8f5b-3d9f9dacdea7",
+          "label": "v1",
+          "body": "问题：三段周报分散，整理时容易漏项。\n\n材料：本人编写的虚构周报。\n\n操作：按事项、负责人、下一步三列整理；没写的信息标记待确认。\n\n检查：逐条对照原文，不把计划写成完成。",
+          "hash": "548862fc0a4c5011bfba56f4b4f1d563d06698a3318f4b6fdb86e6aef860cbac",
+          "paragraphs": [
+            {
+              "id": "cb791774-45a0-4c1b-aa06-67167cc4f766",
+              "text": "问题：三段周报分散，整理时容易漏项。"
+            },
+            {
+              "id": "5e291517-80bf-44b5-b973-6e0f1ed5b741",
+              "text": ""
+            },
+            {
+              "id": "176e1117-6790-4bee-9f3c-6173a6843913",
+              "text": "材料：本人编写的虚构周报。"
+            },
+            {
+              "id": "66488a51-6106-4d0a-9168-02cdfb9a387f",
+              "text": ""
+            },
+            {
+              "id": "ce61944b-36ed-498c-95a9-2f1fb8bca3c4",
+              "text": "操作：按事项、负责人、下一步三列整理；没写的信息标记待确认。"
+            },
+            {
+              "id": "25d31ec6-e765-44d9-b95e-f3c17d80d154",
+              "text": ""
+            },
+            {
+              "id": "7364e093-7378-4fd8-bb62-62c45abb2407",
+              "text": "检查：逐条对照原文，不把计划写成完成。"
+            }
+          ],
+          "createdAt": "2026-10-12T13:47:13.687Z"
+        },
+        {
+          "id": "000517dd-587d-4881-b231-7e24ec19317d",
+          "label": "v2",
+          "body": "问题：三段周报分散，整理时容易漏项。\n\n材料：本人编写的虚构周报。\n\n操作：按事项、负责人、下一步三列整理；没写的信息标记待确认。\n\n检查：逐条对照原文，不把计划写成完成。\n\n补充：把待确认的信息单独列出，方便后续核对。",
+          "hash": "9f01c33b3de88a89992b4d9eeda6adead42aa8f3a6bf07b17456b116343c9d8f",
+          "paragraphs": [
+            {
+              "id": "cb791774-45a0-4c1b-aa06-67167cc4f766",
+              "text": "问题：三段周报分散，整理时容易漏项。"
+            },
+            {
+              "id": "5e291517-80bf-44b5-b973-6e0f1ed5b741",
+              "text": ""
+            },
+            {
+              "id": "176e1117-6790-4bee-9f3c-6173a6843913",
+              "text": "材料：本人编写的虚构周报。"
+            },
+            {
+              "id": "66488a51-6106-4d0a-9168-02cdfb9a387f",
+              "text": ""
+            },
+            {
+              "id": "ce61944b-36ed-498c-95a9-2f1fb8bca3c4",
+              "text": "操作：按事项、负责人、下一步三列整理；没写的信息标记待确认。"
+            },
+            {
+              "id": "25d31ec6-e765-44d9-b95e-f3c17d80d154",
+              "text": ""
+            },
+            {
+              "id": "7364e093-7378-4fd8-bb62-62c45abb2407",
+              "text": "检查：逐条对照原文，不把计划写成完成。"
+            },
+            {
+              "id": "b3330661-b17d-49a2-9dd8-45ca1faa5f0f",
+              "text": ""
+            },
+            {
+              "id": "8c8836a2-2521-4250-bfef-a8436d5f550e",
+              "text": "补充：把待确认的信息单独列出，方便后续核对。"
+            }
+          ],
+          "createdAt": "2026-10-12T13:49:03.726Z"
+        }
+      ],
+      "selectedVersion": "000517dd-587d-4881-b231-7e24ec19317d",
+      "overrides": {
+        "xiaohongshu": {
+          "publicBasis": "UNKNOWN",
+          "sourceIds": [],
+          "languageConfirmed": false,
+          "scriptVersion": "41c3bcc6-9115-4eb3-8f5b-3d9f9dacdea7"
+        }
+      },
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-12T13:46:34.658Z",
+      "updatedAt": "2026-10-12T13:49:03.184Z",
+      "trashedAt": "2026-10-13T06:24:55.324Z"
+    },
+    {
+      "id": "c84515aa-db6e-4ab2-aa20-21f6970e9105",
+      "revision": 2,
+      "title": "虚构样例｜把三段周报汇成表",
+      "topic": "虚构选题卡：普通人如何把三段示例周报汇总成表；没有真实工具效果或客户数据。",
+      "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+      "common": {
+        "title": "用一张表整理三段示例周报",
+        "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+        "hashtags": "#AI工具 #工作方法",
+        "backendTags": "AI, 工作方法"
+      },
+      "sources": [
+        {
+          "id": "56c8bf51-28bd-42af-9303-3840fd5d26fd",
+          "title": "本人撰写的虚构样例",
+          "reference": "synthetic://weekly-example",
+          "date": "2026-10-12",
+          "scope": "全文",
+          "privacy": "PUBLIC",
+          "permission": "ALLOWED",
+          "version": 1,
+          "expiresAt": "",
+          "text": "公开合成示例，无真实客户或媒体"
+        }
+      ],
+      "facts": [
+        {
+          "id": "8962b7f4-ac83-42b9-870b-938f0e53c113",
+          "text": "工具效果尚未实测",
+          "status": "UNVERIFIED",
+          "sourceIds": [
+            "56c8bf51-28bd-42af-9303-3840fd5d26fd"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "b9f8a098-0bc8-4dc9-a8b0-053b0d4b3500",
+          "text": "录屏备注：显示三列汇总表；检查文字可读。只是计划，不是已录素材。",
+          "sourceIds": [
+            "56c8bf51-28bd-42af-9303-3840fd5d26fd"
+          ],
+          "scriptVersion": null,
+          "mediaPath": ""
+        }
+      ],
+      "checks": [],
+      "versions": [],
+      "selectedVersion": null,
+      "overrides": {},
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-12T08:59:47.845Z",
+      "trashedAt": "2026-10-13T06:24:56.655Z"
+    },
+    {
+      "id": "a7db5e94-94b5-49a6-b92d-75ad810efe44",
+      "revision": 5,
+      "title": "虚构样例｜已冻版双平台准备包",
+      "topic": "虚构选题卡：普通人如何把三段示例周报汇总成表；没有真实工具效果或客户数据。",
+      "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+      "common": {
+        "title": "用一张表整理三段示例周报",
+        "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+        "hashtags": "#AI工具 #工作方法",
+        "backendTags": "AI, 工作方法"
+      },
+      "sources": [
+        {
+          "id": "f955125c-8426-4206-8d5b-477b0643d329",
+          "title": "本人撰写的虚构样例",
+          "reference": "synthetic://weekly-example",
+          "date": "2026-10-12",
+          "scope": "全文",
+          "privacy": "PUBLIC",
+          "permission": "ALLOWED",
+          "version": 1,
+          "expiresAt": "",
+          "text": "公开合成示例，无真实客户或媒体"
+        }
+      ],
+      "facts": [
+        {
+          "id": "a7914b05-a351-4ef5-a6b5-555231cc4ad7",
+          "text": "工具效果尚未实测",
+          "status": "UNVERIFIED",
+          "sourceIds": [
+            "f955125c-8426-4206-8d5b-477b0643d329"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "9acc32fc-24dd-41fa-bc10-ba6fd3277150",
+          "text": "录屏备注：显示三列汇总表；检查文字可读。只是计划，不是已录素材。",
+          "sourceIds": [
+            "f955125c-8426-4206-8d5b-477b0643d329"
+          ],
+          "scriptVersion": "f553c311-5585-4bbd-87b2-6809657a2734",
+          "mediaPath": "",
+          "paragraphId": "26617a86-d6fb-4afb-a543-43a6f65a077b"
+        }
+      ],
+      "checks": [],
+      "versions": [
+        {
+          "id": "f553c311-5585-4bbd-87b2-6809657a2734",
+          "label": "v1",
+          "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+          "hash": "8d01521aa6fa983fce883ac344dfe0b8b88bb07b54d711b43ca5f6b8565dd19b",
+          "paragraphs": [
+            {
+              "id": "26617a86-d6fb-4afb-a543-43a6f65a077b",
+              "text": "问题：三段虚构周报分散，想汇成一张表。"
+            },
+            {
+              "id": "535d31ba-d96e-42fd-a6a3-7eaad2f5eae4",
+              "text": "材料：三段公开示例文字。"
+            },
+            {
+              "id": "4f925144-d96c-4d5b-acda-02f4ef95d28d",
+              "text": "操作：按事项、负责人、下一步列三列。"
+            },
+            {
+              "id": "22e048be-3d81-46d8-bca2-7fc10782a310",
+              "text": "交付：一张示例汇总表。"
+            },
+            {
+              "id": "d762c935-587b-4b86-ba60-3dc18775db80",
+              "text": "检查：逐条对照原文，不把未知当完成。"
+            }
+          ],
+          "createdAt": "2026-10-12T09:27:32.511Z"
+        }
+      ],
+      "selectedVersion": "f553c311-5585-4bbd-87b2-6809657a2734",
+      "overrides": {
+        "xiaohongshu": {
+          "title": "示例：三段周报整理成表",
+          "publicBasis": "OWN",
+          "sourceIds": [],
+          "languageConfirmed": true,
+          "scriptVersion": "f553c311-5585-4bbd-87b2-6809657a2734"
+        },
+        "youtube": {
+          "title": "示例：三段週報整理成表",
+          "body": "這是虛構示例，沒有實際工具效果或客戶資料。\n問題：三段示例週報分散。\n材料：本人撰寫的合成文字。\n操作：按事項、負責人、下一步列三欄。\n交付：一張示例表格。\n檢查：逐項對照，不把未知當完成。",
+          "backendTags": "AI, 工作方法, 示例週報",
+          "publicBasis": "OWN",
+          "sourceIds": [],
+          "languageConfirmed": true,
+          "scriptVersion": "f553c311-5585-4bbd-87b2-6809657a2734"
+        }
+      },
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-12T09:27:32.497Z",
+      "updatedAt": "2026-10-12T09:27:32.516Z",
+      "trashedAt": "2026-10-13T06:24:56.941Z"
+    },
+    {
+      "id": "46de1d3d-8c26-4dc0-9a52-b26e9a1198cf",
+      "revision": 11,
+      "title": "默认工作空间验收｜20261013",
+      "topic": "",
+      "body": "默认工作空间验收：把几段示例周报整理为事项、负责人、下一步三列。\n\n检查原文未说明的信息，标记待确认，不补造结论。\n\n第二版补充：单列待确认事项，方便后续复核。",
+      "common": {
+        "title": "",
+        "body": "默认工作空间验收：把几段示例周报整理为事项、负责人、下一步三列。\n\n检查原文未说明的信息，标记待确认，不补造结论。\n\n第二版补充：单列待确认事项，方便后续复核。",
+        "hashtags": "",
+        "backendTags": ""
+      },
+      "sources": [],
+      "facts": [],
+      "notes": [],
+      "checks": [],
+      "versions": [
+        {
+          "id": "4c1de175-fd1e-43fb-9f1b-5776d0139690",
+          "label": "v1",
+          "body": "默认工作空间验收：把几段示例周报整理为事项、负责人、下一步三列。\n\n检查原文未说明的信息，标记待确认，不补造结论。",
+          "hash": "330e81ef2c108ab310a242a9ac2f9923129bd74b78f4f9888ec9e05285429c35",
+          "paragraphs": [
+            {
+              "id": "d2daee3b-ed31-42a0-8095-fed31df9d6b6",
+              "text": "默认工作空间验收：把几段示例周报整理为事项、负责人、下一步三列。"
+            },
+            {
+              "id": "0057689c-21ab-42ff-b166-e87a73a3f85b",
+              "text": ""
+            },
+            {
+              "id": "cef570f5-d359-4a31-8c22-c857463f5502",
+              "text": "检查原文未说明的信息，标记待确认，不补造结论。"
+            }
+          ],
+          "createdAt": "2026-10-13T01:21:38.752Z"
+        },
+        {
+          "id": "a3e66b14-2f6b-483d-bac0-192283dffe63",
+          "label": "v2",
+          "body": "默认工作空间验收：把几段示例周报整理为事项、负责人、下一步三列。\n\n检查原文未说明的信息，标记待确认，不补造结论。\n\n第二版补充：单列待确认事项，方便后续复核。",
+          "hash": "a1f94f1a5ce22b592513df237396a3af9dcf37ff8d464b0ce585d64818bd3e32",
+          "paragraphs": [
+            {
+              "id": "d2daee3b-ed31-42a0-8095-fed31df9d6b6",
+              "text": "默认工作空间验收：把几段示例周报整理为事项、负责人、下一步三列。"
+            },
+            {
+              "id": "0057689c-21ab-42ff-b166-e87a73a3f85b",
+              "text": ""
+            },
+            {
+              "id": "cef570f5-d359-4a31-8c22-c857463f5502",
+              "text": "检查原文未说明的信息，标记待确认，不补造结论。"
+            },
+            {
+              "id": "0a746eae-3be5-4555-8ace-f74e6a6442c3",
+              "text": ""
+            },
+            {
+              "id": "0bd93830-e0df-47a1-8f92-c24a186c64ab",
+              "text": "第二版补充：单列待确认事项，方便后续复核。"
+            }
+          ],
+          "createdAt": "2026-10-13T01:21:39.431Z"
+        }
+      ],
+      "selectedVersion": "a3e66b14-2f6b-483d-bac0-192283dffe63",
+      "overrides": {
+        "xiaohongshu": {
+          "publicBasis": "UNKNOWN",
+          "sourceIds": [],
+          "languageConfirmed": false,
+          "scriptVersion": "4c1de175-fd1e-43fb-9f1b-5776d0139690"
+        }
+      },
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-13T01:20:51.649Z",
+      "updatedAt": "2026-10-13T01:21:39.117Z",
+      "trashedAt": "2026-10-13T06:24:57.100Z"
+    },
+    {
+      "id": "377f8d7c-c82f-407d-ac4d-613d7d8c2802",
+      "revision": 2,
+      "title": "新的文字草稿",
+      "topic": "",
+      "body": "",
+      "common": {
+        "title": "",
+        "body": "",
+        "hashtags": "",
+        "backendTags": ""
+      },
+      "sources": [],
+      "facts": [],
+      "notes": [],
+      "checks": [],
+      "versions": [],
+      "selectedVersion": null,
+      "overrides": {},
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-13T05:21:31.966Z",
+      "trashedAt": "2026-10-13T06:24:57.271Z"
+    },
+    {
+      "id": "052ec530-5992-489e-a70f-5d76e4bc94de",
+      "revision": 2,
+      "title": "新的文字草稿",
+      "topic": "",
+      "body": "",
+      "common": {
+        "title": "",
+        "body": "",
+        "hashtags": "",
+        "backendTags": ""
+      },
+      "sources": [],
+      "facts": [],
+      "notes": [],
+      "checks": [],
+      "versions": [],
+      "selectedVersion": null,
+      "overrides": {},
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-13T05:21:33.510Z",
+      "trashedAt": "2026-10-13T06:24:57.428Z"
+    },
+    {
+      "id": "262ab823-0d11-47b3-8d90-2e848bc61bb4",
+      "revision": 2,
+      "title": "新的文字草稿",
+      "topic": "",
+      "body": "",
+      "common": {
+        "title": "",
+        "body": "",
+        "hashtags": "",
+        "backendTags": ""
+      },
+      "sources": [],
+      "facts": [],
+      "notes": [],
+      "checks": [],
+      "versions": [],
+      "selectedVersion": null,
+      "overrides": {},
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-13T05:21:33.959Z",
+      "trashedAt": "2026-10-13T06:24:57.584Z"
+    },
+    {
+      "id": "dc7339aa-27ce-4235-a8d2-37bde931d374",
+      "revision": 2,
+      "title": "新的文字草稿",
+      "topic": "",
+      "body": "",
+      "common": {
+        "title": "",
+        "body": "",
+        "hashtags": "",
+        "backendTags": ""
+      },
+      "sources": [],
+      "facts": [],
+      "notes": [],
+      "checks": [],
+      "versions": [],
+      "selectedVersion": null,
+      "overrides": {},
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-13T05:21:34.123Z",
+      "trashedAt": "2026-10-13T06:24:57.748Z"
+    },
+    {
+      "id": "ca2b65c8-eb27-4487-8667-8fc4f6a93535",
+      "revision": 2,
+      "title": "新的文字草稿",
+      "topic": "",
+      "body": "",
+      "common": {
+        "title": "",
+        "body": "",
+        "hashtags": "",
+        "backendTags": ""
+      },
+      "sources": [],
+      "facts": [],
+      "notes": [],
+      "checks": [],
+      "versions": [],
+      "selectedVersion": null,
+      "overrides": {},
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-13T05:21:34.270Z",
+      "trashedAt": "2026-10-13T06:24:57.912Z"
+    },
+    {
+      "id": "6f75a24d-9542-4b47-b609-01f71bb16c18",
+      "revision": 18,
+      "title": "启动与会话验收｜20261013",
+      "topic": "",
+      "body": "启动验收稿：把三段虚构周报整理为事项、负责人、下一步。\n\n检查原文没有说明的信息，标记待确认。\n\n第二版补充：把待确认事项单独列出。",
+      "common": {
+        "title": "",
+        "body": "启动验收稿：把三段虚构周报整理为事项、负责人、下一步。\n\n检查原文没有说明的信息，标记待确认。\n\n第二版补充：把待确认事项单独列出。",
+        "hashtags": "",
+        "backendTags": ""
+      },
+      "sources": [],
+      "facts": [],
+      "notes": [],
+      "checks": [],
+      "versions": [
+        {
+          "id": "25dfccb3-512c-4450-aa07-7df2cc1977ed",
+          "label": "v1",
+          "body": "启动验收稿：把三段虚构周报整理为事项、负责人、下一步。\n\n检查原文没有说明的信息，标记待确认。",
+          "hash": "d893a6652f3c0065af68ca8ce984593d1c8075cbf493fcd6bf08518355cfcf6a",
+          "paragraphs": [
+            {
+              "id": "ddc79b6c-95e7-4fa4-b276-993623f9124b",
+              "text": "启动验收稿：把三段虚构周报整理为事项、负责人、下一步。"
+            },
+            {
+              "id": "0d1a7023-8eea-42b2-b5e2-4e22783d4c09",
+              "text": ""
+            },
+            {
+              "id": "1b9f41f3-7c50-4db2-9f3a-1bb6476c0bb9",
+              "text": "检查原文没有说明的信息，标记待确认。"
+            }
+          ],
+          "createdAt": "2026-10-13T06:00:42.039Z"
+        },
+        {
+          "id": "9ddd4054-24c5-46f5-8684-e8d76a6a63a7",
+          "label": "v2",
+          "body": "启动验收稿：把三段虚构周报整理为事项、负责人、下一步。\n\n检查原文没有说明的信息，标记待确认。\n\n第二版补充：把待确认事项单独列出。",
+          "hash": "459becb663d56df69477cd02d14507902aaf158233f2cdf071d6832e1f80efd9",
+          "paragraphs": [
+            {
+              "id": "ddc79b6c-95e7-4fa4-b276-993623f9124b",
+              "text": "启动验收稿：把三段虚构周报整理为事项、负责人、下一步。"
+            },
+            {
+              "id": "0d1a7023-8eea-42b2-b5e2-4e22783d4c09",
+              "text": ""
+            },
+            {
+              "id": "1b9f41f3-7c50-4db2-9f3a-1bb6476c0bb9",
+              "text": "检查原文没有说明的信息，标记待确认。"
+            },
+            {
+              "id": "30f3d1a1-12f8-4593-b920-dc74df017086",
+              "text": ""
+            },
+            {
+              "id": "286b0204-159c-42c1-9b34-7a2805ca64a6",
+              "text": "第二版补充：把待确认事项单独列出。"
+            }
+          ],
+          "createdAt": "2026-10-13T06:01:25.359Z"
+        }
+      ],
+      "selectedVersion": "9ddd4054-24c5-46f5-8684-e8d76a6a63a7",
+      "overrides": {
+        "xiaohongshu": {
+          "publicBasis": "UNKNOWN",
+          "sourceIds": [],
+          "languageConfirmed": false,
+          "scriptVersion": "9ddd4054-24c5-46f5-8684-e8d76a6a63a7"
+        }
+      },
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-13T05:59:55.439Z",
+      "updatedAt": "2026-10-13T06:09:35.903Z",
+      "trashedAt": "2026-10-13T06:09:36.613Z"
+    },
+    {
+      "id": "9221b4b8-5c60-4596-b6be-a48926a8c233",
+      "revision": 1,
+      "title": "新的文字草稿",
+      "topic": "",
+      "body": "",
+      "common": {
+        "title": "",
+        "body": "",
+        "hashtags": "",
+        "backendTags": ""
+      },
+      "sources": [],
+      "facts": [],
+      "notes": [],
+      "checks": [],
+      "versions": [],
+      "selectedVersion": null,
+      "overrides": {},
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-13T06:24:59.194Z"
+    },
+    {
+      "id": "b81ee718-4ebb-4379-9666-890dc34c0365",
+      "revision": 8,
+      "title": "写稿交互验收A｜20261013",
+      "topic": "",
+      "body": "交互验收：未保存的文字需要保留。\n切换或新建前先保存，再继续操作。\n新增一句：切换前一起保存。",
+      "common": {
+        "title": "",
+        "body": "交互验收：未保存的文字需要保留。\n切换或新建前先保存，再继续操作。\n新增一句：切换前一起保存。",
+        "hashtags": "",
+        "backendTags": ""
+      },
+      "sources": [],
+      "facts": [],
+      "notes": [],
+      "checks": [],
+      "versions": [],
+      "selectedVersion": null,
+      "overrides": {
+        "xiaohongshu": {
+          "publicBasis": "UNKNOWN",
+          "sourceIds": [],
+          "languageConfirmed": false,
+          "scriptVersion": null
+        }
+      },
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-13T06:47:41.212Z",
+      "updatedAt": "2026-10-13T06:52:48.376Z",
+      "trashedAt": "2026-10-13T07:03:54.164Z"
+    },
+    {
+      "id": "4a270bb0-33a5-41a5-b4eb-fcb8b133be24",
+      "revision": 6,
+      "title": "写稿交互验收B｜20261013",
+      "topic": "",
+      "body": "交互验收：打开回收站前保存这句话。",
+      "common": {
+        "title": "",
+        "body": "交互验收：打开回收站前保存这句话。",
+        "hashtags": "",
+        "backendTags": ""
+      },
+      "sources": [],
+      "facts": [],
+      "notes": [],
+      "checks": [],
+      "versions": [],
+      "selectedVersion": null,
+      "overrides": {
+        "xiaohongshu": {
+          "publicBasis": "UNKNOWN",
+          "sourceIds": [],
+          "languageConfirmed": false,
+          "scriptVersion": null
+        }
+      },
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-13T06:48:27.136Z",
+      "updatedAt": "2026-10-13T06:57:51.672Z",
+      "trashedAt": "2026-10-13T07:03:01.444Z"
+    }
+  ]
+}

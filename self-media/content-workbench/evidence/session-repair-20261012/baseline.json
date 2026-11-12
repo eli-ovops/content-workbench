@@ -1,0 +1,15 @@
+{
+  "rootId": "ddbbc5d8-afc8-4f24-927f-87af101b49e9",
+  "revision": 5,
+  "sha256": "d55bed499ad6ab0199d10dacc281ad9af63e2e9dfa39c0e51d6d5b9cc49adf6e",
+  "workspaces": [
+    {
+      "id": "c84515aa-db6e-4ab2-aa20-21f6970e9105",
+      "sha256": "66a986c91f2eda7d3c5d1ea89af7a89f2122eacad824c62970d709a3ce4bb4a3"
+    },
+    {
+      "id": "a7db5e94-94b5-49a6-b92d-75ad810efe44",
+      "sha256": "220e21232a8301850f7942970abdd46fe118f330d0b973166b4f6ee379ec3aa5"
+    }
+  ]
+}

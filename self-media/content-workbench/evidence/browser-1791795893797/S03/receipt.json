@@ -1,0 +1,14 @@
+[
+  {
+    "scenario": "S03",
+    "name": "public-download-real-package",
+    "status": "PASS",
+    "details": {
+      "actualFile": "S03-public-download.json",
+      "noInternalJSON": true,
+      "noAbsoluteSourcePaths": true,
+      "languageManuallyConfirmed": true
+    },
+    "deviations": []
+  }
+]

@@ -1,0 +1,10 @@
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 9.803s
+
+OK
+QA-only settings paths: /var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/tmppf15rlo2
+QA-only settings paths: /var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/tmpmqybqv4d
+QA-only settings paths: /var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/tmpswwaankt
+QA-only settings paths: /var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/tmp5tqg5m8u
+QA-only settings paths: /var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/tmpfzgowg40

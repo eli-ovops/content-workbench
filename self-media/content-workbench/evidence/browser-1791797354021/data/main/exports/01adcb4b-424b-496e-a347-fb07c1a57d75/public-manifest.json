@@ -1,0 +1,32 @@
+{
+  "producerApp": "eli-content-workbench",
+  "appVersion": "0.1.0",
+  "schemaName": "content-workbench.workspace",
+  "schemaVersion": 1,
+  "exportId": "01adcb4b-424b-496e-a347-fb07c1a57d75",
+  "createdAt": "2026-10-12T09:29:20.152Z",
+  "sourceRevisionRefs": {
+    "workspaceRevision": 13,
+    "scriptRevision": "5f1ec231-fd22-46ef-a764-aa1592c9aed5",
+    "configVersion": "platforms-20261009-v1"
+  },
+  "files": [
+    {
+      "relativePath": "platforms/xiaohongshu.md",
+      "sha256": "1658594bc39a170de147ccb3e014c31d6dbb03f617c241b647d330256b791444",
+      "bytes": 232
+    },
+    {
+      "relativePath": "platforms/youtube.md",
+      "sha256": "9d7a00fcce9c19909c7b366de8c06aa4a3df587f73af203e24d7a899be97fad9",
+      "bytes": 333
+    }
+  ],
+  "verificationCoverage": [
+    "text-snapshot",
+    "byte-hashes"
+  ],
+  "limitations": [],
+  "privacyMode": "PUBLIC",
+  "status": "COMPLETED"
+}

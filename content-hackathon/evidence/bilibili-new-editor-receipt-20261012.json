@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-10-12T11:26:53.703Z",
+  "timezone": "Asia/Shanghai",
+  "scope": "Bilibili fresh editor and independent second preparation; no submission",
+  "firstJob": "ab48c01a-7c6b-415e-8235-33a897b18142",
+  "secondJob": "f52ebfd8-f1cc-4d1e-a710-94f4fbc24a28",
+  "current": {
+    "phase": "prepared",
+    "message": "B站视频、标题和简介已填入，上传完成已核对；分区、标签及声明请在编辑页核对，尚未投稿。",
+    "preparationVerified": true,
+    "titleVerified": true,
+    "bodyVerified": true,
+    "videoUploadVerified": true,
+    "receiptCaptured": true
+  },
+  "pageCount": 2,
+  "retainedPreparedPages": [
+    {
+      "pageOpen": true,
+      "titleUnchanged": true,
+      "bodyUnchanged": true
+    }
+  ],
+  "published": false,
+  "cloudDraftSavePerformed": false,
+  "tests": {
+    "nodeGroups": 10,
+    "pythonSessionCases": 4,
+    "pythonEditorCases": 1,
+    "syntax": "pass",
+    "crossOriginConnect": 403,
+    "profileHttpAccess": 404,
+    "localDraftReload": "pass"
+  },
+  "sourceHashes": {
+    "app/provider_worker.py": "f5de152aa826ac1050b1f5ce6c454dfa99af89f8894908a94b313a980d5fa3a8",
+    "app/provider_bridge.mjs": "3e043520cfe852a83d2e72400131add278f7e089fb6052828f8597711499bbcc",
+    "app/server.mjs": "10dc3313c83aab2d9e60ae7f75601ed775d2107a77984fd713aceb6c3a62c800",
+    "app/app.js": "2c699b86b760794c91c8c95fd8b6270a508d8577faebdcbdd12195add7dc6630",
+    "app/index.html": "221b8ad62bbdd15711b9b60915602f85771d7ac5773724036aaf0310d0a2940b",
+    "app/test_provider_session.py": "e7b7eea23348edf56028e06ba923ff9bf9d72f7701733185323fbd0d7aaa493e",
+    "app/provider_bridge.test.mjs": "966e34fafa8f14e3463b5388f4c1a1318ac5d910bef12c4f39b8663febbc6b5e"
+  }
+}

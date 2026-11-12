@@ -1,0 +1,86 @@
+{
+  "previewOnly": true,
+  "firstPass": [
+    {
+      "bodyFocused": true,
+      "name": "focus",
+      "pressed": "true",
+      "savedState": "界面预览",
+      "sidebarHidden": true
+    },
+    {
+      "focus": "tab-versions",
+      "name": "keyboardTab",
+      "selected": "tab-versions",
+      "status": "界面预览",
+      "versionText": "所选版本 · v1几段周报分散在不同地方，整理起来很容易漏项。\n\n这一条只讲一个具体任务：把三段示例周报汇总成一张表。\n\n先准备三段文字，说明希望保留事项、负责人、下一步这三列。遇到原文没写的信息，留空并标记待确认。\n\n最后把结果逐条对回原文：有没有漏项，有没有把计划写成完成，有没有凭空补上负责人。这是首个留存版本。下一次留存后，可在这里对照上一版。"
+    },
+    {
+      "dependency": "有 1 项备注尚未关联当前版本，使用前请重新核对。",
+      "hasV2Addition": true,
+      "headerVersion": "v1",
+      "headings": [
+        "所选版本 · v2",
+        "上一版 · v1"
+      ],
+      "name": "versionSelection"
+    },
+    {
+      "name": "copyTraditionalTitle",
+      "clipboard": "三段週報，怎樣整理成一張表？",
+      "message": "标题已复制。"
+    },
+    {
+      "focusButtonVisible": true,
+      "name": "narrowWriting",
+      "overflow": false,
+      "scroll": 375,
+      "tabStops": 1,
+      "viewport": 390
+    }
+  ],
+  "confirmation": [
+    {
+      "name": "search",
+      "status": "界面预览",
+      "visible": [
+        "会议纪要：先找到三项待办草稿"
+      ]
+    },
+    {
+      "header": "v2",
+      "name": "versions",
+      "panels": [
+        "所选版本 · v2",
+        "上一版 · v1"
+      ],
+      "staleNotes": "有 1 项备注尚未关联当前版本，使用前请重新核对。"
+    },
+    {
+      "copyDisabled": true,
+      "emptyText": "选择一个留存版本，再查看或以它继续修改。",
+      "name": "emptyVersion"
+    },
+    {
+      "name": "copyBody",
+      "clipboard": "幾段週報分散在不同地方，整理時很容易漏項。\n\n這一條只講一個具體任務：把三段示例週報彙總成一張表。\n\n準備文字，說明希望保留事項、負責人、下一步這三欄。原文沒有的資訊留空，並標記待確認。\n\n最後逐條對照原文，檢查漏項和憑空補充的內容。",
+      "message": "正文已复制。"
+    },
+    {
+      "allCopyButtons": 4,
+      "backendCopyHidden": true,
+      "name": "platformControls"
+    },
+    {
+      "focusExited": true,
+      "name": "focusRetainsEdits",
+      "scrollWidth": 375,
+      "status": "仅在此预览页",
+      "text": "虚构验收文字：专注模式前后，编辑内容保持一致。",
+      "viewport": 390
+    }
+  ],
+  "console": [],
+  "visualPasses": 2,
+  "limitation": "Protected saved-data browser actions not exercised; file pairing policy refusal remains. Core/API regression is separate."
+}

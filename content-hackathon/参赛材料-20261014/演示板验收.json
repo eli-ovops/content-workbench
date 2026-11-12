@@ -1,0 +1,53 @@
+[
+  {
+    "heading": "一份内容，分别准备到多个平台。",
+    "images": [],
+    "overflow": false,
+    "page": "1 / 6"
+  },
+  {
+    "heading": "能力边界要看得见。",
+    "images": [],
+    "overflow": false,
+    "page": "2 / 6"
+  },
+  {
+    "heading": "一起发起，分别核对。",
+    "images": [
+      {
+        "alt": "2026年10月13日工作台三平台准备实测截图，历史状态",
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "page": "3 / 6"
+  },
+  {
+    "heading": "候选先审，再决定是否采用。",
+    "images": [
+      {
+        "alt": "工作台真实候选未采用、调用次数耗尽及发布禁用截图",
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "page": "4 / 6"
+  },
+  {
+    "heading": "费用与收益，各有原件。",
+    "images": [
+      {
+        "alt": "TokenDance官网Eli应用后台成功调用及收益0.000267元",
+        "loaded": true
+      }
+    ],
+    "overflow": false,
+    "page": "5 / 6"
+  },
+  {
+    "heading": "可以演示，商业成绩还需要真实用户。",
+    "images": [],
+    "overflow": false,
+    "page": "6 / 6"
+  }
+]

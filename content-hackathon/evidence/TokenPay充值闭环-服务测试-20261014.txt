@@ -1,0 +1,71 @@
+TAP version 13
+# Subtest: PKCE matches RFC7636 published test vector
+ok 1 - PKCE matches RFC7636 published test vector
+  ---
+  duration_ms: 0.948083
+  type: 'test'
+  ...
+# Subtest: all external actions are denied by default without touching the network
+ok 2 - all external actions are denied by default without touching the network
+  ---
+  duration_ms: 0.484875
+  type: 'test'
+  ...
+# Subtest: OAuth binds nonce, fixed app identity and S256; a successful callback cannot be replayed
+ok 3 - OAuth binds nonce, fixed app identity and S256; a successful callback cannot be replayed
+  ---
+  duration_ms: 2.427042
+  type: 'test'
+  ...
+# Subtest: expired OAuth and uncertain exchange never trigger blind repeats or leak provider errors
+ok 4 - expired OAuth and uncertain exchange never trigger blind repeats or leak provider errors
+  ---
+  duration_ms: 0.574333
+  type: 'test'
+  ...
+# Subtest: model request is explicitly limited, attributed, review-only and never reports revenue
+ok 5 - model request is explicitly limited, attributed, review-only and never reports revenue
+  ---
+  duration_ms: 0.399333
+  type: 'test'
+  ...
+# Subtest: AI candidates cannot overwrite another draft, edited copy, or changed media
+ok 6 - AI candidates cannot overwrite another draft, edited copy, or changed media
+  ---
+  duration_ms: 0.13325
+  type: 'test'
+  ...
+# Subtest: HTTP routes reject cross-origin mutation and scrub callback codes from redirects
+ok 7 - HTTP routes reject cross-origin mutation and scrub callback codes from redirects
+  ---
+  duration_ms: 0.377875
+  type: 'test'
+  ...
+# QA-only created paths: ["/var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/eli-tokenpay-qa-wuhcjR","/var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/eli-tokenpay-qa-wuhcjR/exchange-started.json","/var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/eli-tokenpay-qa-wuhcjR/key.json","/var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/eli-tokenpay-qa-wuhcjR/call-attempts.json"]
+# Subtest: protected store modes, exchange lock and call budget survive service restarts
+ok 8 - protected store modes, exchange lock and call budget survive service restarts
+  ---
+  duration_ms: 6.066375
+  type: 'test'
+  ...
+# Subtest: invalid model output is never returned as an adoptable candidate and never automatically retried
+ok 9 - invalid model output is never returned as an adoptable candidate and never automatically retried
+  ---
+  duration_ms: 0.371917
+  type: 'test'
+  ...
+# Subtest: HTTP 402 pauses the frozen request for recharge without a retry or a candidate
+ok 10 - HTTP 402 pauses the frozen request for recharge without a retry or a candidate
+  ---
+  duration_ms: 0.451959
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 61.924917

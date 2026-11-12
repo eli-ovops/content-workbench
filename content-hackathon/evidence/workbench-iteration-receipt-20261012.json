@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-12T17:22:08+08:00",
+  "imageWorkbench": "verified",
+  "xhsVideoSample": "verified-preparation-only",
+  "videoJob": "e542b799-ee69-4a43-9a61-a50355ddfbd7",
+  "videoLimitBytes": 8388608,
+  "douyin": "awaiting_login",
+  "bilibili": "awaiting_login",
+  "otherPlatformPreparationVerified": false,
+  "published": false,
+  "nodeTests": {
+    "passed": 10,
+    "failed": 0
+  },
+  "pythonTests": {
+    "passed": 8,
+    "failed": 0
+  },
+  "codeSha256": {
+    "app/app.js": "993e9018c97ec8d810250fdcd4015762ebc0dd84296c2396ff9aa89c19141c2c",
+    "app/server.mjs": "b7ce76b3a4edb7d45009fa13a1c61b3621ee7d52cc71bcf55ec1d6f837dcb122",
+    "app/provider_worker.py": "a7705f3a727b41f13bfde904ad97f7a550b194bd74db274675a2391468ff4bc5",
+    "app/provider_bridge.mjs": "248c61d694f23ee70c4a6a7a6b0ae1490761447cc1f453d0a8f36aa592e52045",
+    "app/xhs_note.py": "f857a5e0daed77053f04875be4f10cb5a30ee28e378eb53d522ded1325a965d3",
+    "app/xhs-policy.mjs": "eca252488832353406f36bec9bc01a713dae595f2184dabcccf4f2d2e18dfc04"
+  },
+  "scope": "Local development. No publish, model call, key creation, or deployment. Provider state-guard changes are compiled but not reloaded into pending login workers."
+}

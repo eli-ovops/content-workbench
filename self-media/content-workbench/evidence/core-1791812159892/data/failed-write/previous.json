@@ -1,0 +1,93 @@
+{
+  "rootId": "f09f5098-103a-4529-bdf5-d070aa44597f",
+  "schemaName": "content-workbench.workspace",
+  "schemaVersion": 1,
+  "revision": 2,
+  "workspaces": [
+    {
+      "id": "66c84ede-b266-43a4-8a67-59229ce0430c",
+      "revision": 2,
+      "title": "虚构样例｜把三段周报汇成表",
+      "topic": "虚构选题卡：普通人如何把三段示例周报汇总成表；没有真实工具效果或客户数据。",
+      "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+      "common": {
+        "title": "用一张表整理三段示例周报",
+        "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+        "hashtags": "#AI工具 #工作方法",
+        "backendTags": "AI, 工作方法"
+      },
+      "sources": [
+        {
+          "id": "9480a031-4393-45eb-9b00-e[REDACTED_PHONE]",
+          "title": "本人撰写的虚构样例",
+          "reference": "synthetic://weekly-example",
+          "date": "2026-10-12",
+          "scope": "全文",
+          "privacy": "PUBLIC",
+          "permission": "ALLOWED",
+          "version": 1,
+          "expiresAt": "",
+          "text": "公开合成示例，无真实客户或媒体"
+        }
+      ],
+      "facts": [
+        {
+          "id": "91847ca9-c91c-4861-9502-9ad8dd068ea9",
+          "text": "工具效果尚未实测",
+          "status": "UNVERIFIED",
+          "sourceIds": [
+            "9480a031-4393-45eb-9b00-e[REDACTED_PHONE]"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "f0d25a72-9be8-432b-9cff-094230976c91",
+          "text": "录屏备注：显示三列汇总表；检查文字可读。只是计划，不是已录素材。",
+          "sourceIds": [
+            "9480a031-4393-45eb-9b00-e[REDACTED_PHONE]"
+          ],
+          "scriptVersion": null,
+          "mediaPath": ""
+        }
+      ],
+      "checks": [],
+      "versions": [
+        {
+          "id": "d37bee50-c740-4ce1-a9ea-dbac725386bb",
+          "label": "v1",
+          "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+          "hash": "8d01521aa6fa983fce883ac344dfe0b8b88bb07b54d711b43ca5f6b8565dd19b",
+          "paragraphs": [
+            {
+              "id": "b02f8f53-3024-432e-9973-432d23a445bf",
+              "text": "问题：三段虚构周报分散，想汇成一张表。"
+            },
+            {
+              "id": "d533dc89-00c8-4a8b-87c8-8b97406dcda4",
+              "text": "材料：三段公开示例文字。"
+            },
+            {
+              "id": "12b95540-7679-4207-9b0f-38633240c52d",
+              "text": "操作：按事项、负责人、下一步列三列。"
+            },
+            {
+              "id": "23649eba-23c8-4734-baba-06b6e4fc1ed0",
+              "text": "交付：一张示例汇总表。"
+            },
+            {
+              "id": "bb3cae6e-6ef4-43bf-b35f-00ad0f7897c2",
+              "text": "检查：逐条对照原文，不把未知当完成。"
+            }
+          ],
+          "createdAt": "2026-10-12T13:36:03.788Z"
+        }
+      ],
+      "selectedVersion": "d37bee50-c740-4ce1-a9ea-dbac725386bb",
+      "overrides": {},
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-12T13:36:03.773Z"
+    }
+  ]
+}

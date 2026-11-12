@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-13",
+  "version": "0.1.3",
+  "owner": "01a12ed9-113b-7fd1-8d30-fdc616bbf2bb",
+  "status": "VERIFIED_LOCAL",
+  "sourceFingerprint": {
+    "hash": "b76c2bb2030ec7ba2e74eb78cfd704b58d10a3a3ec3bcf26717f0071d44409e5",
+    "files": [
+      {
+        "relativePath": "package.json",
+        "sha256": "e2cfcedeea9b0b5dcb1b7c2b01736f8a9fbadef3033a2ba5c26fe86ca8ac5755",
+        "bytes": 237
+      },
+      {
+        "relativePath": "public/app.js",
+        "sha256": "39ee610b4f54af9bf26f57511459bc37896852c6577f405dceb60ec1c9b91293",
+        "bytes": 26218
+      },
+      {
+        "relativePath": "public/index.html",
+        "sha256": "fe1e01de126c18472b87616c3e5ad1823e70868e23d6ead9c6db4ba8ca84fc9e",
+        "bytes": 11148
+      },
+      {
+        "relativePath": "public/preview-data.js",
+        "sha256": "4622f554ecf2c41d7f4db37a14cc32294a15c90b367f9a4569f156f79011d7ca",
+        "bytes": 3202
+      },
+      {
+        "relativePath": "public/session-start.html",
+        "sha256": "ce48bf2fa4fadffba0c9a3e08a6feea134c10d56ae6077b1716c9af247a2f99e",
+        "bytes": 469
+      },
+      {
+        "relativePath": "public/session-start.js",
+        "sha256": "5678c0ecd90f88bed3a9040eaf6637e2fe7b8f836a3daef3ddbd3915709366b9",
+        "bytes": 585
+      },
+      {
+        "relativePath": "public/style.css",
+        "sha256": "bd5761af32ee64d172ed0ddb2713bd62ba7df337e708b94289796d44611674b5",
+        "bytes": 24560
+      },
+      {
+        "relativePath": "src/authority.mjs",
+        "sha256": "6d2429b2efc21b03514a755f7aba60429f8c11e24c30f236738fb16708a779e5",
+        "bytes": 1160
+      },
+      {
+        "relativePath": "src/config.mjs",
+        "sha256": "75ea4ec1275509223cb463f04e6dba4ad6bd85e331740984846b9863577e4962",
+        "bytes": 1093
+      },
+      {
+        "relativePath": "src/copy-workspaces.mjs",
+        "sha256": "1dc5f07d6f22badebbc2412bf5fd1fac849f0c8c24c13fd27303e6c41432b291",
+        "bytes": 2650
+      },
+      {
+        "relativePath": "src/default-workspace.mjs",
+        "sha256": "d75ba827e92e678ce182c309f24d9dbce1478c6554e51110c3be800bc112e58c",
+        "bytes": 572
+      },
+      {
+        "relativePath": "src/fixture.mjs",
+        "sha256": "fdde3c98597de92d372d3adf4c58d25dc37f0286795eab5f08857e81ada7d909",
+        "bytes": 1196
+      },
+      {
+        "relativePath": "src/init.mjs",
+        "sha256": "03b82ee3d9252ef6aad981fd110aaf4d49bee623d887b9ebb1c3381faa82e9ac",
+        "bytes": 434
+      },
+      {
+        "relativePath": "src/launch-guard.mjs",
+        "sha256": "993e259316903695edb32df652776c3bae8364bd4932ac1ff55bcf97dae195c4",
+        "bytes": 2887
+      },
+      {
+        "relativePath": "src/launch.mjs",
+        "sha256": "ec3cbcdbd288975a0d0c15314277e4b515755c7010f2480a5d457f262d610e08",
+        "bytes": 3648
+      },
+      {
+        "relativePath": "src/model.mjs",
+        "sha256": "0b64921aa543869cf95b080e5a2a118d14c94a314b9581a4ba173dcd94f3493d",
+        "bytes": 5828
+      },
+      {
+        "relativePath": "src/pairing.mjs",
+        "sha256": "842470352c9ff8ecf36af622c37dc987f8a52a67efd24e26473ef7a2190d6686",
+        "bytes": 5193
+      },
+      {
+        "relativePath": "src/prepare-sample.mjs",
+        "sha256": "36f0868b316112583600afc36ab81b509d4ec3dfb709b14b6dbb29592dcc9e91",
+        "bytes": 2795
+      },
+      {
+        "relativePath": "src/recover.mjs",
+        "sha256": "8f4da3b2cafae15c8a35c582f1d6dad3a21ab4d660adff9932b680671dfb4ee4",
+        "bytes": 2417
+      },
+      {
+        "relativePath": "src/server.mjs",
+        "sha256": "de1dc9f1e87fdd9dbc24edd97a98f194be47cd1b953e7aa4a131585c9e6112a2",
+        "bytes": 9038
+      },
+      {
+        "relativePath": "src/stop.mjs",
+        "sha256": "187706ceb3992962aadf010e7a6a0391f8f95d4b181e3540557ae3a38bc750c6",
+        "bytes": 727
+      },
+      {
+        "relativePath": "src/store.mjs",
+        "sha256": "1ac76e564f098ba98b15560c6732145055f430928475c62a4e5d5a6cf7d1cf5d",
+        "bytes": 17894
+      },
+      {
+        "relativePath": "workspace.json",
+        "sha256": "ac7ff0c7c833176bb7a4c08aa169f170d9302c3d687263a91fefd7aba6ec3d82",
+        "bytes": 234
+      },
+      {
+        "relativePath": "停止内容工作台.command",
+        "sha256": "6d6d4d7d52ad451047486ee73b233afa9c0df874919909fab6dc871b9115863c",
+        "bytes": 177
+      },
+      {
+        "relativePath": "停止已验收工作台.command",
+        "sha256": "f7826430d44d200b134cc31f261379222c7dc6c0c27cb4260d0a82a3e7280402",
+        "bytes": 112
+      },
+      {
+        "relativePath": "启动内容工作台.command",
+        "sha256": "59caa74b2f2d912b0d807887492b7dfb66bfbd148d9ca826ddb543d4e7322320",
+        "bytes": 179
+      },
+      {
+        "relativePath": "启动已验收工作台.command",
+        "sha256": "a73eeabb33539be6fad8c281ae7345b75c51061fc0f961d621ee70bedaeffa29",
+        "bytes": 112
+      },
+      {
+        "relativePath": "恢复上一副本.command",
+        "sha256": "b0a45fc15e471a6e66ad73195fd67bd71efaacba0bcdfff0ba45fc523abadeea",
+        "bytes": 189
+      }
+    ],
+    "nodeVersion": "v24.19.0"
+  },
+  "tests": 29,
+  "corePath": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791871112537/summary.json",
+  "service": {
+    "url": "http://127.0.0.1:56442",
+    "pid": 52672,
+    "rootId": "dadc09d0-b6ca-4247-b483-2dcc05b0c99b",
+    "protocol": "one-time-http-v1"
+  },
+  "nativeFinderAndChromeFlow": {
+    "date": "2026-10-13",
+    "url": "http://127.0.0.1:56442",
+    "initialPid": 48644,
+    "workspaceId": "6f75a24d-9542-4b47-b609-01f71bb16c18",
+    "revision": 15,
+    "steps": {
+      "finderColdStart": true,
+      "automaticSessionWithoutCode": true,
+      "createSave": true,
+      "refreshRetainsDraft": true,
+      "twoVersionsRetained": true,
+      "unsavedDeleteBlocked": true,
+      "trashWithTwoVersions": true,
+      "restoreEntireDraft": true,
+      "closeAndReopenWithSameDraft": true,
+      "serverRestartSameUrl": true,
+      "restartedWithAutomaticSession": true,
+      "oldTabUnsavedBufferSurvives": true,
+      "oldTabCanSaveAfterAutomaticReconnect": true,
+      "fixtureMovedToTrashAtEnd": true,
+      "originalUserDraftOpened": true,
+      "inAppWindowConnectedAndNewUiLoaded": true,
+      "manualConnectionNumberNotNeededForLauncher": true
+    },
+    "restartedPid": 52672,
+    "finalFixtureRevision": 18
+  },
+  "originalWorkspaces": [
+    {
+      "id": "4d4ca24c-f4e2-4c1e-9594-dfebf56db4ad",
+      "unchanged": true
+    },
+    {
+      "id": "c84515aa-db6e-4ab2-aa20-21f6970e9105",
+      "unchanged": true
+    },
+    {
+      "id": "a7db5e94-94b5-49a6-b92d-75ad810efe44",
+      "unchanged": true
+    },
+    {
+      "id": "46de1d3d-8c26-4dc0-9a52-b26e9a1198cf",
+      "unchanged": true
+    },
+    {
+      "id": "377f8d7c-c82f-407d-ac4d-613d7d8c2802",
+      "unchanged": true
+    },
+    {
+      "id": "052ec530-5992-489e-a70f-5d76e4bc94de",
+      "unchanged": true
+    },
+    {
+      "id": "262ab823-0d11-47b3-8d90-2e848bc61bb4",
+      "unchanged": true
+    },
+    {
+      "id": "dc7339aa-27ce-4235-a8d2-37bde931d374",
+      "unchanged": true
+    },
+    {
+      "id": "ca2b65c8-eb27-4487-8667-8fc4f6a93535",
+      "unchanged": true
+    }
+  ],
+  "originalCount": 9,
+  "activeCount": 9,
+  "trashCount": 1,
+  "qaWorkspaceId": "6f75a24d-9542-4b47-b609-01f71bb16c18",
+  "sessionDesign": {
+    "ownerChannel": "0700 directory / 0600 Unix socket",
+    "startupTicket": "256-bit, single-use, boot-bound, 60 seconds, in memory",
+    "browserSession": "HttpOnly, SameSite=Strict, 8 hours, app/root/boot-bound",
+    "originAndHostChecks": "retained",
+    "legacyCredentialFile": "not read or regenerated; old protected file retained unused"
+  },
+  "launchRecovery": {
+    "concurrentLaunches": "serialized per root",
+    "deadLock": "only proved-dead matching owner/app/root artifacts preserved by rename",
+    "unknownOrLiveLock": "retained; start refused"
+  },
+  "browserPolicy": {
+    "currentOriginalHttpPage": "normal getTab in same IAB succeeded this turn after user opened a normal HTTP draft page",
+    "restrictedSurfaces": "no file/data/raw CDP or Terminal UI control",
+    "sandboxProcessModule": "not used after import denial; real product tested through Finder launcher and Chrome"
+  },
+  "validationBoundary": "Same Owner implementation plus automated/API and real Finder/Chrome/IAB checks; no independent audit or production deployment",
+  "newDependencies": false,
+  "websiteChanged": false,
+  "sharedWorkflowChanged": false,
+  "cleanup": "No permanent deletion; own QA draft moved to product recycle bin"
+}

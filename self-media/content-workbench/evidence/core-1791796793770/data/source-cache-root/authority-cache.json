@@ -1,0 +1,24 @@
+[
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791796793770/data/startup-sources/registry.json",
+    "sha256": "e344b1ae733f3e9a2419f759fad863d3c1303f12b255b69e5bbee8f391753aea",
+    "readAt": "2026-10-12T09:19:54.263Z",
+    "status": "CURRENT_RAW",
+    "value": {
+      "version": "fixture",
+      "stages": []
+    },
+    "changed": false
+  },
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791796793770/data/startup-sources/state.json",
+    "status": "HISTORICAL_EXPIRED",
+    "readAt": "2026-10-12T09:19:54.259Z",
+    "sha256": "ba09bb0df175dba9f78d08c6c40c2544b1a385a62ef40c124c275d8daf6b9828",
+    "value": {
+      "active_content_id": "synthetic-bound",
+      "runs": {}
+    },
+    "error": "来源缺失或JSON损坏"
+  }
+]

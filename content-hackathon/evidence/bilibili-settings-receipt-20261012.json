@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-10-12T12:57:24.045Z",
+  "timezone": "Asia/Shanghai",
+  "scope": "Bilibili video cover/category/native tags, no submission",
+  "current": {
+    "phase": "prepared",
+    "message": "B站视频、文案、封面、分区和标签已核对；创作声明请本人核对，尚未投稿。",
+    "preparationVerified": true,
+    "titleVerified": true,
+    "bodyVerified": true,
+    "videoUploadVerified": true,
+    "receiptCaptured": true,
+    "draftId": "4d65ee07-f41e-4f11-a1a3-e5638d63b929",
+    "optionsVerified": true,
+    "coverVerified": true,
+    "categoryVerified": true,
+    "tagsVerified": true,
+    "titleBodyUnchanged": true,
+    "appliedCategory": [
+      "人工智能"
+    ],
+    "appliedTags": [
+      "AI工具",
+      "效率工具",
+      "发布工作台"
+    ],
+    "coverMode": "upload"
+  },
+  "basePreparationJob": "3dd1817e-3c49-49f9-a05d-9e5cbc76381e",
+  "recommendedFrameSettingsJob": "d1246687-e193-4e29-bef4-2f9a643cc9cf",
+  "customCoverRecoveryJob": "59fca194-d54f-400c-b340-6cc4fca94e05",
+  "intermediateFailedJobs": [
+    "1d6c3fca-b2fe-4f7d-97d9-d9629f08c37c",
+    "25a753a5-55a3-4a2c-a940-fdbe36a8aa0c"
+  ],
+  "published": false,
+  "cloudDraftSavePerformed": false,
+  "creationDeclarationSelected": false,
+  "aiCoverGenerationPerformed": false,
+  "videoReuploadedBySettings": false,
+  "coverRecovery": "Same native file SHA256 verified before resuming ratio sync and finish; no duplicate cover upload",
+  "localSettingsReload": "pass",
+  "tests": {
+    "nodeGroupsPreviouslyPassed": 12,
+    "latestScopedNodeGroupsPassed": 3,
+    "latestSettingsPythonCasesPassed": 4,
+    "previousSessionPythonCasesPassed": 4,
+    "previousBasicEditorPythonCasesPassed": 1,
+    "syntax": "pass",
+    "crossOriginOptions": 403,
+    "profileHttpAccess": 404
+  },
+  "evidence": [
+    "evidence/B站推荐帧分区标签通过-20261012.png",
+    "evidence/B站封面分区标签通过-20261012.png",
+    "evidence/工作台B站完整设置-20261012.png"
+  ],
+  "sourceHashes": {
+    "app/app.js": "6263bf290cdd9f5c76f88b3918d0817cf56ef410460bfad9e5cd023d57dc1302",
+    "app/index.html": "4f96bbb323c1500d8aec10c6713ec49961348a28dbe8266c7c072d6ac3b5f483",
+    "app/style.css": "12feb74d74398b99a397f309520ec818dd0b96e22e56546346fc13dae3983bef",
+    "app/server.mjs": "8078dd56da423625f55113718f91683e79996f2a10feb3ed29c20ed8e36923f9",
+    "app/provider_bridge.mjs": "6ef6ad719db1f7708ef8279fc23578a089dbb593fddc47ebabdcf6f27423aa86",
+    "app/provider_worker.py": "65db7f8cff49d8cd0a9fa4a5fffa207770dbe7d910cafe6ba575b3ac855e0db5",
+    "app/bilibili-policy.mjs": "9f376f2ce95e58c32e783dc59a8eebbae562fb6c4d5a647afb127f86111ef543",
+    "app/bilibili_settings.py": "b7712161ebe6b7e311ed0f49de1ab1b2c88e5aa18e51ae564eb8b274df5698ba",
+    "app/bilibili-policy.test.mjs": "f25495d9b4570b6b6be474cb708251c1b2e4c7fd766a3f7fb352bc71ec502116",
+    "app/test_bilibili_settings.py": "3b3f4d2878ca7b49dc10278954dd8eab2a86388145c8898dd098aa71b50b79a9",
+    "app/provider_bridge.test.mjs": "c4488f754627bd04fad58a09b0a7896d84ee19308f45fe1b7b29c47f73e2873b"
+  }
+}

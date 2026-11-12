@@ -1,0 +1,26 @@
+schema_version: '1.0'
+site_id: eli-social-publisher-local
+project: Eli 社媒发布工作台本地第一阶段
+status: local-development
+architecture: static
+owner: Eli
+execution_owner: 本会话
+environment: local
+public_url: http://127.0.0.1:4197
+production_enabled: false
+deployment:
+  mechanism: local
+  authorization_reference: 2026-10-12用户明确从零制作并确认小红书抖音B站及三种内容
+  allowed_modes: [local-editor]
+  remote_deployment_authorized: false
+toolchain:
+  node: 22.16.0
+  package_manager: null
+  lockfile: null
+database:
+  type: browser-IndexedDB
+  production_fit: not-reviewed
+health:
+  method: 运行语法检查、真实浏览器桌面移动端、保存恢复与版本隔离验收
+rollback:
+  method: 停本地服务即可停止应用，浏览器草稿不清理

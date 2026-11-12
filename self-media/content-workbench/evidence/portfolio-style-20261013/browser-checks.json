@@ -1,0 +1,48 @@
+[
+  {
+    "background": "rgb(17, 18, 20)",
+    "bodyValue": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+    "button": "rgb(78, 75, 255)",
+    "ink": "rgb(237, 237, 240)",
+    "overflow": false,
+    "saveEnabled": true,
+    "step": "desktop-writing",
+    "titleFont": "30px",
+    "viewport": 1332
+  },
+  {
+    "background": "rgb(17, 18, 20)",
+    "bodyFont": "15px",
+    "overflow": false,
+    "scrollWidth": 375,
+    "step": "narrow-writing",
+    "tabs": [
+      {
+        "text": "写稿",
+        "width": 44
+      },
+      {
+        "text": "版本与画面",
+        "width": 80
+      },
+      {
+        "text": "平台文案",
+        "width": 68
+      },
+      {
+        "text": "资料与恢复",
+        "width": 80
+      }
+    ],
+    "width": 390
+  },
+  {
+    "background": "rgb(28, 29, 34)",
+    "overflow": false,
+    "panels": 2,
+    "sidebarPadding": "16px",
+    "step": "versions-confirmation",
+    "textColor": "rgb(237, 237, 240)",
+    "width": 1332
+  }
+]

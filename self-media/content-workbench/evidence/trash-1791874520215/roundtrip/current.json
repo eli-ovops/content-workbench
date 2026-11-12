@@ -1,0 +1,127 @@
+{
+  "rootId": "17bb2635-b8b9-4cb8-a899-28544bef4292",
+  "schemaName": "content-workbench.workspace",
+  "schemaVersion": 1,
+  "revision": 6,
+  "workspaces": [
+    {
+      "id": "45c8aaac-3be2-46a8-96d6-e703ad29b89c",
+      "revision": 6,
+      "title": "虚构样例｜把三段周报汇成表",
+      "topic": "虚构选题卡：普通人如何把三段示例周报汇总成表；没有真实工具效果或客户数据。",
+      "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。\n第二版",
+      "common": {
+        "title": "用一张表整理三段示例周报",
+        "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+        "hashtags": "#AI工具 #工作方法",
+        "backendTags": "AI, 工作方法"
+      },
+      "sources": [
+        {
+          "id": "5a553eb6-c0f5-462a-8041-9b91430e8bdb",
+          "title": "本人撰写的虚构样例",
+          "reference": "synthetic://weekly-example",
+          "date": "2026-10-12",
+          "scope": "全文",
+          "privacy": "PUBLIC",
+          "permission": "ALLOWED",
+          "version": 1,
+          "expiresAt": "",
+          "text": "公开合成示例，无真实客户或媒体"
+        }
+      ],
+      "facts": [
+        {
+          "id": "05611917-f908-438d-8ace-9f582383698f",
+          "text": "工具效果尚未实测",
+          "status": "UNVERIFIED",
+          "sourceIds": [
+            "5a553eb6-c0f5-462a-8041-9b91430e8bdb"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "f52a82b6-25bb-4b66-8782-ef8a4618762b",
+          "text": "录屏备注：显示三列汇总表；检查文字可读。只是计划，不是已录素材。",
+          "sourceIds": [
+            "5a553eb6-c0f5-462a-8041-9b91430e8bdb"
+          ],
+          "scriptVersion": null,
+          "mediaPath": ""
+        }
+      ],
+      "checks": [],
+      "versions": [
+        {
+          "id": "fd9c8460-8d98-4def-ad2f-abf691be7071",
+          "label": "v1",
+          "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。",
+          "hash": "8d01521aa6fa983fce883ac344dfe0b8b88bb07b54d711b43ca5f6b8565dd19b",
+          "paragraphs": [
+            {
+              "id": "f8c388c8-be8d-43c7-a728-1ee44b11c71e",
+              "text": "问题：三段虚构周报分散，想汇成一张表。"
+            },
+            {
+              "id": "1410f7d4-2a23-4da3-a2e1-af367126ba5e",
+              "text": "材料：三段公开示例文字。"
+            },
+            {
+              "id": "980fb48b-bac3-4d1f-9c4c-cb6a2ea05478",
+              "text": "操作：按事项、负责人、下一步列三列。"
+            },
+            {
+              "id": "152d2a73-db75-405c-941d-db0101ecf18a",
+              "text": "交付：一张示例汇总表。"
+            },
+            {
+              "id": "6b959452-1a4b-488e-8cba-2a9523d8f1a3",
+              "text": "检查：逐条对照原文，不把未知当完成。"
+            }
+          ],
+          "createdAt": "2026-10-13T06:55:20.484Z"
+        },
+        {
+          "id": "48d07215-edab-4304-b1f5-c7e71896d329",
+          "label": "v2",
+          "body": "问题：三段虚构周报分散，想汇成一张表。\n材料：三段公开示例文字。\n操作：按事项、负责人、下一步列三列。\n交付：一张示例汇总表。\n检查：逐条对照原文，不把未知当完成。\n第二版",
+          "hash": "95c1029958d3ed8cf6fb819bf375df58046bc3d741eabd7e2389a390d07cbe10",
+          "paragraphs": [
+            {
+              "id": "f8c388c8-be8d-43c7-a728-1ee44b11c71e",
+              "text": "问题：三段虚构周报分散，想汇成一张表。"
+            },
+            {
+              "id": "1410f7d4-2a23-4da3-a2e1-af367126ba5e",
+              "text": "材料：三段公开示例文字。"
+            },
+            {
+              "id": "980fb48b-bac3-4d1f-9c4c-cb6a2ea05478",
+              "text": "操作：按事项、负责人、下一步列三列。"
+            },
+            {
+              "id": "152d2a73-db75-405c-941d-db0101ecf18a",
+              "text": "交付：一张示例汇总表。"
+            },
+            {
+              "id": "6b959452-1a4b-488e-8cba-2a9523d8f1a3",
+              "text": "检查：逐条对照原文，不把未知当完成。"
+            },
+            {
+              "id": "1e607622-7d04-4c87-9d7d-81b2d36984d0",
+              "text": "第二版"
+            }
+          ],
+          "createdAt": "2026-10-13T06:55:20.628Z"
+        }
+      ],
+      "selectedVersion": "48d07215-edab-4304-b1f5-c7e71896d329",
+      "overrides": {},
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-13T06:55:20.220Z",
+      "updatedAt": "2026-10-13T06:55:20.498Z"
+    }
+  ]
+}

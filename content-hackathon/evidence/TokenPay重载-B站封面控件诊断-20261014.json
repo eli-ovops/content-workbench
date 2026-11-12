@@ -1,0 +1,50 @@
+[
+  {
+    "title": "验证：Eli个人介绍",
+    "body": "Eli个人介绍短片。仅用于工作台真实视频上传与文案回读验证，保留在编辑页，暂不发布。",
+    "category": "vlog",
+    "tags": [
+      "个人介绍",
+      "Eli"
+    ],
+    "coverPresent": false,
+    "thumbnails": [
+      {
+        "visible": true,
+        "cls": "img-item-box img-item-cover",
+        "parentCls": "card",
+        "width": 100,
+        "height": 76,
+        "y": 313.5,
+        "pointerEvents": "auto",
+        "hit": "img-item-box img-item-cover",
+        "background": true,
+        "images": []
+      },
+      {
+        "visible": true,
+        "cls": "img-item-box img-item-cover",
+        "parentCls": "card",
+        "width": 100,
+        "height": 76,
+        "y": 313.5,
+        "pointerEvents": "auto",
+        "hit": "img-item-box img-item-cover",
+        "background": true,
+        "images": []
+      },
+      {
+        "visible": true,
+        "cls": "img-item-box img-item-cover",
+        "parentCls": "card",
+        "width": 100,
+        "height": 76,
+        "y": 313.5,
+        "pointerEvents": "auto",
+        "hit": "img-item-box img-item-cover",
+        "background": true,
+        "images": []
+      }
+    ]
+  }
+]

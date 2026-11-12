@@ -1,0 +1,295 @@
+{
+  "runId": "core-1791812289816",
+  "recordedAt": "2026-10-12T13:38:11.475Z",
+  "status": "TEST_RUN_COMPLETED",
+  "sourceFingerprint": {
+    "hash": "12ed31ffd6f29bb5d38a89eb85c9b1179196b617de7db761061c66ef5de22425",
+    "files": [
+      {
+        "relativePath": "package.json",
+        "sha256": "b2bf8a32993553ee72eb6772b74b3fae1f6573b4020137db674cf7936950672d",
+        "bytes": 237
+      },
+      {
+        "relativePath": "public/app.js",
+        "sha256": "01759e2c1608bc44b50d32cfa361d7217f538ec9199b9380e84b9a64ad21d6f8",
+        "bytes": 23469
+      },
+      {
+        "relativePath": "public/index.html",
+        "sha256": "af5b90cb91f110381e5fe568129caa2e693b4094526c00961582e20e18fdac7a",
+        "bytes": 10435
+      },
+      {
+        "relativePath": "public/preview-data.js",
+        "sha256": "4622f554ecf2c41d7f4db37a14cc32294a15c90b367f9a4569f156f79011d7ca",
+        "bytes": 3202
+      },
+      {
+        "relativePath": "public/style.css",
+        "sha256": "def720c8c56e65f57b7b25e38074c1b5701bf2ff9a79af7a37cd7453dcf381b5",
+        "bytes": 20045
+      },
+      {
+        "relativePath": "src/authority.mjs",
+        "sha256": "6d2429b2efc21b03514a755f7aba60429f8c11e24c30f236738fb16708a779e5",
+        "bytes": 1160
+      },
+      {
+        "relativePath": "src/config.mjs",
+        "sha256": "9ad626adcd2cc0453210f0d8d326cb019aa9aac72b378756f654e86f4c3e4541",
+        "bytes": 1093
+      },
+      {
+        "relativePath": "src/fixture.mjs",
+        "sha256": "fdde3c98597de92d372d3adf4c58d25dc37f0286795eab5f08857e81ada7d909",
+        "bytes": 1196
+      },
+      {
+        "relativePath": "src/init.mjs",
+        "sha256": "7e7c28fd7c2bdbfa4698145a64152e469cbba89e800dcd40c0524b856f2d9148",
+        "bytes": 407
+      },
+      {
+        "relativePath": "src/launch.mjs",
+        "sha256": "ea32c8e208fcefccdf5d2e4d455d0ee502da749b5c5d9a454a79b3ee57dba95b",
+        "bytes": 2623
+      },
+      {
+        "relativePath": "src/model.mjs",
+        "sha256": "d88ad4d623f9d9e463deb833edce72b84a033feca0dd3e4bfa6d725236e1f5e9",
+        "bytes": 5683
+      },
+      {
+        "relativePath": "src/pairing.mjs",
+        "sha256": "a10502aa705bd41dbfe7fc0f715ca7f25abf21a4880e8976fbb518942ccd725a",
+        "bytes": 4054
+      },
+      {
+        "relativePath": "src/prepare-sample.mjs",
+        "sha256": "9bb8d80b921257e0ceb752ae0ecb7dadaefccdf23d8399853c561524b5fbd43c",
+        "bytes": 2768
+      },
+      {
+        "relativePath": "src/recover.mjs",
+        "sha256": "2ead2328cff2d6a251159c8a2020fdbff1a058d828f4f7f4b8a3a00754d505b6",
+        "bytes": 2348
+      },
+      {
+        "relativePath": "src/server.mjs",
+        "sha256": "66a50fb5aaf6e1d8a3489b13e91fa3520f3516f09e886a3f7051ffb5aa7e780e",
+        "bytes": 9437
+      },
+      {
+        "relativePath": "src/stop.mjs",
+        "sha256": "a0fe27f7bb2a13fcdf6870d7111ebb7534c5ecf0fb76ab984190b97480aac5b4",
+        "bytes": 684
+      },
+      {
+        "relativePath": "src/store.mjs",
+        "sha256": "14d11a05da1156ec6a573d0db000f5bb27982210ce34ee3a17a677fe28c594da",
+        "bytes": 15902
+      },
+      {
+        "relativePath": "停止内容工作台.command",
+        "sha256": "2dc1830b83f6b90ea5cbb51e2085f9f81ca9a1119c732fab9c3c9908ea345260",
+        "bytes": 243
+      },
+      {
+        "relativePath": "启动内容工作台.command",
+        "sha256": "864020549eac85f625afe1753fb143d8744d0807dace7f29e571790923d8c2de",
+        "bytes": 245
+      },
+      {
+        "relativePath": "恢复上一副本.command",
+        "sha256": "d7fa9815a0feb0f55caff27c1c0d056d55345790ae15b5a84dc75ecbb96775dd",
+        "bytes": 251
+      }
+    ],
+    "nodeVersion": "v24.19.0"
+  },
+  "records": [
+    {
+      "scenario": "S01",
+      "name": "real-save-export-restart",
+      "status": "PASS",
+      "details": {
+        "root": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791812289816/data/main",
+        "exportId": "dd40e23d-ab46-4364-82a1-bb0e91b49017",
+        "publicFileCount": 2,
+        "restartApproval": "invalidated",
+        "requiredDuplicateBodyInputs": 0
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S02",
+      "name": "versions-dependency",
+      "status": "PASS",
+      "details": {
+        "v1Preserved": true,
+        "oneTitleOnlyAffectsOwnPlatform": true,
+        "oldNotesMarkedByVersion": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S02",
+      "name": "raw-sources",
+      "status": "PASS",
+      "details": {
+        "firstStatus": "PARTIAL_ACCEPTED",
+        "changed": true,
+        "damagedStatus": "HISTORICAL_EXPIRED",
+        "paths": [
+          "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791812289816/data/authority-fixtures/registry.json",
+          "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791812289816/data/authority-fixtures/state.json"
+        ]
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S03",
+      "name": "nine-platforms-public-filter",
+      "status": "PASS",
+      "details": {
+        "configured": 9,
+        "simplified": 5,
+        "traditional": 4,
+        "privateFieldExcluded": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S03",
+      "name": "mid-export-post-completion-revoke",
+      "status": "PASS",
+      "details": {
+        "lockedPublicStatus": "REVOKED",
+        "completedDownloadDenied": true,
+        "internalPreserved": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "locking-conflict-capacity",
+      "status": "PASS",
+      "details": {
+        "secondWriterRejected": true,
+        "conflict": 409,
+        "block": 413,
+        "capacity": 413,
+        "priorSavedTextPreserved": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "unpersisted-revoke-restart",
+      "status": "PASS",
+      "details": {
+        "diskStillHasOldPermission": true,
+        "bootApprovalEmpty": true,
+        "publicDownloadDenied": true,
+        "explicitReconfirmationRequired": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "api-session-root-isolation",
+      "status": "PASS",
+      "details": {
+        "auth": 401,
+        "externalOrigin": 403,
+        "oversize": 413,
+        "otherRootCannotUseCookie": true,
+        "logoutDoesNotAffectOtherRoot": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S05",
+      "name": "draft-isolated-restore",
+      "status": "PASS",
+      "details": {
+        "exportId": "53e6d5f0-9248-4d71-90e8-fe64b2310ce5",
+        "restoredRoots": [
+          "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791812289816/data/restored/copy-a",
+          "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791812289816/data/restored/copy-b"
+        ],
+        "independentIds": true,
+        "permissionsHistorical": true,
+        "suspendedRelationsRejected": true,
+        "tamperRejected": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S05",
+      "name": "multi-file-failures",
+      "status": "PASS",
+      "details": {
+        "oldExport": "0f58950b-3380-45cb-b867-2401867e4bd7",
+        "secondAndLastFileFailuresRetained": true,
+        "partialNotDownloadable": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "symlink-protection",
+      "status": "PASS",
+      "details": {
+        "protectedFixtureHash": "178394a79d960a04a30b0404263a4c5296b5ece3bb6d6fe151d5460f135bf888",
+        "sourceUnchanged": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S03",
+      "name": "permission-expiry",
+      "status": "PASS",
+      "details": {
+        "injectedClock": true,
+        "expiredPublicDownloadDenied": true,
+        "malformedDateRejected": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S02",
+      "name": "startup-cached-history",
+      "status": "PASS",
+      "details": {
+        "status": "HISTORICAL_EXPIRED",
+        "oldTimePreserved": true,
+        "noEmptyReset": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S02",
+      "name": "paragraph-identity",
+      "status": "PASS",
+      "details": {
+        "stableUnchangedParagraph": true,
+        "danglingNoteRejected": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "export-parent-symlink",
+      "status": "PASS",
+      "details": {
+        "externalFixtureReadRefused": true,
+        "externalFixtureUnchanged": true
+      },
+      "deviations": []
+    }
+  ],
+  "deviations": [],
+  "limits": "synthetic data only; browser separate"
+}

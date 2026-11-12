@@ -1,0 +1,34 @@
+{
+  "video": "/Volumes/EXTERNAL/黑客松/参赛材料-20261014/视频制作-v1/Eli-参赛演示-审阅版-v1.mp4",
+  "bytes": 2347904,
+  "sha256": "6f3d1c8d8cc6df6a23ea386e9bc63cee290db58f873fd9a57bed539bedbdfd66",
+  "fullDecodeExit": 0,
+  "decodedFrames": 4320,
+  "expectedDuration": 180,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "audio": "none",
+  "sampleCount": 25,
+  "screenshotSources": [
+    {
+      "path": "/Volumes/EXTERNAL/黑客松/evidence/TokenPay首次实测-候选未采用次数耗尽-20261014.png",
+      "sha256": "6b22ad46c77ed259beeed4076d7546080931579dfa135c6a4375ac6369a6fc38"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/黑客松/evidence/TokenPay首次实测-应用归因收益列-20261014.png",
+      "sha256": "59ffb198457d9a72e8493b4902e377cd5bdfa990e34d88609eeebbb775ed2965"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/黑客松/evidence/工作台三平台准备通过-20261013.png",
+      "sha256": "113ba7b440452600e21d0fe224c16f23966f49f7dae3ca28384ab6413b532508"
+    }
+  ],
+  "ffprobe": "unavailable: installed x86_64 executable on arm64; FFmpeg full decode used",
+  "visualReview": "pending",
+  "userAcceptance": "pending",
+  "submitted": false,
+  "published": false
+}

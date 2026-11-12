@@ -1,0 +1,120 @@
+{
+  "checkedAt": "2026-10-14T11:28:07.784446+08:00",
+  "sourceEvidence": "三条真实视频-来源核对-20261014.json",
+  "originalDraftsPreserved": 8,
+  "totalLocalDraftsObserved": 11,
+  "published": false,
+  "cloudDraftSavedByWorkbench": false,
+  "platforms": {
+    "xhs": {
+      "phase": "prepared",
+      "kind": "video",
+      "message": "稿件已传入编辑页，预览核对通过。尚未发布",
+      "titlePreviewVerified": true,
+      "bodyPreviewVerified": true,
+      "imageCountVerified": false,
+      "videoUploadVerified": true,
+      "preparationFingerprint": "22b47f32458da43eb0dde95cedb87c7b801b50d4975e11cc46cf4cf68afbbed1",
+      "currentReadback": true
+    },
+    "douyin": {
+      "phase": "prepared",
+      "message": "抖音视频、标题和正文已填入，上传完成已核对；封面与声明请本人核对，尚未发布。",
+      "preparationVerified": true,
+      "titleVerified": true,
+      "bodyVerified": true,
+      "videoUploadVerified": true,
+      "receiptCaptured": true,
+      "published": false,
+      "draftId": "c42f784e-89a2-4b28-b4a1-cf643d8779cc",
+      "kind": "video",
+      "currentReadback": true,
+      "newEditorSupported": true
+    },
+    "bilibili": {
+      "phase": "login_observed",
+      "message": "已识别投稿控件，视频上传与文案准备待验收",
+      "preparationVerified": false
+    },
+    "tokenpay": {
+      "keyCreationAllowed": false,
+      "modelCallsAllowed": false,
+      "connected": true,
+      "appUrl": "app://eli-social-publisher",
+      "model": null,
+      "maxCalls": 0,
+      "callsAttempted": 0,
+      "lastOutcome": "not_started",
+      "authorizationPhase": "not_started",
+      "authorizationExpiresAt": null
+    }
+  },
+  "jobs": [
+    {
+      "platform": "xhs",
+      "jobId": "c9f8289b-8ec1-4050-83aa-3bc0d9f16905",
+      "title": "验证：Eli个人介绍",
+      "videoBytes": 13386003,
+      "videoSha256": "595d690d45aa67d72ba28d9103fd4da2092458483509a9e0a6884a403ff13806",
+      "stage": {
+        "stage": "prepared"
+      },
+      "receiptExists": true
+    },
+    {
+      "platform": "xhs",
+      "jobId": "4e4cec6b-58a3-4bec-b1d1-2cf786f7991b",
+      "title": "验证：人生指南脱敏母版",
+      "videoBytes": 61802739,
+      "videoSha256": "be57bb19582dac95fa163d494265bea01f4829dc5ea472134f4008e83b7fd17e",
+      "stage": {
+        "stage": "prepared"
+      },
+      "receiptExists": true
+    },
+    {
+      "platform": "xhs",
+      "jobId": "cdfd7347-928e-4a0b-afd6-01ba6ddfa68c",
+      "title": "验证：千问Go完整候选片",
+      "videoBytes": 12617771,
+      "videoSha256": "e0e8f2003035e3612dccf8f7a39d0657eb97707e51db37c5d6fe0f28aef698fb",
+      "stage": {
+        "stage": "prepared"
+      },
+      "receiptExists": true
+    },
+    {
+      "platform": "douyin",
+      "jobId": "6e535afd-038b-489d-bc5f-7e200bb9c81e",
+      "title": "验证：千问Go完整候选片",
+      "videoBytes": 12617771,
+      "videoSha256": "e0e8f2003035e3612dccf8f7a39d0657eb97707e51db37c5d6fe0f28aef698fb",
+      "stage": {
+        "stage": "prepared"
+      },
+      "receiptExists": true
+    },
+    {
+      "platform": "douyin",
+      "jobId": "c02d45e5-728f-4b5b-a121-ed679f58deed",
+      "title": "验证：人生指南脱敏母版",
+      "videoBytes": 61802739,
+      "videoSha256": "be57bb19582dac95fa163d494265bea01f4829dc5ea472134f4008e83b7fd17e",
+      "stage": {
+        "stage": "prepared"
+      },
+      "receiptExists": true
+    },
+    {
+      "platform": "douyin",
+      "jobId": "ede1c455-13d9-41c3-8916-826c59cd8c00",
+      "title": "验证：Eli个人介绍",
+      "videoBytes": 13386003,
+      "videoSha256": "595d690d45aa67d72ba28d9103fd4da2092458483509a9e0a6884a403ff13806",
+      "stage": {
+        "stage": "prepared"
+      },
+      "receiptExists": true
+    }
+  ]
+}

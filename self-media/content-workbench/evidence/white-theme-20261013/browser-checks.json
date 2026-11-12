@@ -1,0 +1,34 @@
+[
+  {
+    "background": "rgb(255, 255, 255)",
+    "button": "rgb(37, 37, 37)",
+    "draft": "虚构样例｜把三段周报汇成表",
+    "ink": "rgb(32, 32, 32)",
+    "paper": "rgb(255, 255, 255)",
+    "saveEnabled": true,
+    "scrollWidth": 1332,
+    "step": "desktop-writing",
+    "width": 1332
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "saveEnabled": true,
+    "scrollWidth": 375,
+    "step": "narrow-writing",
+    "width": 390
+  },
+  {
+    "inputBackground": "rgb(255, 255, 255)",
+    "previewBackground": "rgb(255, 255, 255)",
+    "scrollWidth": 1317,
+    "step": "desktop-platform",
+    "width": 1332
+  },
+  {
+    "panelBackground": "rgb(255, 255, 255)",
+    "scrollWidth": 1332,
+    "step": "desktop-versions",
+    "textColor": "rgb(68, 68, 68)",
+    "width": 1332
+  }
+]

@@ -1,0 +1,226 @@
+{
+  "runId": "browser-1791796394604",
+  "status": "PASS",
+  "records": [
+    {
+      "scenario": "S01",
+      "name": "desktop-actual-ui-closed-loop",
+      "status": "PASS",
+      "details": {
+        "viewport": 1440,
+        "bodyInputs": 1,
+        "twoPlatforms": [
+          "xiaohongshu",
+          "youtube"
+        ],
+        "exportId": "ac4b3d67-4087-4c85-8dab-613b3fb2a66f",
+        "screenshot": "S01/desktop-platform.png",
+        "downloadedFiles": 2
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S03",
+      "name": "public-download-real-package",
+      "status": "PASS",
+      "details": {
+        "actualFile": "S03-public-download.json",
+        "noInternalJSON": true,
+        "noAbsoluteSourcePaths": true,
+        "languageManuallyConfirmed": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S01",
+      "name": "narrow-keyboard-layout",
+      "status": "PASS",
+      "details": {
+        "viewport": 390,
+        "horizontalOverflow": false,
+        "keyboardFocus": "body",
+        "windowOnlyNotPhoneConnectivity": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "restart-public-confirmation-not-revived",
+      "status": "PASS",
+      "details": {
+        "savedBodyMatches": true,
+        "previousPublicDownload": 403
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S05",
+      "name": "real-ui-isolated-restore",
+      "status": "PASS",
+      "details": {
+        "input": "S05-internal-download.json",
+        "newRootCreated": true,
+        "oldRootUnchanged": true,
+        "publicApprovalsHistorical": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "ui-conflict-capacity-editor-rescue",
+      "status": "PASS",
+      "details": {
+        "conflict": 409,
+        "blockTooLarge": 413,
+        "editorRetained": true,
+        "actualBrowserDownload": "S04-unsaved-editor.json"
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S04",
+      "name": "same-browser-root-session-isolation",
+      "status": "PASS",
+      "details": {
+        "sameContext": true,
+        "logoutA": 401,
+        "rootBStillAuthenticated": 200,
+        "unrelatedRootUnaffected": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S02",
+      "name": "formal-input-hashes-unchanged",
+      "status": "PASS",
+      "details": {
+        "files": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/流程协作/会话登记.json",
+            "hash": "c290cc66e17ac9c4a033754527fd6e7989a85308556d006be415c3e797fcebf5"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/流程协作/流程状态.json",
+            "hash": "290bdb2d9370c6bcca7f9f3043c4271770f40267c614092bce66f6b97f6d01db"
+          }
+        ],
+        "realSourcesReadOnly": true
+      },
+      "deviations": []
+    }
+  ],
+  "errors": [],
+  "network": [
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/freeze",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/approve",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/approve",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/export",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/export/ac4b3d67-4087-4c85-8dab-613b3fb2a66f/public",
+      "status": 200
+    },
+    {
+      "pathname": "/api/export/ac4b3d67-4087-4c85-8dab-613b3fb2a66f/internal",
+      "status": 200
+    }
+  ],
+  "deviations": [],
+  "browser": "Google Chrome via existing Playwright",
+  "closedAt": "2026-10-12T09:13:17.425Z"
+}

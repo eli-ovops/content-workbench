@@ -1,0 +1,38 @@
+✔ S01: saved content and complete frozen package survive a real store restart (671.454125ms)
+✔ S02: v1/v2 and field-specific dependency invalidation (58.342917ms)
+✔ S02: raw sources and damaged sources never imply current PASS or change binding (5.476708ms)
+✔ S03: 9 configurations, language and public fields are isolated (240.762416ms)
+✔ S03: revoke while locked export and revoke after completion prevent public delivery (188.547792ms)
+✔ S04: revision, second instance, 40KiB blocks and capacity preserve prior data (46.592917ms)
+✔ S04: failed save and unpersisted revoke never resurrect approvals on restart (95.644875ms)
+✔ S04: API authentication, origin, static boundaries and app/root sessions (120.406625ms)
+✔ S05: internal DRAFT without freeze, complete restoration and nested relations (47.263792ms)
+✔ S05: multi-file failure does not become COMPLETED or override prior export (55.642125ms)
+✔ S04: symlink in a data root is refused and source files are never modified (7.947917ms)
+✔ S03: permission expiry and malformed expiry cannot use old approval (25.915459ms)
+✔ S02: startup source cache survives damaged input and restart (11.43625ms)
+✔ S02: stable paragraph IDs survive additions and note links are validated (17.558084ms)
+✔ S04: exported package refuses a symlinked parent before reading outside (14.596375ms)
+Evidence: /Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791871112537
+✔ HTTP pairing requires owner approval, binds one browser, rejects other origins and replay (497.657667ms)
+✔ pairing expires, caps pending requests, and owner socket checks root and file permissions (9.374042ms)
+✔ confirmed browser can create/save/reload and retain both versions; restart requires fresh pairing (212.099542ms)
+✔ launcher cold-start reports verified child, repeated launch reuses that exact service (890.065375ms)
+✔ failed startup cannot borrow a stale metadata URL returning HTTP 200 (180.201458ms)
+✔ owner startup ticket establishes an HttpOnly session once, with origin/root/expiry checks (499.836792ms)
+✔ restart rejects old sessions and old launch tickets; fresh automatic launch retains saved drafts and versions (245.589834ms)
+✔ concurrent double-click starts one service and abrupt exit recovers preserved stale locks on the same port (876.695958ms)
+✔ startup tickets are bounded and stale launch lock with unknown ownership is not removed (48.718958ms)
+✔ trash and restore survive restart and retain full content, relations and versions (652.771333ms)
+✔ trash rejects stale revisions and failed writes keep the active draft and approval (38.74925ms)
+✔ authenticated trash API hides the last draft, lists it for recovery and enforces origin (132.535ms)
+✔ workspace copy preserves originals, full relations and target edits; repeated copy is idempotent (668.034208ms)
+✔ a conflicting ID or invalid relation rejects the entire copy and preserves prior state (19.993417ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1933.335541

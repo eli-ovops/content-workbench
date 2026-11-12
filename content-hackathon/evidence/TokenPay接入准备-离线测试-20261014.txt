@@ -1,0 +1,281 @@
+TAP version 13
+# Subtest: standard ZIP reader verifies UTF8 copy, original image bytes and safe ordered paths
+ok 1 - standard ZIP reader verifies UTF8 copy, original image bytes and safe ordered paths
+  ---
+  duration_ms: 269.427917
+  type: 'test'
+  ...
+# Subtest: invalid type, disguised image and oversized copy fail before a package is created
+ok 2 - invalid type, disguised image and oversized copy fail before a package is created
+  ---
+  duration_ms: 0.46875
+  type: 'test'
+  ...
+# Subtest: Bili tags keep order and internal spaces, collapse duplicates without changing text
+ok 3 - Bili tags keep order and internal spaces, collapse duplicates without changing text
+  ---
+  duration_ms: 4.369416
+  type: 'test'
+  ...
+# Subtest: settings reject arbitrary paths, missing category and oversized or disguised covers
+ok 4 - settings reject arbitrary paths, missing category and oversized or disguised covers
+  ---
+  duration_ms: 3.01775
+  type: 'test'
+  ...
+# Subtest: Douyin topics deduplicate and keep order; unsafe or oversized topics are rejected
+ok 5 - Douyin topics deduplicate and keep order; unsafe or oversized topics are rejected
+  ---
+  duration_ms: 5.32975
+  type: 'test'
+  ...
+# Subtest: Douyin cover validates bytes and draft scope; caller paths have no effect
+ok 6 - Douyin cover validates bytes and draft scope; caller paths have no effect
+  ---
+  duration_ms: 0.817333
+  type: 'test'
+  ...
+# Subtest: selected platform versions are prepared serially and no publish adapter is used
+ok 7 - selected platform versions are prepared serially and no publish adapter is used
+  ---
+  duration_ms: 6.780583
+  type: 'test'
+  ...
+# Subtest: login or upload failure does not prevent remaining selected platforms
+ok 8 - login or upload failure does not prevent remaining selected platforms
+  ---
+  duration_ms: 2.522584
+  type: 'test'
+  ...
+# Subtest: same verified receipts do not reupload; another draft opens a new page retaining the previous one
+ok 9 - same verified receipts do not reupload; another draft opens a new page retaining the previous one
+  ---
+  duration_ms: 2.491
+  type: 'test'
+  ...
+# Subtest: uncertain upload is never automatically retried, while settings retry never reuploads video
+ok 10 - uncertain upload is never automatically retried, while settings retry never reuploads video
+  ---
+  duration_ms: 0.326458
+  type: 'test'
+  ...
+# Subtest: invalid and unsupported platforms and unconfirmed agreements do not mutate any browser
+ok 11 - invalid and unsupported platforms and unconfirmed agreements do not mutate any browser
+  ---
+  duration_ms: 0.668083
+  type: 'test'
+  ...
+# Subtest: upload marker is saved first; stopping completes the in-flight platform and skips later ones
+ok 12 - upload marker is saved first; stopping completes the in-flight platform and skips later ones
+  ---
+  duration_ms: 17.481041
+  type: 'test'
+  ...
+# Subtest: XHS verified content fingerprint gives safe repeat protection without a draftId
+ok 13 - XHS verified content fingerprint gives safe repeat protection without a draftId
+  ---
+  duration_ms: 1.1165
+  type: 'test'
+  ...
+# Subtest: an unverified XHS preview is never marked complete from a matching fingerprint
+ok 14 - an unverified XHS preview is never marked complete from a matching fingerprint
+  ---
+  duration_ms: 0.307834
+  type: 'test'
+  ...
+# Subtest: a stopped record is not evidence that changed copy was prepared
+ok 15 - a stopped record is not evidence that changed copy was prepared
+  ---
+  duration_ms: 0.703125
+  type: 'test'
+  ...
+# Subtest: a transient login page resumes only the not-yet-uploaded platform within the same action
+ok 16 - a transient login page resumes only the not-yet-uploaded platform within the same action
+  ---
+  duration_ms: 0.831334
+  type: 'test'
+  ...
+# Subtest: edited copy with a verified previous receipt opens a new editor without overwriting it
+ok 17 - edited copy with a verified previous receipt opens a new editor without overwriting it
+  ---
+  duration_ms: 0.313666
+  type: 'test'
+  ...
+# Subtest: XHS fingerprint matches browser and worker, includes Unicode and ordered media
+ok 18 - XHS fingerprint matches browser and worker, includes Unicode and ordered media
+  ---
+  duration_ms: 216.973875
+  type: 'test'
+  ...
+# Subtest: image queue opens the matching Douyin editor and skips unsupported Bili images
+ok 19 - image queue opens the matching Douyin editor and skips unsupported Bili images
+  ---
+  duration_ms: 0.659208
+  type: 'test'
+  ...
+# Subtest: image readiness requires native upload verification and does not reuse video readiness
+ok 20 - image readiness requires native upload verification and does not reuse video readiness
+  ---
+  duration_ms: 0.454333
+  type: 'test'
+  ...
+# Subtest: Bili image manual handoff is explicit and invalid image assets still require adjustment
+ok 21 - Bili image manual handoff is explicit and invalid image assets still require adjustment
+  ---
+  duration_ms: 0.35225
+  type: 'test'
+  ...
+# Subtest: Bili image package joins the same queue, stays manual and reuses a matching package
+ok 22 - Bili image package joins the same queue, stays manual and reuses a matching package
+  ---
+  duration_ms: 0.202917
+  type: 'test'
+  ...
+# Subtest: a verified unchanged draft is never reuploaded after its native editor session closes
+ok 23 - a verified unchanged draft is never reuploaded after its native editor session closes
+  ---
+  duration_ms: 0.069292
+  type: 'test'
+  ...
+# Subtest: fresh negative or missing readback overrides historical success without any remote mutation
+ok 24 - fresh negative or missing readback overrides historical success without any remote mutation
+  ---
+  duration_ms: 0.3635
+  type: 'test'
+  ...
+# Subtest: unknown providers are refused and read-only cold status starts no login process
+ok 25 - unknown providers are refused and read-only cold status starts no login process
+  ---
+  duration_ms: 3.640625
+  type: 'test'
+  ...
+# Subtest: image validation happens before browser mutation and Bili remains video only
+ok 26 - image validation happens before browser mutation and Bili remains video only
+  ---
+  duration_ms: 1.825541
+  type: 'test'
+  ...
+# Subtest: parallel status requests share one worker request; connect cannot queue behind them
+ok 27 - parallel status requests share one worker request; connect cannot queue behind them
+  ---
+  duration_ms: 1.39625
+  type: 'test'
+  ...
+# Subtest: timed-out command stays locked until its terminal worker response arrives
+ok 28 - timed-out command stays locked until its terminal worker response arrives
+  ---
+  duration_ms: 5.59375
+  type: 'test'
+  ...
+# Subtest: savings include failure, handoff and maintenance cost and do not invent missing baselines
+ok 29 - savings include failure, handoff and maintenance cost and do not invent missing baselines
+  ---
+  duration_ms: 1.053667
+  type: 'test'
+  ...
+# Subtest: PKCE matches RFC7636 published test vector
+ok 30 - PKCE matches RFC7636 published test vector
+  ---
+  duration_ms: 1.675542
+  type: 'test'
+  ...
+# Subtest: all external actions are denied by default without touching the network
+ok 31 - all external actions are denied by default without touching the network
+  ---
+  duration_ms: 0.992458
+  type: 'test'
+  ...
+# Subtest: OAuth binds nonce, fixed app identity and S256; a successful callback cannot be replayed
+ok 32 - OAuth binds nonce, fixed app identity and S256; a successful callback cannot be replayed
+  ---
+  duration_ms: 1.423958
+  type: 'test'
+  ...
+# Subtest: expired OAuth and uncertain exchange never trigger blind repeats or leak provider errors
+ok 33 - expired OAuth and uncertain exchange never trigger blind repeats or leak provider errors
+  ---
+  duration_ms: 1.305375
+  type: 'test'
+  ...
+# Subtest: model request is explicitly limited, attributed, review-only and never reports revenue
+ok 34 - model request is explicitly limited, attributed, review-only and never reports revenue
+  ---
+  duration_ms: 0.295791
+  type: 'test'
+  ...
+# Subtest: AI candidates cannot overwrite another draft, edited copy, or changed media
+ok 35 - AI candidates cannot overwrite another draft, edited copy, or changed media
+  ---
+  duration_ms: 0.132375
+  type: 'test'
+  ...
+# Subtest: HTTP routes reject cross-origin mutation and scrub callback codes from redirects
+ok 36 - HTTP routes reject cross-origin mutation and scrub callback codes from redirects
+  ---
+  duration_ms: 0.341291
+  type: 'test'
+  ...
+# QA-only created paths: ["/var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/eli-tokenpay-qa-S4bnUu","/var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/eli-tokenpay-qa-S4bnUu/exchange-started.json","/var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/eli-tokenpay-qa-S4bnUu/key.json","/var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/eli-tokenpay-qa-S4bnUu/call-attempts.json"]
+# Subtest: protected store modes, exchange lock and call budget survive service restarts
+ok 37 - protected store modes, exchange lock and call budget survive service restarts
+  ---
+  duration_ms: 10.330875
+  type: 'test'
+  ...
+# Subtest: invalid model output is never returned as an adoptable candidate and never automatically retried
+ok 38 - invalid model output is never returned as an adoptable candidate and never automatically retried
+  ---
+  duration_ms: 0.426167
+  type: 'test'
+  ...
+# Subtest: combined body and tags including separators stay within the preparation limit
+ok 39 - combined body and tags including separators stay within the preparation limit
+  ---
+  duration_ms: 1.073917
+  type: 'test'
+  ...
+# Subtest: unsupported images and both per-image and combined sizes are rejected
+ok 40 - unsupported images and both per-image and combined sizes are rejected
+  ---
+  duration_ms: 0.134708
+  type: 'test'
+  ...
+# Subtest: reordering preserves all asset identities and the original list
+ok 41 - reordering preserves all asset identities and the original list
+  ---
+  duration_ms: 1.263042
+  type: 'test'
+  ...
+# Subtest: video preparation keeps literal text and rejects image bytes or oversized copy
+ok 42 - video preparation keeps literal text and rejects image bytes or oversized copy
+  ---
+  duration_ms: 10.507292
+  type: 'test'
+  ...
+# Subtest: accepted user content is preserved; file paths/names cannot select runtime destinations
+ok 43 - accepted user content is preserved; file paths/names cannot select runtime destinations
+  ---
+  duration_ms: 8.642625
+  type: 'test'
+  ...
+# Subtest: reject unsupported media and oversized title rather than silent truncation
+ok 44 - reject unsupported media and oversized title rather than silent truncation
+  ---
+  duration_ms: 6.797083
+  type: 'test'
+  ...
+# Subtest: preparing without a connected account is refused; no worker or browser starts
+ok 45 - preparing without a connected account is refused; no worker or browser starts
+  ---
+  duration_ms: 9.444417
+  type: 'test'
+  ...
+1..45
+# tests 45
+# suites 0
+# pass 45
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 383.595375

@@ -1,0 +1,61 @@
+{
+  "checkedAt": "2026-10-13T08:39:07.512Z",
+  "timezone": "Asia/Shanghai",
+  "status": {
+    "phase": "prepared",
+    "message": "抖音封面和话题已核对，视频及原文保留；自主声明请本人核对，尚未发布。",
+    "preparationVerified": true,
+    "titleVerified": true,
+    "bodyVerified": true,
+    "videoUploadVerified": true,
+    "receiptCaptured": true,
+    "published": false,
+    "draftId": "e4cc8edc-0660-4a3e-9eee-2b5950ef7afb",
+    "optionsVerified": true,
+    "topicsVerified": true,
+    "appliedTopics": [
+      "AI工具",
+      "效率工具",
+      "发布工作台"
+    ],
+    "coverVerified": true,
+    "horizontalCoverVerified": true,
+    "verticalCoverVerified": true,
+    "bodyBaseUnchanged": true,
+    "coverUploadPerformed": false,
+    "videoUploadPerformed": false
+  },
+  "scope": "Real Douyin local cover for both ratios and native topic selection; no publication",
+  "baseJob": "3c4ddab4-de49-409f-ac46-29b6e98ed9cc",
+  "firstSettingsJob": "13fa17b3-e00f-4deb-b7ab-fbf12e54ab3c",
+  "recoveredSettingsJob": "219aa675-46a9-4e69-940f-11f10ab387df",
+  "repeatSettingsJob": "c5d70ff9-98c2-4dc4-97fd-a110527f2fb9",
+  "videoReuploadedBySettings": false,
+  "repeatCoverUploadPerformed": false,
+  "published": false,
+  "cloudDraftSavePerformed": false,
+  "creationDeclarationSelected": false,
+  "aiGenerationClicked": false,
+  "localSettingsReloadVerified": true,
+  "tests": {
+    "nodeGroups": 14,
+    "latestSettingsPythonCases": 5,
+    "syntax": "pass"
+  },
+  "evidence": [
+    "evidence/抖音封面话题已核对未发布-20261013.png",
+    "evidence/工作台抖音封面话题-20261013.png"
+  ],
+  "sourceHashes": {
+    "app/app.js": "2d280ba4e969dc8860f3eeb87dc015f4f0768d058104762f166d1cde1906d8ad",
+    "app/index.html": "c65e37a37c9cb7e8a7ae22b76fc44275286c5d34fd23878d42b3f266aeb65227",
+    "app/style.css": "b945f1805d6ef941eb8da7ad854499ecb96269d786eaeea53e8506e09547d562",
+    "app/server.mjs": "69d6b2ac61fbdc040db845b7cdb54ab0d7480732e47b93e1a33cfbd1e87f3a72",
+    "app/provider_bridge.mjs": "3341eff4bad1e7ebe6f4a63981141358855376e156aa2c6284ef6225526c060b",
+    "app/provider_worker.py": "3fdebe70a97d489e0006636fe6c89ab15322a31fec0a2e8b9e619e1590e9f8d9",
+    "app/douyin-policy.mjs": "4b64bde094d80777f9c8ef04749de29469725671cf0f57358d36ea77ea3c9a10",
+    "app/douyin_settings.py": "5a9b434b39cb719423db5ebab2365be286f2d42398321d6cd64b6ba60d3cec99",
+    "app/douyin-policy.test.mjs": "9a48c383328fd7ba8af9397cc3caacbe6fb3094ef51f0914a0cb0f3c97f9a436",
+    "app/test_douyin_settings.py": "c4cc8e5f75edaea6fd2f97743b7bbad47a9a2ae8431b609d0b91d6376fe29b46"
+  }
+}

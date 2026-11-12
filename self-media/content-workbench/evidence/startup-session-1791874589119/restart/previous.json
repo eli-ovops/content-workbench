@@ -1,0 +1,60 @@
+{
+  "rootId": "1d16c107-2cc7-4608-a021-d06696b37123",
+  "schemaName": "content-workbench.workspace",
+  "schemaVersion": 1,
+  "revision": 7,
+  "workspaces": [
+    {
+      "id": "dd96c7d0-0740-43cb-aba9-bb3123d7dbaf",
+      "revision": 6,
+      "title": "自动启动测试稿",
+      "topic": "",
+      "body": "第二版",
+      "common": {
+        "title": "",
+        "body": "",
+        "hashtags": "",
+        "backendTags": ""
+      },
+      "sources": [],
+      "facts": [],
+      "notes": [],
+      "checks": [],
+      "versions": [
+        {
+          "id": "f1b32a2b-d40c-4bce-8cc6-bb4b6782bb41",
+          "label": "v1",
+          "body": "第一版",
+          "hash": "812f7047193410c913d8e95673ba09353bd79236e4642a0a08f97df36b4c5788",
+          "paragraphs": [
+            {
+              "id": "6eb7dab0-40fa-490c-8397-622dbd3a2170",
+              "text": "第一版"
+            }
+          ],
+          "createdAt": "2026-10-13T06:56:29.441Z"
+        },
+        {
+          "id": "b938e46d-8bb4-441c-bddd-ba97271afe38",
+          "label": "v2",
+          "body": "第二版",
+          "hash": "11b8dabcaf337e8aa119e31120d5b317c1dd310758fd35552251eaa5cc928589",
+          "paragraphs": [
+            {
+              "id": "68840e15-4737-469f-aa41-fe1cc351614f",
+              "text": "第二版"
+            }
+          ],
+          "createdAt": "2026-10-13T06:56:29.465Z"
+        }
+      ],
+      "selectedVersion": "b938e46d-8bb4-441c-bddd-ba97271afe38",
+      "overrides": {},
+      "linkedContentId": "",
+      "authority": [],
+      "createdAt": "2026-10-13T06:56:29.410Z",
+      "updatedAt": "2026-10-13T06:56:29.451Z",
+      "trashedAt": "2026-10-13T06:56:29.549Z"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "scenario": "S01",
+    "name": "desktop-actual-ui-closed-loop",
+    "status": "PASS",
+    "details": {
+      "viewport": 1440,
+      "bodyInputs": 1,
+      "twoPlatforms": [
+        "xiaohongshu",
+        "youtube"
+      ],
+      "exportId": "c78adc87-8974-49fc-9027-e22bbbf883dc",
+      "screenshot": "S01/desktop-platform.png",
+      "downloadedFiles": 2
+    },
+    "deviations": []
+  },
+  {
+    "scenario": "S01",
+    "name": "narrow-keyboard-layout",
+    "status": "PASS",
+    "details": {
+      "viewport": 390,
+      "horizontalOverflow": false,
+      "keyboardFocus": "body",
+      "windowOnlyNotPhoneConnectivity": true
+    },
+    "deviations": []
+  }
+]

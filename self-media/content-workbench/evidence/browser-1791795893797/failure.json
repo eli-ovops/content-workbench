@@ -1,0 +1,159 @@
+{
+  "status": "FAIL",
+  "error": "browserContext.newPage: Target page, context or browser has been closed",
+  "records": [
+    {
+      "scenario": "S01",
+      "name": "desktop-actual-ui-closed-loop",
+      "status": "PASS",
+      "details": {
+        "viewport": 1440,
+        "bodyInputs": 1,
+        "twoPlatforms": [
+          "xiaohongshu",
+          "youtube"
+        ],
+        "exportId": "33c7beed-8467-4823-a86d-205f59debf0d",
+        "screenshot": "S01/desktop-platform.png",
+        "downloadedFiles": 2
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S03",
+      "name": "public-download-real-package",
+      "status": "PASS",
+      "details": {
+        "actualFile": "S03-public-download.json",
+        "noInternalJSON": true,
+        "noAbsoluteSourcePaths": true,
+        "languageManuallyConfirmed": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S01",
+      "name": "narrow-keyboard-layout",
+      "status": "PASS",
+      "details": {
+        "viewport": 390,
+        "horizontalOverflow": false,
+        "keyboardFocus": "body",
+        "windowOnlyNotPhoneConnectivity": true
+      },
+      "deviations": []
+    }
+  ],
+  "errors": [],
+  "network": [
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/freeze",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/approve",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/save",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/approve",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/export",
+      "status": 200
+    },
+    {
+      "pathname": "/api/state",
+      "status": 200
+    },
+    {
+      "pathname": "/api/export/33c7beed-8467-4823-a86d-205f59debf0d/public",
+      "status": 200
+    },
+    {
+      "pathname": "/api/export/33c7beed-8467-4823-a86d-205f59debf0d/internal",
+      "status": 200
+    }
+  ],
+  "deviations": [
+    {
+      "reason": "browserContext.newPage: Target page, context or browser has been closed"
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "time": "2026-10-14T11:24:38.254817+08:00",
+  "xhs": {
+    "pageOpen": true,
+    "pageCount": 1,
+    "path": "/publish/publish",
+    "title": "小红书创作服务平台",
+    "inputs": [
+      {
+        "type": "file",
+        "accept": ".mp4,.mov,.flv,.f4v,.mkv,.rm,.rmvb,.m4v,.mpg,.mpeg,.ts",
+        "placeholder": null,
+        "visible": true
+      },
+      {
+        "type": "checkbox",
+        "accept": null,
+        "placeholder": null,
+        "visible": false
+      },
+      {
+        "type": "text",
+        "accept": null,
+        "placeholder": "填写标题会有更多赞哦",
+        "visible": true
+      },
+      {
+        "type": "checkbox",
+        "accept": null,
+        "placeholder": null,
+        "visible": false
+      },
+      {
+        "type": "text",
+        "accept": null,
+        "placeholder": null,
+        "visible": true
+      },
+      {
+        "type": "text",
+        "accept": null,
+        "placeholder": null,
+        "visible": true
+      },
+      {
+        "type": "text",
+        "accept": null,
+        "placeholder": null,
+        "visible": true
+      },
+      {
+        "type": "checkbox",
+        "accept": null,
+        "placeholder": null,
+        "visible": false
+      }
+    ],
+    "buttons": [
+      "打开创作助手",
+      "重新生成",
+      "应用",
+      "应用",
+      "应用",
+      "话题",
+      "用户",
+      "表情",
+      "更多",
+      "Pick你的每周时刻\n08-04 至 12-31",
+      "关联",
+      "我的造飞机日记\n10-01 至 10-21",
+      "关联"
+    ],
+    "loginBoxes": [
+      {
+        "selector": "div[class*=\"login-box\"]",
+        "count": 0,
+        "visible": false
+      },
+      {
+        "selector": ".login-box-container",
+        "count": 0,
+        "visible": false
+      }
+    ],
+    "editors": [
+      {
+        "tag": "DIV",
+        "role": "textbox",
+        "className": "tiptap ProseMirror ProseMirror-focused",
+        "visible": true
+      }
+    ],
+    "titleStructure": [
+      {
+        "length": 10,
+        "readOnly": false,
+        "disabled": false,
+        "ancestors": [
+          {
+            "tag": "INPUT",
+            "cls": "d-text",
+            "text": null,
+            "hidden": false,
+            "children": []
+          },
+          {
+            "tag": "DIV",
+            "cls": "d-input --color-text-title --color-bg-fill",
+            "text": null,
+            "hidden": false,
+            "children": [
+              {
+                "tag": "INPUT",
+                "cls": "d-text",
+                "text": null,
+                "hidden": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "cls": "d-input-wrapper d-inline-block c-input_inner",
+            "text": null,
+            "hidden": false,
+            "children": [
+              {
+                "tag": "DIV",
+                "cls": "d-input --color-text-title --color-bg-fill",
+                "text": null,
+                "hidden": false,
+                "children": [
+                  {
+                    "tag": "INPUT",
+                    "cls": "d-text",
+                    "text": null,
+                    "hidden": false,
+                    "children": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "cls": "input",
+            "text": null,
+            "hidden": false,
+            "children": [
+              {
+                "tag": "DIV",
+                "cls": "d-input-wrapper d-inline-block c-input_inner",
+                "text": null,
+                "hidden": false,
+                "children": [
+                  {
+                    "tag": "DIV",
+                    "cls": "d-input --color-text-title --color-bg-fill",
+                    "text": null,
+                    "hidden": false,
+                    "children": null
+                  }
+                ]
+              },
+              {
+                "tag": "DIV",
+                "cls": "suffix",
+                "text": null,
+                "hidden": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "previewStructure": [
+      {
+        "tag": "DIV",
+        "cls": "preview-new",
+        "children": [
+          {
+            "tag": "DIV",
+            "cls": "left",
+            "textLength": 42
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "cover-plugin-preview",
+        "children": [
+          {
+            "tag": "DIV",
+            "cls": "cover-plugin-title",
+            "textLength": 9
+          },
+          {
+            "tag": "DIV",
+            "cls": "header",
+            "textLength": 34
+          },
+          {
+            "tag": "DIV",
+            "cls": "cover cover--column",
+            "textLength": 20
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "publish-page-preview",
+        "children": [
+          {
+            "tag": "DIV",
+            "cls": "",
+            "textLength": 80
+          },
+          {
+            "tag": "DIV",
+            "cls": "publish-page-assistant",
+            "textLength": 0
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "preview-title",
+        "children": [
+          {
+            "tag": "DIV",
+            "cls": "button-switch-wrapper",
+            "textLength": 9
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "preview-container",
+        "children": [
+          {
+            "tag": "DIV",
+            "cls": "video-preview-wrapper",
+            "textLength": 70
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "video-preview-wrapper",
+        "children": [
+          {
+            "tag": "DIV",
+            "cls": "video-preview",
+            "textLength": 70
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "video-preview",
+        "children": [
+          {
+            "tag": "DIV",
+            "cls": "video-container",
+            "textLength": 0
+          },
+          {
+            "tag": "DIV",
+            "cls": "progress",
+            "textLength": 0
+          },
+          {
+            "tag": "DIV",
+            "cls": "process-info",
+            "textLength": 13
+          },
+          {
+            "tag": "DIV",
+            "cls": "base-info",
+            "textLength": 70
+          },
+          {
+            "tag": "DIV",
+            "cls": "video-footer",
+            "textLength": 0
+          },
+          {
+            "tag": "DIV",
+            "cls": "comment-panel",
+            "textLength": 1344
+          },
+          {
+            "tag": "DIV",
+            "cls": "chapter-preview-panel",
+            "textLength": 1270
+          }
+        ]
+      }
+    ]
+  },
+  "douyin": {
+    "pageOpen": true,
+    "pageCount": 1,
+    "retainedPreparedPages": [],
+    "frames": [
+      {
+        "host": "creator.douyin.com",
+        "path": "/creator-micro/content/post/video",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "placeholder": "填写作品标题，为作品获得更多流量",
+            "accept": null,
+            "className": "semi-input semi-input-default",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "semi-switch-native-control",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "placeholder": "请输入视频售价",
+            "accept": null,
+            "className": "semi-input semi-input-default",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "placeholder": "请输入付费场景下的视频标题",
+            "accept": null,
+            "className": "semi-input semi-input-default",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "placeholder": null,
+            "accept": null,
+            "className": "",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "placeholder": null,
+            "accept": null,
+            "className": "",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "file",
+            "placeholder": null,
+            "accept": "image/png,image/jpeg,image/jpg",
+            "className": "upload-btn-input-UY_qeY",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "placeholder": null,
+            "accept": null,
+            "className": "",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "placeholder": null,
+            "accept": null,
+            "className": "",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "radio-native-p6VBGt",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "radio-native-p6VBGt",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "radio-native-p6VBGt",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "radio-native-p6VBGt",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "radio-native-p6VBGt",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "radio-native-p6VBGt",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "placeholder": null,
+            "accept": null,
+            "className": "radio-native-p6VBGt",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "file",
+            "placeholder": null,
+            "accept": "video/mp4,video/x-m4v,video/x-flv,.flv,.avi,.wmv,.ts,.mp4,.mpeg4,.mov,.m4v,.mpg,.mkv,.m4,video/*",
+            "className": "upload-btn-input-UY_qeY",
+            "visible": false
+          }
+        ],
+        "editors": [
+          {
+            "tag": "DIV",
+            "role": null,
+            "className": "zone-container editor-kit-container editor editor-comp-publish notranslate chrome chrome88",
+            "visible": true
+          }
+        ],
+        "buttons": [
+          "作品发布",
+          "首页",
+          "AI分身",
+          "随变",
+          "世界书",
+          "AI工坊",
+          "发布",
+          "暂存离开"
+        ]
+      }
+    ],
+    "loginSignals": [],
+    "agreements": [
+      {
+        "title": "《付费内容功能使用协议》",
+        "url": "https://lf3-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/platform_use/a65ace8d-80e2-4b02-ab67-c73ff7bf107e.html"
+      }
+    ],
+    "imageControls": [],
+    "loginDiagnostics": {
+      "phase": "login_observed",
+      "signals": [],
+      "qrVisible": false,
+      "loginUiVisible": false,
+      "uploadInputPresent": true,
+      "controls": []
+    },
+    "receiptFile": "抖音登录诊断-4fdfca58-0fd8-42c3-96a0-916babbdd8e9.png",
+    "loginHttpErrors": []
+  },
+  "bilibili": {
+    "pageOpen": true,
+    "pageCount": 1,
+    "retainedPreparedPages": [],
+    "frames": [
+      {
+        "host": "member.bilibili.com",
+        "path": "/platform/upload/video/frame",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "file",
+            "placeholder": null,
+            "accept": ".mp4,.flv,.avi,.wmv,.mov,.webm,.mpeg4,.ts,.mpg,.rm,.rmvb,.mkv,.m4v,.vob,.swf,.3gp,.mts,.m2v,.m2ts,.f4v,.m2t,.3g2,.asf",
+            "className": "",
+            "visible": false
+          },
+          {
+            "tag": "INPUT",
+            "type": "file",
+            "placeholder": null,
+            "accept": ".mp4,.flv,.avi,.wmv,.mov,.webm,.mpeg4,.ts,.mpg,.rm,.rmvb,.mkv,.m4v,.vob,.swf,.3gp,.mts,.m2v,.m2ts,.f4v,.m2t,.3g2,.asf",
+            "className": "",
+            "visible": true
+          },
+          {
+            "tag": "INPUT",
+            "type": "file",
+            "placeholder": null,
+            "accept": ".txt",
+            "className": "",
+            "visible": true
+          }
+        ],
+        "editors": [],
+        "buttons": []
+      }
+    ],
+    "loginSignals": [],
+    "agreements": [],
+    "imageControls": []
+  }
+}

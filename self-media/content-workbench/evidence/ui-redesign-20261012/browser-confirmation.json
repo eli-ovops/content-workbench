@@ -1,0 +1,20 @@
+{
+  "previewOnly": true,
+  "platformCheck": {
+    "choices": 9,
+    "platform": "youtube",
+    "saveStatus": "界面预览",
+    "traditionalPreview": true
+  },
+  "narrowCheck": {
+    "bodyFont": "15px",
+    "noHorizontalOverflow": true,
+    "reducedMotionRule": true,
+    "scrollWidth": 375,
+    "transition": "transform 0.2s cubic-bezier(0.2, 0, 0, 1)",
+    "width": 390
+  },
+  "deviations": [
+    "Saved-data browser actions not exercised; protected file pairing URL blocked. Backend API regression is separate."
+  ]
+}

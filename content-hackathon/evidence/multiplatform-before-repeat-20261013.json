@@ -1,0 +1,26 @@
+{
+  "xhs": {
+    "jobCount": 16,
+    "latestJob": "057fc88a-aba1-46ee-9fda-66a68fd60591",
+    "title": "小红书：统一准备验证",
+    "topics": null,
+    "draftId": null
+  },
+  "douyin": {
+    "jobCount": 11,
+    "latestJob": "ebd5f795-31ce-4103-825a-b1b0e98047c4",
+    "title": null,
+    "topics": [
+      "AI工具",
+      "效率工具"
+    ],
+    "draftId": "1d2a859f-b606-4c90-84da-b1e29939aa80"
+  },
+  "bilibili": {
+    "jobCount": 12,
+    "latestJob": "8db61734-4d9f-4deb-95df-4834f09d338d",
+    "title": "B站：统一准备验证",
+    "topics": null,
+    "draftId": "1d2a859f-b606-4c90-84da-b1e29939aa80"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-13T07:20:51.035Z",
+  "timezone": "Asia/Shanghai",
+  "scope": "Real Douyin video and complete title/body preparation; never publish",
+  "status": {
+    "phase": "prepared",
+    "message": "抖音视频、标题和正文已填入，上传完成已核对；封面与声明请本人核对，尚未发布。",
+    "preparationVerified": true,
+    "titleVerified": true,
+    "bodyVerified": true,
+    "videoUploadVerified": true,
+    "receiptCaptured": true,
+    "published": false,
+    "draftId": "e4cc8edc-0660-4a3e-9eee-2b5950ef7afb"
+  },
+  "firstJob": "9c626854-7f7e-4dad-a2db-5b51f4fc47ab",
+  "verifiedJob": "66c9b9d8-1536-4cea-b0ec-57669e9a2ed3",
+  "actualUploads": 2,
+  "retryReason": "First upload succeeded; exact copy readback rejected native trailing U+200B. Evidence reviewed, fixed, regression tested, then tested fresh editor after connector reload.",
+  "published": false,
+  "cloudDraftSavePerformed": false,
+  "creationDeclarationSelected": false,
+  "aiGenerationClicked": false,
+  "sourceHashes": {
+    "app/douyin_note.py": "e9aa524bfe357f0cf04a7a9d134cd2c4ee3aa908e50899b369a1239ee87e0908",
+    "app/douyin_login.py": "99a6e0bffd0d5c2871ea4a6d11b7a95a232d3bd871163648968e37569f312770",
+    "app/provider_worker.py": "3b3887a330e819ba703c53402e26dfb34cdcdde2b2c3b50e0fddf3a2f66185a5",
+    "app/test_douyin_editor.py": "cd82da17b41486e7614c59142e866c16a4ed7672a2c4b4c4b0770418d47d72a2",
+    "app/test_douyin_login.py": "7de7c3095db1d9cc18535afed1b5de745b585535cc8d4bcab966c70ea82526ec",
+    "app/app.js": "44c4ba571a49b46a3fac81d598dade9dbb07c925b0402de5eff2d4ee30ce1ae7",
+    "app/index.html": "0aea4168d868ee5ee917df9ca8b0a9562129b928ede399b3ef392f9314b72985"
+  },
+  "evidence": "evidence/抖音视频已准备未发布-20261013.png",
+  "tests": {
+    "latestEditorCases": 5,
+    "latestLoginCases": 5,
+    "latestSessionCases": 6,
+    "nodeGroupsPreviouslyPassed": 12
+  }
+}

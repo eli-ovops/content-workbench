@@ -1,0 +1,12 @@
+[
+  {
+    "scenario": "S04",
+    "name": "restart-public-confirmation-not-revived",
+    "status": "PASS",
+    "details": {
+      "savedBodyMatches": true,
+      "previousPublicDownload": 403
+    },
+    "deviations": []
+  }
+]

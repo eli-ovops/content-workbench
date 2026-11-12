@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-12T11:09:52.779Z",
+  "timezone": "Asia/Shanghai",
+  "jobId": "2a3dbe77-f2ea-40e7-a278-2a5ec1df1751",
+  "scope": "Bilibili single synthetic MP4 editor preparation only",
+  "result": {
+    "phase": "prepared",
+    "preparationVerified": true,
+    "titleVerified": true,
+    "bodyVerified": true,
+    "videoUploadVerified": true,
+    "receiptCaptured": true
+  },
+  "published": false,
+  "cloudDraftSavePerformed": false,
+  "classificationTagsCoverDeclarations": "platform defaults remain for user review",
+  "tests": {
+    "biliEditorRegression": "1 pass",
+    "nodeBoundaryTests": "10 pass in preceding version, unchanged JS",
+    "pythonSyntax": "pass"
+  },
+  "sourceHashes": {
+    "app/bilibili_note.py": "3069390ca1199c8cd88067c8669f760399b453dcce90fe8bb8da9e7d28d95549",
+    "app/provider_worker.py": "517a687ab5d0e05f16c6627d561e3231a675b0d1765dee99d790f266b8526b24",
+    "app/provider_bridge.mjs": "9511befdc2d878496f33b574276b481cf5cdc301eb4a202c06fd1ae6522ec750",
+    "app/app.js": "fbc7525ec9dfcf014f34bbbfc0b5e2dda74a1433c8a3e7cb5a4a3d81dbf29bed",
+    "app/test_bilibili_editor.py": "6fd38e09f15c530c69212a2463fcbff808f3e36d32a4b3a998864d13ff3eb3eb"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-14T11:34:01.403266+08:00",
+  "status": {
+    "phase": "prepared",
+    "message": "B站视频、文案、封面、分区和标签已核对；创作声明请本人核对，尚未投稿。",
+    "preparationVerified": true,
+    "titleVerified": true,
+    "bodyVerified": true,
+    "videoUploadVerified": true,
+    "receiptCaptured": true,
+    "draftId": "d7e9e9f6-8842-4c97-bcb5-2f4fc1531b20",
+    "kind": "video",
+    "optionsVerified": true,
+    "coverVerified": true,
+    "categoryVerified": true,
+    "tagsVerified": true,
+    "titleBodyUnchanged": true,
+    "appliedCategory": [
+      "vlog"
+    ],
+    "appliedTags": [
+      "个人介绍",
+      "Eli"
+    ],
+    "coverMode": "frame",
+    "currentReadback": true,
+    "newEditorSupported": true
+  }
+}

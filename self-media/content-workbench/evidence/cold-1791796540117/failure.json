@@ -1,0 +1,32 @@
+{
+  "status": "FAIL",
+  "error": "The expression evaluated to a falsy value:\n\n  assert((await result.page.locator('#runtime').innerText()).includes(restored.root))\n",
+  "records": [
+    {
+      "scenario": "S01",
+      "name": "tested-one-entry-cold-start-stop",
+      "status": "PASS",
+      "details": {
+        "entry": "/Volumes/EXTERNAL/自媒体/content-workbench/启动内容工作台.command",
+        "root": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/cold-1791796540117/data/main",
+        "bodyMatches": true
+      },
+      "deviations": []
+    },
+    {
+      "scenario": "S01",
+      "name": "same-entry-restart",
+      "status": "PASS",
+      "details": {
+        "sameBody": true,
+        "noBuildRequired": true
+      },
+      "deviations": []
+    }
+  ],
+  "deviations": [
+    {
+      "reason": "The expression evaluated to a falsy value:\n\n  assert((await result.page.locator('#runtime').innerText()).includes(restored.root))\n"
+    }
+  ]
+}

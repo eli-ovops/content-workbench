@@ -1,0 +1,105 @@
+{
+  "checkedAt": "2026-10-14T01:21:29.454Z",
+  "scope": "native image preparation only",
+  "statuses": {
+    "douyin": {
+      "phase": "prepared",
+      "kind": "image",
+      "message": "抖音话题已核对，当前封面及原文保留；自主声明请本人核对，尚未发布。",
+      "preparationVerified": true,
+      "titleVerified": true,
+      "bodyVerified": true,
+      "imageUploadVerified": true,
+      "imageCount": 2,
+      "published": false,
+      "draftId": "524d00ae-a638-484d-84fd-1af5e4edbe33",
+      "optionsVerified": true,
+      "topicsVerified": true,
+      "appliedTopics": [
+        "AI工具",
+        "效率工具"
+      ],
+      "coverVerified": null,
+      "horizontalCoverVerified": null,
+      "verticalCoverVerified": null,
+      "coverUploadPerformed": false,
+      "videoUploadPerformed": false,
+      "bodyBaseUnchanged": true,
+      "receiptCaptured": true,
+      "newEditorSupported": true
+    },
+    "xhs": {
+      "phase": "prepared",
+      "kind": "image",
+      "message": "稿件已传入编辑页，预览核对通过。尚未发布",
+      "titlePreviewVerified": true,
+      "bodyPreviewVerified": true,
+      "imageCountVerified": true,
+      "videoUploadVerified": false,
+      "preparationFingerprint": "763a140c357435c76f2304853091dfa3f7ec9318c42396698bb8cff2aa6f880c"
+    },
+    "bilibili": {
+      "phase": "not_connected",
+      "message": "尚未连接，准备流程待验收"
+    }
+  },
+  "douyinGallery": {
+    "count": 2,
+    "loaded": [
+      true,
+      true
+    ]
+  },
+  "nativeTopics": [
+    "AI工具",
+    "效率工具"
+  ],
+  "draftId": "524d00ae-a638-484d-84fd-1af5e4edbe33",
+  "imagesOrdered": [
+    "eli-social-publisher-icon-v5.png",
+    "eli-social-publisher-icon-v4.png"
+  ],
+  "sourceSHA256": {
+    "app/app.js": "b6251208b93ee90e073a779b42cc9866804ffdcb4916caa0a4428290a0aa3a00",
+    "app/index.html": "60ec48dfc14b23cb70775e0df0b9a421985ce8c22dc172fe6bb41d37d3d97a53",
+    "app/provider_bridge.mjs": "6165efb1c446cbb96ef47b6e23f11f67e5352da41a488f0fc068213f66b23f50",
+    "app/provider_worker.py": "2ccef4fe5a60945447418ac3e44750e84b15ab3970b5171146ca6aca74da535d",
+    "app/douyin_login.py": "0465b9de5625270dd8e88765b40b72f324ca2e15aedd1913e21ac0085ee79064",
+    "app/douyin_image.py": "3e0b9bae330683e9b2d83482d3233144d22e09a170a98fa80684867a5f615ab5",
+    "app/douyin_settings.py": "93fb517148fcb29faeffc5dcc1f0aba3eb2b4c89afd993f2ce693f9ced68f6eb",
+    "app/xhs_note.py": "a7e0d40122d7aa013d23702c11e95af34a925911f61d4251095c33e0ac00bd98",
+    "app/server.mjs": "767a539b29534c1ce23284f09e834eae09f1d9ae1931e66f0030463e1db800de"
+  },
+  "publishClicked": false,
+  "cloudDraftSaveClicked": false,
+  "declarationsSelected": false,
+  "repeatPreparation": {
+    "before": {
+      "xhs": 19,
+      "douyin": 16,
+      "bilibili": 13
+    },
+    "after": {
+      "xhs": 19,
+      "douyin": 16,
+      "bilibili": 13
+    },
+    "noNewJobs": true
+  },
+  "checks": {
+    "node": {
+      "passed": 29,
+      "failed": 0
+    },
+    "python": {
+      "passed": 37,
+      "failed": 0
+    },
+    "finalQueue": {
+      "passed": 14,
+      "failed": 0
+    },
+    "workbench": "2/2 prepared after reload; Bili image skipped without starting worker",
+    "drafts": 8
+  }
+}

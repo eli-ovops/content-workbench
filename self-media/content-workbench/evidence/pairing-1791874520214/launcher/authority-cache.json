@@ -1,0 +1,178 @@
+[
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/流程协作/会话登记.json",
+    "sha256": "aac08d37c65076d41f773ffa5706bfc41ce776e4a264b45b9ad838229cf380ae",
+    "readAt": "2026-10-13T06:55:21.475Z",
+    "status": "CURRENT_RAW",
+    "value": {
+      "version": "CONTENT-FLOW-2026-10-08-v1",
+      "stages": [
+        {
+          "id": "01",
+          "label": "研究热点与选题",
+          "thread_id": "01a11442-a6d9-7413-88b3-191ce5cb037b"
+        },
+        {
+          "id": "02",
+          "label": "脚本与分镜",
+          "thread_id": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb"
+        },
+        {
+          "id": "03",
+          "label": "拍摄指导与素材接收",
+          "thread_id": "01a11a73-6bcd-7451-975f-95e05c883fa8"
+        },
+        {
+          "id": "04",
+          "label": "剪辑与视觉制作",
+          "thread_id": "01a11a6f-49ef-7653-934a-4312979fd4e7"
+        },
+        {
+          "id": "05",
+          "label": "成品质检与审片",
+          "thread_id": "01a11a79-f636-7823-9350-3c5f7526e6c7"
+        },
+        {
+          "id": "06",
+          "label": "多平台适配与发布包",
+          "thread_id": "01a11a7f-9a85-7481-9e6c-75f11280ba56"
+        },
+        {
+          "id": "07",
+          "label": "本人发布与回执",
+          "thread_id": "01a11a88-68d7-7250-93c0-1fb2218c0e3e"
+        },
+        {
+          "id": "08",
+          "label": "数据复盘与反馈",
+          "thread_id": "01a11a95-ef09-7da2-9846-c8157050e112"
+        }
+      ],
+      "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444"
+    },
+    "changed": false
+  },
+  {
+    "path": "/Volumes/EXTERNAL/自媒体/流程协作/流程状态.json",
+    "sha256": "f0344045cd8d4c5822b7331109f14e7560fe4e9fdfaae0f35726bfd3d3ec5008",
+    "readAt": "2026-10-13T06:55:21.475Z",
+    "status": "CURRENT_RAW",
+    "value": {
+      "version": "CONTENT-FLOW-2026-10-08-v1",
+      "active_content_id": "qianwen-go-case-20261013",
+      "runs": {
+        "first-video-life-guide-visual-fix-v7": {
+          "current_stage": "05",
+          "status": "UNKNOWN",
+          "stages": {
+            "01": "IMPORTED_VERIFIED_BASELINE",
+            "02": "IMPORTED_VERIFIED_BASELINE",
+            "03": "IMPORTED_VERIFIED_BASELINE",
+            "04": "PASSED",
+            "05": "RELEASED",
+            "06": "WAITING",
+            "07": "WAITING",
+            "08": "WAITING"
+          }
+        },
+        "ai-content-benchmarks-30-20261008": {
+          "current_stage": "01",
+          "status": "UNKNOWN",
+          "stages": {
+            "01": "RELEASED",
+            "02": "WAITING",
+            "03": "WAITING",
+            "04": "WAITING",
+            "05": "WAITING",
+            "06": "WAITING",
+            "07": "WAITING",
+            "08": "WAITING"
+          }
+        },
+        "sun-shao-interview-20261009": {
+          "current_stage": "06",
+          "status": "UNKNOWN",
+          "stages": {
+            "01": "IMPORTED_VERIFIED_BASELINE",
+            "02": "IMPORTED_VERIFIED_BASELINE",
+            "03": "IMPORTED_VERIFIED_BASELINE",
+            "04": "IMPORTED_VERIFIED_BASELINE",
+            "05": "PASSED",
+            "06": "BLOCKED",
+            "07": "WAITING",
+            "08": "WAITING"
+          }
+        },
+        "eli-brand-intro-20261010": {
+          "current_stage": "07",
+          "status": "PUBLICATION_USER_CONFIRMED_9_NATIVE_RECORDS_8",
+          "stages": {
+            "04": "PMO_ACCEPTED_RATIO_ADAPTATION",
+            "05": "PASSED",
+            "06": "PARTIAL_ACCEPTED_5_READY_4_BLOCKED",
+            "07": "PUBLICATION_RECEIPTS_PARTIAL_VERIFIED",
+            "08": "WAITING"
+          }
+        },
+        "content-radar-20261012": {
+          "current_stage": "01",
+          "status": "TOPIC_CARDS_READY_WAITING_USER_SELECTION",
+          "stages": {
+            "01": "PARTIAL_ACCEPTED_EVENTS_AND_TOPIC_CARDS",
+            "02": "WAITING",
+            "03": "WAITING",
+            "04": "WAITING",
+            "05": "WAITING",
+            "06": "WAITING",
+            "07": "WAITING",
+            "08": "WAITING"
+          }
+        },
+        "motion-sample-20261012": {
+          "current_stage": "04",
+          "status": "V7_DELIVERED_WAITING_USER_STYLE_REVIEW",
+          "stages": {
+            "04": "DELIVERED_PMO_RECEIVED",
+            "05": "V7_USER_STYLE_REVIEW_PENDING"
+          }
+        },
+        "motion-reference-20261012": {
+          "current_stage": "01",
+          "status": "RESEARCH_ACCEPTED_WAITING_USER_NEXT_EDIT_CHOICE",
+          "stages": {
+            "01": "PMO_ACCEPTED_SCOPED_COMPARISON",
+            "02": "WAITING",
+            "03": "WAITING",
+            "04": "WAITING",
+            "05": "WAITING",
+            "06": "WAITING",
+            "07": "WAITING",
+            "08": "WAITING"
+          }
+        },
+        "content-radar-20261013": {
+          "current_stage": "01",
+          "status": "DAILY_RADAR_RELEASED",
+          "stages": {
+            "01": "RELEASED"
+          }
+        },
+        "qianwen-go-case-20261013": {
+          "current_stage": "02",
+          "status": "WAITING_USER_SCRIPT_APPROVAL_V2",
+          "stages": {
+            "01": "PASSED",
+            "02": "RELEASED",
+            "03": "WAITING",
+            "04": "WAITING",
+            "05": "WAITING",
+            "06": "WAITING",
+            "07": "WAITING",
+            "08": "WAITING"
+          }
+        }
+      }
+    },
+    "changed": false
+  }
+]

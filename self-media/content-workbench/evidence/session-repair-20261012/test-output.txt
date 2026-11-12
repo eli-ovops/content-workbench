@@ -1,0 +1,29 @@
+✔ S01: saved content and complete frozen package survive a real store restart (66.589875ms)
+✔ S02: v1/v2 and field-specific dependency invalidation (61.426375ms)
+✔ S02: raw sources and damaged sources never imply current PASS or change binding (1.519417ms)
+✔ S03: 9 configurations, language and public fields are isolated (49.379625ms)
+✔ S03: revoke while locked export and revoke after completion prevent public delivery (46.180917ms)
+✔ S04: revision, second instance, 40KiB blocks and capacity preserve prior data (12.110167ms)
+✔ S04: failed save and unpersisted revoke never resurrect approvals on restart (30.278417ms)
+✔ S04: API authentication, origin, static boundaries and app/root sessions (64.780667ms)
+✔ S05: internal DRAFT without freeze, complete restoration and nested relations (31.970541ms)
+✔ S05: multi-file failure does not become COMPLETED or override prior export (34.332541ms)
+✔ S04: symlink in a data root is refused and source files are never modified (7.617542ms)
+✔ S03: permission expiry and malformed expiry cannot use old approval (28.013791ms)
+✔ S02: startup source cache survives damaged input and restart (13.26925ms)
+✔ S02: stable paragraph IDs survive additions and note links are validated (21.343083ms)
+✔ S04: exported package refuses a symlinked parent before reading outside (18.9095ms)
+Evidence: /Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791813205362
+✔ HTTP pairing requires owner approval, binds one browser, rejects other origins and replay (69.445375ms)
+✔ pairing expires, caps pending requests, and owner socket checks root and file permissions (6.608417ms)
+✔ confirmed browser can create/save/reload and retain both versions; restart requires fresh pairing (91.633708ms)
+✔ launcher cold-start reports verified child, repeated launch reuses that exact service (444.304042ms)
+✔ failed startup cannot borrow a stale metadata URL returning HTTP 200 (5212.544375ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5889.964709

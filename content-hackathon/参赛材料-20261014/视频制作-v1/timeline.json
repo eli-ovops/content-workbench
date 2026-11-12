@@ -1,0 +1,347 @@
+{
+  "duration": 180,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "audio": "none",
+  "network": false,
+  "sources": [
+    {
+      "path": "/Volumes/EXTERNAL/黑客松/evidence/TokenPay首次实测-候选未采用次数耗尽-20261014.png",
+      "sha256": "6b22ad46c77ed259beeed4076d7546080931579dfa135c6a4375ac6369a6fc38"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/黑客松/evidence/TokenPay首次实测-应用归因收益列-20261014.png",
+      "sha256": "59ffb198457d9a72e8493b4902e377cd5bdfa990e34d88609eeebbb775ed2965"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/黑客松/evidence/工作台三平台准备通过-20261013.png",
+      "sha256": "113ba7b440452600e21d0fe224c16f23966f49f7dae3ca28384ab6413b532508"
+    }
+  ],
+  "shots": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 7,
+      "section": 1,
+      "label": "自己的重复工作",
+      "title": "一份内容，\n分别准备到多个平台。",
+      "caption": "我做内容时，同一条视频经常需要在多个平台重新找素材、复制文字。",
+      "source": null
+    },
+    {
+      "index": 1,
+      "start": 7,
+      "end": 14,
+      "section": 1,
+      "label": "集中整理",
+      "title": "素材、母稿、\n各平台版本。",
+      "caption": "Eli把素材、母稿和各平台版本集中管理，",
+      "source": [
+        "TokenPay首次实测-候选未采用次数耗尽-20261014.png",
+        [
+          230,
+          30,
+          1240,
+          1230
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "start": 14,
+      "end": 20,
+      "section": 1,
+      "label": "产品定位",
+      "title": "投稿准备助手",
+      "caption": "先帮我把发布前的重复准备做好。",
+      "source": null
+    },
+    {
+      "index": 3,
+      "start": 20,
+      "end": 28,
+      "section": 2,
+      "label": "母稿与平台版本",
+      "title": "共用素材，\n分别保留文案。",
+      "caption": "一份母稿可以复用，各平台也能保留自己的标题、正文和标签。",
+      "source": [
+        "TokenPay首次实测-候选未采用次数耗尽-20261014.png",
+        [
+          270,
+          140,
+          1230,
+          1180
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "start": 28,
+      "end": 36,
+      "section": 2,
+      "label": "草稿管理",
+      "title": "保存与完整备份",
+      "caption": "这里有草稿备份、素材替换和撤销，",
+      "source": [
+        "TokenPay首次实测-候选未采用次数耗尽-20261014.png",
+        [
+          0,
+          150,
+          825,
+          1210
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "start": 36,
+      "end": 43,
+      "section": 2,
+      "label": "准备与发布分开",
+      "title": "修改不等于发布",
+      "caption": "修改不会直接变成对外发布。",
+      "source": [
+        "TokenPay首次实测-候选未采用次数耗尽-20261014.png",
+        [
+          280,
+          1870,
+          810,
+          2130
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "start": 43,
+      "end": 50,
+      "section": 2,
+      "label": "稿件保护",
+      "title": "旧稿保留，\n异常先核对。",
+      "caption": "修改不会直接变成对外发布。",
+      "source": null
+    },
+    {
+      "index": 7,
+      "start": 50,
+      "end": 58,
+      "section": 3,
+      "label": "多平台准备队列",
+      "title": "一起发起，\n分别核对。",
+      "caption": "选中多个平台后，工作台按平台分别准备。",
+      "source": [
+        "工作台三平台准备通过-20261013.png",
+        [
+          275,
+          430,
+          842,
+          960
+        ]
+      ]
+    },
+    {
+      "index": 8,
+      "start": 58,
+      "end": 66,
+      "section": 3,
+      "label": "历史实测 · 2026-10-13",
+      "title": "历史证据，\n不冒充当前会话。",
+      "caption": "小红书和抖音已有上传及文案回读证据，",
+      "source": [
+        "工作台三平台准备通过-20261013.png",
+        [
+          290,
+          675,
+          830,
+          1040
+        ]
+      ]
+    },
+    {
+      "index": 9,
+      "start": 66,
+      "end": 73,
+      "section": 3,
+      "label": "重载后的当前边界",
+      "title": "小红书 / 抖音\n当前会话待核。",
+      "caption": "本次重载后没有重传，当前会话待核。",
+      "source": null
+    },
+    {
+      "index": 10,
+      "start": 73,
+      "end": 80,
+      "section": 3,
+      "label": "B站回执摘要 · 2026-10-14",
+      "title": "三条真实视频\n恢复并核对。",
+      "caption": "B站三条真实视频已恢复，上传、文案、封面、分区与标签核对通过，前稿仍保留。",
+      "source": null
+    },
+    {
+      "index": 11,
+      "start": 80,
+      "end": 87,
+      "section": 4,
+      "label": "通路能力",
+      "title": "不同平台，\n分别处理。",
+      "caption": "不同平台能力不同。",
+      "source": null
+    },
+    {
+      "index": 12,
+      "start": 87,
+      "end": 94,
+      "section": 4,
+      "label": "B站图文专栏",
+      "title": "原图 + 文案包\n→ 手机App接续",
+      "caption": "B站图文专栏走原图与文案准备包，再由本人在手机App接续。",
+      "source": null
+    },
+    {
+      "index": 13,
+      "start": 94,
+      "end": 100,
+      "section": 4,
+      "label": "App接续边界",
+      "title": "准备包完成\n≠ 平台编辑完成",
+      "caption": "它不会被计为平台编辑页已经准备成功。",
+      "source": null
+    },
+    {
+      "index": 14,
+      "start": 100,
+      "end": 108,
+      "section": 5,
+      "label": "AI候选审阅",
+      "title": "先核对事实，\n再决定采用。",
+      "caption": "AI只生成当前平台的候选文案，创作者先核事实再采用。",
+      "source": [
+        "TokenPay首次实测-候选未采用次数耗尽-20261014.png",
+        [
+          275,
+          3755,
+          1230,
+          4140
+        ]
+      ]
+    },
+    {
+      "index": 15,
+      "start": 108,
+      "end": 116,
+      "section": 5,
+      "label": "真实候选 · 2026-10-14",
+      "title": "已生成，\n尚未采用。",
+      "caption": "本次Qwen3.8 Flash真实调用一次，候选仍未采用；",
+      "source": [
+        "TokenPay首次实测-候选未采用次数耗尽-20261014.png",
+        [
+          285,
+          3820,
+          1220,
+          4110
+        ]
+      ]
+    },
+    {
+      "index": 16,
+      "start": 116,
+      "end": 123,
+      "section": 5,
+      "label": "本轮调用限额",
+      "title": "已用 1 / 1 次",
+      "caption": "调用限额已用完，不能在演示时重复消费。",
+      "source": null
+    },
+    {
+      "index": 17,
+      "start": 123,
+      "end": 130,
+      "section": 5,
+      "label": "控制权属于本人",
+      "title": "候选不自动上传，\n最终发布禁用。",
+      "caption": "调用限额已用完，不能在演示时重复消费。",
+      "source": null
+    },
+    {
+      "index": 18,
+      "start": 130,
+      "end": 139,
+      "section": 6,
+      "label": "真实账单摘要",
+      "title": "调用消费\n¥0.002188",
+      "caption": "这次调用输入177、输出758 tokens，消费0.002188元。",
+      "source": null
+    },
+    {
+      "index": 19,
+      "start": 139,
+      "end": 147,
+      "section": 6,
+      "label": "官网应用归因 · 2026-10-14",
+      "title": "后台收益\n¥0.000267",
+      "caption": "官方Eli应用后台出现成功记录，收益0.000267元。",
+      "source": [
+        "TokenPay首次实测-应用归因收益列-20261014.png",
+        [
+          0,
+          95,
+          1245,
+          350
+        ]
+      ]
+    },
+    {
+      "index": 20,
+      "start": 147,
+      "end": 155,
+      "section": 6,
+      "label": "本人流程自测",
+      "title": "证明接入通路，\n尚未证明市场价值。",
+      "caption": "这是开发者本人自测，证明接入归因通路，不代表外部用户或市场验证。",
+      "source": null
+    },
+    {
+      "index": 21,
+      "start": 155,
+      "end": 163,
+      "section": 7,
+      "label": "充值步骤示意 · 非实测交易",
+      "title": "余额不足时，\n先暂停原请求。",
+      "caption": "余额不足会暂停请求。用户确认金额、本人支付、核实到账后，再确认重试原请求。",
+      "source": null
+    },
+    {
+      "index": 22,
+      "start": 163,
+      "end": 170,
+      "section": 7,
+      "label": "充值实现与离线测试",
+      "title": "余额充足，\n真实充值未测试。",
+      "caption": "当前余额充足，没有为演示制造不足，也没有创建支付会话。",
+      "source": null
+    },
+    {
+      "index": 23,
+      "start": 170,
+      "end": 175,
+      "section": 8,
+      "label": "当前版本",
+      "title": "只准备，\n不发布。",
+      "caption": "当前版本只准备、不发布。",
+      "source": null
+    },
+    {
+      "index": 24,
+      "start": 175,
+      "end": 180,
+      "section": 8,
+      "label": "下一步验收",
+      "title": "真实使用，\n才能证明价值。",
+      "caption": "下一步要完成真实充值验收和独立试用，再用持续使用与净省时证据决定是否有价值。",
+      "source": null
+    }
+  ]
+}

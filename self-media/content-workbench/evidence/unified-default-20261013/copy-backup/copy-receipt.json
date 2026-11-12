@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-13T01:15:26.312Z",
+  "source": "/Volumes/EXTERNAL/自媒体/content-workbench/data/synthetic-demo",
+  "target": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/session-repair-20261012/ui-data-1791812744308",
+  "copied": 2,
+  "skipped": 0,
+  "sourceRootId": "ddbbc5d8-afc8-4f24-927f-87af101b49e9",
+  "targetRootId": "dadc09d0-b6ca-4247-b483-2dcc05b0c99b",
+  "ids": [
+    "c84515aa-db6e-4ab2-aa20-21f6970e9105",
+    "a7db5e94-94b5-49a6-b92d-75ad810efe44"
+  ],
+  "publicApprovals": "NOT_IMPORTED",
+  "sourceFileHash": "d55bed499ad6ab0199d10dacc281ad9af63e2e9dfa39c0e51d6d5b9cc49adf6e",
+  "workspaces": [
+    {
+      "id": "c84515aa-db6e-4ab2-aa20-21f6970e9105",
+      "title": "虚构样例｜把三段周报汇成表",
+      "sha256": "66a986c91f2eda7d3c5d1ea89af7a89f2122eacad824c62970d709a3ce4bb4a3"
+    },
+    {
+      "id": "a7db5e94-94b5-49a6-b92d-75ad810efe44",
+      "title": "虚构样例｜已冻版双平台准备包",
+      "sha256": "220e21232a8301850f7942970abdd46fe118f330d0b973166b4f6ee379ec3aa5"
+    }
+  ],
+  "targetBefore": [
+    {
+      "id": "4d4ca24c-f4e2-4c1e-9594-dfebf56db4ad",
+      "hash": "9349d77acd80438d33d531d657929d35f467b363e85781c914cbda9315fec261"
+    }
+  ],
+  "sourcePreserved": true,
+  "existingTargetPreserved": true
+}

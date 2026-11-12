@@ -1,0 +1,60 @@
+[
+  {
+    "scenario": "S04",
+    "name": "locking-conflict-capacity",
+    "status": "PASS",
+    "details": {
+      "secondWriterRejected": true,
+      "conflict": 409,
+      "block": 413,
+      "capacity": 413,
+      "priorSavedTextPreserved": true
+    },
+    "deviations": []
+  },
+  {
+    "scenario": "S04",
+    "name": "unpersisted-revoke-restart",
+    "status": "PASS",
+    "details": {
+      "diskStillHasOldPermission": true,
+      "bootApprovalEmpty": true,
+      "publicDownloadDenied": true,
+      "explicitReconfirmationRequired": true
+    },
+    "deviations": []
+  },
+  {
+    "scenario": "S04",
+    "name": "api-session-root-isolation",
+    "status": "PASS",
+    "details": {
+      "auth": 401,
+      "externalOrigin": 403,
+      "oversize": 413,
+      "otherRootCannotUseCookie": true,
+      "logoutDoesNotAffectOtherRoot": true
+    },
+    "deviations": []
+  },
+  {
+    "scenario": "S04",
+    "name": "symlink-protection",
+    "status": "PASS",
+    "details": {
+      "protectedFixtureHash": "178394a79d960a04a30b0404263a4c5296b5ece3bb6d6fe151d5460f135bf888",
+      "sourceUnchanged": true
+    },
+    "deviations": []
+  },
+  {
+    "scenario": "S04",
+    "name": "export-parent-symlink",
+    "status": "PASS",
+    "details": {
+      "externalFixtureReadRefused": true,
+      "externalFixtureUnchanged": true
+    },
+    "deviations": []
+  }
+]

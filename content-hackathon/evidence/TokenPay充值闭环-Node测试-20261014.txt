@@ -1,0 +1,125 @@
+TAP version 13
+# Subtest: payment creation requires authorization, exact amount and a suspended balance failure
+ok 1 - payment creation requires authorization, exact amount and a suspended balance failure
+  ---
+  duration_ms: 1.039375
+  type: 'test'
+  ...
+# Subtest: payment is only paid after an identity-matched official status; no automatic model call
+ok 2 - payment is only paid after an identity-matched official status; no automatic model call
+  ---
+  duration_ms: 1.019458
+  type: 'test'
+  ...
+# Subtest: uncertain session creation is durable and cannot be repeated after a restart
+ok 3 - uncertain session creation is durable and cannot be repeated after a restart
+  ---
+  duration_ms: 0.24875
+  type: 'test'
+  ...
+# Subtest: foreign status URLs, mismatched payment identities and false paid responses are rejected
+ok 4 - foreign status URLs, mismatched payment identities and false paid responses are rejected
+  ---
+  duration_ms: 0.165084
+  type: 'test'
+  ...
+# Subtest: expired and failed sessions stop; checks are bounded to one per three seconds
+ok 5 - expired and failed sessions stop; checks are bounded to one per three seconds
+  ---
+  duration_ms: 0.2315
+  type: 'test'
+  ...
+# Subtest: payment retries the original request only after explicit consent and confirmed payment
+ok 6 - payment retries the original request only after explicit consent and confirmed payment
+  ---
+  duration_ms: 3.184083
+  type: 'test'
+  ...
+# Subtest: a Key limit with positive account balance does not offer a recharge
+ok 7 - a Key limit with positive account balance does not offer a recharge
+  ---
+  duration_ms: 0.21425
+  type: 'test'
+  ...
+# Subtest: conservative price reservation and input size block excess calls before model requests
+ok 8 - conservative price reservation and input size block excess calls before model requests
+  ---
+  duration_ms: 0.094917
+  type: 'test'
+  ...
+# Subtest: QR generation uses the existing local encoder and emits only an SVG matrix
+ok 9 - QR generation uses the existing local encoder and emits only an SVG matrix
+  ---
+  duration_ms: 282.084292
+  type: 'test'
+  ...
+# Subtest: PKCE matches RFC7636 published test vector
+ok 10 - PKCE matches RFC7636 published test vector
+  ---
+  duration_ms: 1.268958
+  type: 'test'
+  ...
+# Subtest: all external actions are denied by default without touching the network
+ok 11 - all external actions are denied by default without touching the network
+  ---
+  duration_ms: 1.185125
+  type: 'test'
+  ...
+# Subtest: OAuth binds nonce, fixed app identity and S256; a successful callback cannot be replayed
+ok 12 - OAuth binds nonce, fixed app identity and S256; a successful callback cannot be replayed
+  ---
+  duration_ms: 1.283209
+  type: 'test'
+  ...
+# Subtest: expired OAuth and uncertain exchange never trigger blind repeats or leak provider errors
+ok 13 - expired OAuth and uncertain exchange never trigger blind repeats or leak provider errors
+  ---
+  duration_ms: 0.504666
+  type: 'test'
+  ...
+# Subtest: model request is explicitly limited, attributed, review-only and never reports revenue
+ok 14 - model request is explicitly limited, attributed, review-only and never reports revenue
+  ---
+  duration_ms: 0.268834
+  type: 'test'
+  ...
+# Subtest: AI candidates cannot overwrite another draft, edited copy, or changed media
+ok 15 - AI candidates cannot overwrite another draft, edited copy, or changed media
+  ---
+  duration_ms: 0.119958
+  type: 'test'
+  ...
+# Subtest: HTTP routes reject cross-origin mutation and scrub callback codes from redirects
+ok 16 - HTTP routes reject cross-origin mutation and scrub callback codes from redirects
+  ---
+  duration_ms: 0.367042
+  type: 'test'
+  ...
+# QA-only created paths: ["/var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/eli-tokenpay-qa-gJh6Lh","/var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/eli-tokenpay-qa-gJh6Lh/exchange-started.json","/var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/eli-tokenpay-qa-gJh6Lh/key.json","/var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/eli-tokenpay-qa-gJh6Lh/call-attempts.json"]
+# Subtest: protected store modes, exchange lock and call budget survive service restarts
+ok 17 - protected store modes, exchange lock and call budget survive service restarts
+  ---
+  duration_ms: 14.671083
+  type: 'test'
+  ...
+# Subtest: invalid model output is never returned as an adoptable candidate and never automatically retried
+ok 18 - invalid model output is never returned as an adoptable candidate and never automatically retried
+  ---
+  duration_ms: 0.5975
+  type: 'test'
+  ...
+# Subtest: HTTP 402 pauses the frozen request for recharge without a retry or a candidate
+ok 19 - HTTP 402 pauses the frozen request for recharge without a retry or a candidate
+  ---
+  duration_ms: 1.657334
+  type: 'test'
+  ...
+1..19
+# tests 19
+# suites 0
+# pass 19
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 548.300917

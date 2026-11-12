@@ -1,0 +1,38 @@
+{
+  "manifest": {
+    "producerApp": "eli-content-workbench",
+    "appVersion": "0.1.0",
+    "schemaName": "content-workbench.workspace",
+    "schemaVersion": 1,
+    "exportId": "c78adc87-8974-49fc-9027-e22bbbf883dc",
+    "createdAt": "2026-10-12T09:08:09.321Z",
+    "sourceRevisionRefs": {
+      "workspaceRevision": 12,
+      "scriptRevision": "56309734-f959-46e6-9c42-d5e538185e31",
+      "configVersion": "platforms-20261009-v1"
+    },
+    "files": [
+      {
+        "relativePath": "platforms/xiaohongshu.md",
+        "sha256": "1658594bc39a170de147ccb3e014c31d6dbb03f617c241b647d330256b791444",
+        "bytes": 232
+      },
+      {
+        "relativePath": "platforms/youtube.md",
+        "sha256": "9d7a00fcce9c19909c7b366de8c06aa4a3df587f73af203e24d7a899be97fad9",
+        "bytes": 333
+      }
+    ],
+    "verificationCoverage": [
+      "text-snapshot",
+      "byte-hashes"
+    ],
+    "limitations": [],
+    "privacyMode": "PUBLIC",
+    "status": "COMPLETED"
+  },
+  "files": {
+    "platforms/xiaohongshu.md": "# 三段示例周报，整理成一张表\n\n問題示例先用簡體：三段虚构周报汇成一张表。\n材料：本人合成示例。\n操作：三列对照。\n交付：表格。\n检查：逐项核对。\n\n#AI工具 #工作方法\n",
+    "platforms/youtube.md": "# 三段示例週報，整理成一張表\n\n問題：三段虛構週報分散。\n材料：本人撰寫的合成文字。\n操作：按事項、負責人、下一步列三欄。\n交付：一張示例表格。\n檢查：逐項對照，不把未知當完成。\n\n#AI工具 #工作方法\n\n后台标签计划：AI, 工作方法, 示例週報\n"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "date": "2026-10-13",
+  "status": "VERIFIED_LOCAL",
+  "scope": "frontend writing refinements",
+  "owner": "01a12ed9-113b-7fd1-8d30-fdc616bbf2bb",
+  "sourceFingerprint": {
+    "hash": "c363d752831c5788356d782bac57980bd5dcb72374a8d3a5e4cd4e4040f98538",
+    "files": [
+      {
+        "relativePath": "package.json",
+        "sha256": "e2cfcedeea9b0b5dcb1b7c2b01736f8a9fbadef3033a2ba5c26fe86ca8ac5755",
+        "bytes": 237
+      },
+      {
+        "relativePath": "public/app.js",
+        "sha256": "1d57bfc2c935a8673ff8c90f08b722bed671f0cfc072b1d62a9f47d6fac6e025",
+        "bytes": 29578
+      },
+      {
+        "relativePath": "public/index.html",
+        "sha256": "3a6f5e64f57e92b0e87a445a9590e366c37e24dfa79c00772f5e89cf0b85edc3",
+        "bytes": 11615
+      },
+      {
+        "relativePath": "public/preview-data.js",
+        "sha256": "4622f554ecf2c41d7f4db37a14cc32294a15c90b367f9a4569f156f79011d7ca",
+        "bytes": 3202
+      },
+      {
+        "relativePath": "public/session-start.html",
+        "sha256": "ce48bf2fa4fadffba0c9a3e08a6feea134c10d56ae6077b1716c9af247a2f99e",
+        "bytes": 469
+      },
+      {
+        "relativePath": "public/session-start.js",
+        "sha256": "5678c0ecd90f88bed3a9040eaf6637e2fe7b8f836a3daef3ddbd3915709366b9",
+        "bytes": 585
+      },
+      {
+        "relativePath": "public/style.css",
+        "sha256": "de41d602d9ffe9827e1a76ea21f751556a00718eab37d7fb1f6bcc0aec2b02a8",
+        "bytes": 25335
+      },
+      {
+        "relativePath": "src/authority.mjs",
+        "sha256": "6d2429b2efc21b03514a755f7aba60429f8c11e24c30f236738fb16708a779e5",
+        "bytes": 1160
+      },
+      {
+        "relativePath": "src/config.mjs",
+        "sha256": "75ea4ec1275509223cb463f04e6dba4ad6bd85e331740984846b9863577e4962",
+        "bytes": 1093
+      },
+      {
+        "relativePath": "src/copy-workspaces.mjs",
+        "sha256": "1dc5f07d6f22badebbc2412bf5fd1fac849f0c8c24c13fd27303e6c41432b291",
+        "bytes": 2650
+      },
+      {
+        "relativePath": "src/default-workspace.mjs",
+        "sha256": "d75ba827e92e678ce182c309f24d9dbce1478c6554e51110c3be800bc112e58c",
+        "bytes": 572
+      },
+      {
+        "relativePath": "src/fixture.mjs",
+        "sha256": "fdde3c98597de92d372d3adf4c58d25dc37f0286795eab5f08857e81ada7d909",
+        "bytes": 1196
+      },
+      {
+        "relativePath": "src/init.mjs",
+        "sha256": "03b82ee3d9252ef6aad981fd110aaf4d49bee623d887b9ebb1c3381faa82e9ac",
+        "bytes": 434
+      },
+      {
+        "relativePath": "src/launch-guard.mjs",
+        "sha256": "993e259316903695edb32df652776c3bae8364bd4932ac1ff55bcf97dae195c4",
+        "bytes": 2887
+      },
+      {
+        "relativePath": "src/launch.mjs",
+        "sha256": "ec3cbcdbd288975a0d0c15314277e4b515755c7010f2480a5d457f262d610e08",
+        "bytes": 3648
+      },
+      {
+        "relativePath": "src/model.mjs",
+        "sha256": "0b64921aa543869cf95b080e5a2a118d14c94a314b9581a4ba173dcd94f3493d",
+        "bytes": 5828
+      },
+      {
+        "relativePath": "src/pairing.mjs",
+        "sha256": "842470352c9ff8ecf36af622c37dc987f8a52a67efd24e26473ef7a2190d6686",
+        "bytes": 5193
+      },
+      {
+        "relativePath": "src/prepare-sample.mjs",
+        "sha256": "36f0868b316112583600afc36ab81b509d4ec3dfb709b14b6dbb29592dcc9e91",
+        "bytes": 2795
+      },
+      {
+        "relativePath": "src/recover.mjs",
+        "sha256": "8f4da3b2cafae15c8a35c582f1d6dad3a21ab4d660adff9932b680671dfb4ee4",
+        "bytes": 2417
+      },
+      {
+        "relativePath": "src/server.mjs",
+        "sha256": "de1dc9f1e87fdd9dbc24edd97a98f194be47cd1b953e7aa4a131585c9e6112a2",
+        "bytes": 9038
+      },
+      {
+        "relativePath": "src/stop.mjs",
+        "sha256": "187706ceb3992962aadf010e7a6a0391f8f95d4b181e3540557ae3a38bc750c6",
+        "bytes": 727
+      },
+      {
+        "relativePath": "src/store.mjs",
+        "sha256": "1ac76e564f098ba98b15560c6732145055f430928475c62a4e5d5a6cf7d1cf5d",
+        "bytes": 17894
+      },
+      {
+        "relativePath": "workspace.json",
+        "sha256": "ac7ff0c7c833176bb7a4c08aa169f170d9302c3d687263a91fefd7aba6ec3d82",
+        "bytes": 234
+      },
+      {
+        "relativePath": "停止内容工作台.command",
+        "sha256": "6d6d4d7d52ad451047486ee73b233afa9c0df874919909fab6dc871b9115863c",
+        "bytes": 177
+      },
+      {
+        "relativePath": "停止已验收工作台.command",
+        "sha256": "f7826430d44d200b134cc31f261379222c7dc6c0c27cb4260d0a82a3e7280402",
+        "bytes": 112
+      },
+      {
+        "relativePath": "启动内容工作台.command",
+        "sha256": "59caa74b2f2d912b0d807887492b7dfb66bfbd148d9ca826ddb543d4e7322320",
+        "bytes": 179
+      },
+      {
+        "relativePath": "启动已验收工作台.command",
+        "sha256": "a73eeabb33539be6fad8c281ae7345b75c51061fc0f961d621ee70bedaeffa29",
+        "bytes": 112
+      },
+      {
+        "relativePath": "恢复上一副本.command",
+        "sha256": "b0a45fc15e471a6e66ad73195fd67bd71efaacba0bcdfff0ba45fc523abadeea",
+        "bytes": 189
+      }
+    ],
+    "nodeVersion": "v24.19.0"
+  },
+  "tests": 37,
+  "corePath": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791874589121/summary.json",
+  "browserChecks": [
+    {
+      "firstDraft": "b81ee718-4ebb-4379-9666-890dc34c0365",
+      "focus": "title",
+      "search": "",
+      "selectionEnd": 5,
+      "selectionStart": 0,
+      "step": "new-from-platform",
+      "tab": "writing",
+      "title": "未命名稿件"
+    },
+    {
+      "body": "交互验收：未保存的文字需要保留。\n切换或新建前先保存，再继续操作。",
+      "dialogOpen": false,
+      "draft": "b81ee718-4ebb-4379-9666-890dc34c0365",
+      "drafts": 2,
+      "step": "cancel-new"
+    },
+    {
+      "body": "交互验收：未保存的文字需要保留。\n切换或新建前先保存，再继续操作。",
+      "dialogOpen": false,
+      "step": "same-draft"
+    },
+    {
+      "drafts": 3,
+      "focus": "title",
+      "saveEnabled": true,
+      "step": "save-and-new",
+      "tab": "writing",
+      "title": "未命名稿件 2"
+    },
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "text": "返回编辑"
+        },
+        {
+          "height": 44,
+          "text": "保存并继续"
+        }
+      ],
+      "dialogWidth": 358,
+      "scrollWidth": 375,
+      "step": "narrow-dialog",
+      "width": 390
+    },
+    {
+      "activeLeft": 201,
+      "activeRight": 381,
+      "dialogOpen": false,
+      "draft": "4a270bb0-33a5-41a5-b4eb-fcb8b133be24",
+      "navLeft": 16,
+      "navRight": 358,
+      "scrollWidth": 375,
+      "step": "save-and-switch",
+      "title": "写稿交互验收B｜20261013",
+      "width": 390
+    },
+    {
+      "activeFullyVisible": true,
+      "activeLeft": 178,
+      "activeRight": 358,
+      "navRight": 358,
+      "scrollWidth": 375,
+      "step": "narrow-confirmation",
+      "width": 390
+    },
+    {
+      "body": "交互验收：打开回收站前保存这句话。",
+      "dialogOpen": false,
+      "step": "escape-cancel"
+    },
+    {
+      "scrollWidth": 375,
+      "step": "save-and-trash-view",
+      "trashVisible": true,
+      "width": 390
+    },
+    {
+      "activeDrafts": 1,
+      "dialogOpen": false,
+      "draft": "9221b4b8-5c60-4596-b6be-a48926a8c233",
+      "saveEnabled": true,
+      "search": "",
+      "step": "delivery"
+    }
+  ],
+  "originals": [
+    {
+      "id": "4d4ca24c-f4e2-4c1e-9594-dfebf56db4ad",
+      "unchanged": true
+    },
+    {
+      "id": "c84515aa-db6e-4ab2-aa20-21f6970e9105",
+      "unchanged": true
+    },
+    {
+      "id": "a7db5e94-94b5-49a6-b92d-75ad810efe44",
+      "unchanged": true
+    },
+    {
+      "id": "46de1d3d-8c26-4dc0-9a52-b26e9a1198cf",
+      "unchanged": true
+    },
+    {
+      "id": "377f8d7c-c82f-407d-ac4d-613d7d8c2802",
+      "unchanged": true
+    },
+    {
+      "id": "052ec530-5992-489e-a70f-5d76e4bc94de",
+      "unchanged": true
+    },
+    {
+      "id": "262ab823-0d11-47b3-8d90-2e848bc61bb4",
+      "unchanged": true
+    },
+    {
+      "id": "dc7339aa-27ce-4235-a8d2-37bde931d374",
+      "unchanged": true
+    },
+    {
+      "id": "ca2b65c8-eb27-4487-8667-8fc4f6a93535",
+      "unchanged": true
+    },
+    {
+      "id": "6f75a24d-9542-4b47-b609-01f71bb16c18",
+      "unchanged": true
+    },
+    {
+      "id": "9221b4b8-5c60-4596-b6be-a48926a8c233",
+      "unchanged": true
+    }
+  ],
+  "originalCount": 11,
+  "qaWorkspaces": [
+    "b81ee718-4ebb-4379-9666-890dc34c0365",
+    "4a270bb0-33a5-41a5-b4eb-fcb8b133be24"
+  ],
+  "qaState": "both recoverably moved to product trash",
+  "backendAndSessionUnchanged": true,
+  "servicePid": 52672,
+  "visualPasses": 2,
+  "implementation": [
+    "save-before-new/switch/trash dialog with cancel and failure preservation",
+    "new draft enters writing, selects title and clears search",
+    "distinct default names, recent activity metadata and sorting",
+    "selection remains visible in sidebar at narrow breakpoint",
+    "read refresh does not overwrite newer typing"
+  ],
+  "verification": [
+    "desktop and 390px real browser",
+    "cancel retains same draft/text",
+    "save then new/switch/trash verified against disk",
+    "Escape returns to editing",
+    "same draft click does not interrupt",
+    "no horizontal overflow"
+  ],
+  "browserBoundaryIncident": "Native Chrome had switched to an unrelated public careers page; one unintended reload occurred; no field entry or form submission; subsequent actions restricted to dedicated workbench tab",
+  "limitations": "Same Owner checks; no independent audit or full WCAG certification; no permanent deletion, new dependencies or deployment"
+}

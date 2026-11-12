@@ -1,0 +1,46 @@
+✔ S01: saved content and complete frozen package survive a real store restart (203.87025ms)
+✔ S02: v1/v2 and field-specific dependency invalidation (91.792334ms)
+✔ S02: raw sources and damaged sources never imply current PASS or change binding (17.3945ms)
+✔ S03: 9 configurations, language and public fields are isolated (227.50375ms)
+✔ S03: revoke while locked export and revoke after completion prevent public delivery (131.211416ms)
+✔ S04: revision, second instance, 40KiB blocks and capacity preserve prior data (33.267625ms)
+✔ S04: failed save and unpersisted revoke never resurrect approvals on restart (121.54325ms)
+✔ S04: API authentication, origin, static boundaries and app/root sessions (170.50175ms)
+✔ S05: internal DRAFT without freeze, complete restoration and nested relations (103.107458ms)
+✔ S05: multi-file failure does not become COMPLETED or override prior export (130.813458ms)
+✔ S04: symlink in a data root is refused and source files are never modified (13.586958ms)
+✔ S03: permission expiry and malformed expiry cannot use old approval (61.06375ms)
+✔ S02: startup source cache survives damaged input and restart (56.226875ms)
+✔ S02: stable paragraph IDs survive additions and note links are validated (44.468708ms)
+✔ S04: exported package refuses a symlinked parent before reading outside (38.738ms)
+Evidence: /Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791874589121
+✔ HTTP pairing requires owner approval, binds one browser, rejects other origins and replay (309.347125ms)
+✔ pairing expires, caps pending requests, and owner socket checks root and file permissions (13.257917ms)
+✔ confirmed browser can create/save/reload and retain both versions; restart requires fresh pairing (308.958333ms)
+✔ launcher cold-start reports verified child, repeated launch reuses that exact service (823.901625ms)
+✔ failed startup cannot borrow a stale metadata URL returning HTTP 200 (487.0865ms)
+✔ owner startup ticket establishes an HttpOnly session once, with origin/root/expiry checks (256.941917ms)
+✔ restart rejects old sessions and old launch tickets; fresh automatic launch retains saved drafts and versions (208.436125ms)
+✔ concurrent double-click starts one service and abrupt exit recovers preserved stale locks on the same port (986.374667ms)
+✔ startup tickets are bounded and stale launch lock with unknown ownership is not removed (91.865834ms)
+✔ trash and restore survive restart and retain full content, relations and versions (276.687083ms)
+✔ trash rejects stale revisions and failed writes keep the active draft and approval (62.08425ms)
+✔ authenticated trash API hides the last draft, lists it for recovery and enforces origin (242.512584ms)
+✔ workspace copy preserves originals, full relations and target edits; repeated copy is idempotent (204.575333ms)
+✔ a conflicting ID or invalid relation rejects the entire copy and preserves prior state (62.200625ms)
+✔ continue saves current edits before performing the requested action (9.086667ms)
+✔ return to editing leaves unsaved text untouched and does not navigate (2.164667ms)
+✔ save errors keep the current editor and never perform the pending action (0.352417ms)
+✔ new typing while saving prevents the old editor from being replaced (0.104375ms)
+✔ saved drafts continue without an unnecessary save prompt (0.432875ms)
+✔ new draft names avoid active and recycled names without renaming existing drafts (0.224583ms)
+✔ draft navigation sorts by actual activity and does not mutate saved objects (0.322334ms)
+✔ navigation shows version and local day correctly across the Shanghai midnight boundary (102.449084ms)
+ℹ tests 37
+ℹ suites 0
+ℹ pass 37
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2251.513333

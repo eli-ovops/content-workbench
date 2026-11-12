@@ -1,0 +1,15 @@
+{
+  "exportId": "13631329-e964-458f-855c-909b305abd7e",
+  "workspaceId": "a131c421-9151-4c84-9c81-75ba216f03ac",
+  "workspaceRevision": 3,
+  "mode": "FROZEN",
+  "status": "FAILED",
+  "publicStatus": "FAILED",
+  "deps": {
+    "youtube": "b0ea64fc75f53f49e6f0f73f95b65bd0728e98b1e8d0fc2722006c418d5a792e"
+  },
+  "dir": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791796317782/data/partial-export/exports/13631329-e964-458f-855c-909b305abd7e",
+  "createdAt": "2026-10-12T09:11:58.244Z",
+  "limitations": [],
+  "error": "WRITE_FAILED"
+}

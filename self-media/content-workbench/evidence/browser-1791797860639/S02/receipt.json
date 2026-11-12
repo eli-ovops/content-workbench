@@ -1,0 +1,21 @@
+[
+  {
+    "scenario": "S02",
+    "name": "formal-input-hashes-unchanged",
+    "status": "PASS",
+    "details": {
+      "files": [
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/流程协作/会话登记.json",
+          "hash": "c290cc66e17ac9c4a033754527fd6e7989a85308556d006be415c3e797fcebf5"
+        },
+        {
+          "path": "/Volumes/EXTERNAL/自媒体/流程协作/流程状态.json",
+          "hash": "290bdb2d9370c6bcca7f9f3043c4271770f40267c614092bce66f6b97f6d01db"
+        }
+      ],
+      "realSourcesReadOnly": true
+    },
+    "deviations": []
+  }
+]

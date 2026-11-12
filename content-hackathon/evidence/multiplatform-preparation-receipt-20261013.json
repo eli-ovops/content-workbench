@@ -1,0 +1,260 @@
+{
+  "checkedAt": "2026-10-13T11:20:47.786424+00:00",
+  "timezone": "Asia/Shanghai",
+  "executionOwner": "/root 本会话",
+  "ruleVersion": "ROUTING-2026-10-13-v4",
+  "actualModelEffort": "UNKNOWN",
+  "actualSpeedMode": "UNKNOWN",
+  "scope": "统一准备编辑页，不发布",
+  "draftId": "1d2a859f-b606-4c90-84da-b1e29939aa80",
+  "sourceSha256": {
+    "app/app.js": "0756048a97a7882f133af686520cc8670ff52b5a0ff51712169d5c2a9553eeb4",
+    "app/index.html": "2c0c6c6644c45fa764e8febf069d41def64414453f6ea487a77dc7a406a5c204",
+    "app/style.css": "d2464582bcfcbc263e8830dfcdcb1d91ebcb7d49915afa99545afda106b09d6c",
+    "app/xhs_worker.py": "21f0471aad9fbdb578adf98775e980cbffb825f38298c83c8bc2a4081725c421",
+    "app/preparation-queue.test.mjs": "152a83b36a6ddab2d6805e12d47e4a701e70528b2accd5e3aef4f6c18a16f291"
+  },
+  "status": {
+    "xhs": {
+      "phase": "prepared",
+      "kind": "video",
+      "message": "稿件已传入编辑页，预览核对通过。尚未发布",
+      "titlePreviewVerified": true,
+      "bodyPreviewVerified": true,
+      "imageCountVerified": false,
+      "videoUploadVerified": true,
+      "preparationFingerprint": "c291e656285578fb5bf89402f60fa509377f5edda98c4cf30121a99d7aa36ae3"
+    },
+    "douyin": {
+      "phase": "prepared",
+      "message": "抖音话题已核对，当前封面及原文保留；自主声明请本人核对，尚未发布。",
+      "preparationVerified": true,
+      "titleVerified": true,
+      "bodyVerified": true,
+      "videoUploadVerified": true,
+      "receiptCaptured": true,
+      "published": false,
+      "draftId": "1d2a859f-b606-4c90-84da-b1e29939aa80",
+      "optionsVerified": true,
+      "topicsVerified": true,
+      "appliedTopics": [
+        "AI工具",
+        "效率工具"
+      ],
+      "coverVerified": null,
+      "horizontalCoverVerified": null,
+      "verticalCoverVerified": null,
+      "coverUploadPerformed": false,
+      "videoUploadPerformed": false,
+      "bodyBaseUnchanged": true,
+      "newEditorSupported": true
+    },
+    "bilibili": {
+      "phase": "prepared",
+      "message": "B站视频、标题和简介已填入，上传完成已核对；分区、标签及声明请在编辑页核对，尚未投稿。",
+      "preparationVerified": true,
+      "titleVerified": true,
+      "bodyVerified": true,
+      "videoUploadVerified": true,
+      "receiptCaptured": true,
+      "draftId": "1d2a859f-b606-4c90-84da-b1e29939aa80",
+      "newEditorSupported": true
+    }
+  },
+  "retained": {
+    "xhs": {
+      "pageOpen": true,
+      "pageCount": 2,
+      "path": "/publish/publish",
+      "error": null
+    },
+    "douyin": {
+      "pageOpen": true,
+      "pageCount": 4,
+      "retainedPreparedPages": [
+        {
+          "pageOpen": true,
+          "titleUnchanged": true,
+          "bodyUnchanged": true,
+          "topicsUnchanged": true,
+          "coverUnchanged": true,
+          "coverCount": 2
+        },
+        {
+          "pageOpen": true,
+          "titleUnchanged": true,
+          "bodyUnchanged": true,
+          "topicsUnchanged": true,
+          "coverUnchanged": true,
+          "coverCount": 2
+        },
+        {
+          "pageOpen": true,
+          "titleUnchanged": true,
+          "bodyUnchanged": true,
+          "topicsUnchanged": true,
+          "coverUnchanged": true,
+          "coverCount": 2
+        }
+      ],
+      "receiptFile": "抖音登录诊断-968761fc-fee6-47bd-8c55-91521f94e692.png",
+      "error": null
+    },
+    "bilibili": {
+      "pageOpen": true,
+      "pageCount": 2,
+      "retainedPreparedPages": [
+        {
+          "pageOpen": true,
+          "titleUnchanged": true,
+          "bodyUnchanged": true
+        }
+      ],
+      "error": null
+    }
+  },
+  "repeatCheck": {
+    "before": {
+      "xhs": {
+        "jobCount": 17,
+        "latestJob": "57957905-ecb5-4287-bd5c-23d3bf418b63"
+      },
+      "douyin": {
+        "jobCount": 13,
+        "latestJob": "3298ff7e-2d80-40b5-a373-35f4047655c0"
+      },
+      "bilibili": {
+        "jobCount": 13,
+        "latestJob": "bd15fbd4-1c3a-4e72-b969-7489d69e8286"
+      }
+    },
+    "after": {
+      "xhs": {
+        "jobCount": 17,
+        "latestJob": "57957905-ecb5-4287-bd5c-23d3bf418b63"
+      },
+      "douyin": {
+        "jobCount": 13,
+        "latestJob": "3298ff7e-2d80-40b5-a373-35f4047655c0"
+      },
+      "bilibili": {
+        "jobCount": 13,
+        "latestJob": "bd15fbd4-1c3a-4e72-b969-7489d69e8286"
+      }
+    },
+    "noNewPreparationOrSettingsJobs": true
+  },
+  "jobs": {
+    "xhs": [
+      {
+        "jobId": "057fc88a-aba1-46ee-9fda-66a68fd60591",
+        "title": "小红书：统一准备验证",
+        "topics": null
+      },
+      {
+        "jobId": "57957905-ecb5-4287-bd5c-23d3bf418b63",
+        "title": "小红书：统一准备完整验证",
+        "topics": null
+      }
+    ],
+    "douyin": [
+      {
+        "jobId": "f01642ac-5d30-4e2a-9394-df82083a25e5",
+        "title": "抖音：统一准备验证",
+        "topics": null
+      },
+      {
+        "jobId": "ebd5f795-31ce-4103-825a-b1b0e98047c4",
+        "title": null,
+        "topics": [
+          "AI工具",
+          "效率工具"
+        ]
+      },
+      {
+        "jobId": "48650794-0a22-42ec-b612-d8a23c84a808",
+        "title": "抖音：统一准备完整验证",
+        "topics": null
+      },
+      {
+        "jobId": "3298ff7e-2d80-40b5-a373-35f4047655c0",
+        "title": null,
+        "topics": [
+          "AI工具",
+          "效率工具"
+        ]
+      }
+    ],
+    "bilibili": [
+      {
+        "jobId": "8db61734-4d9f-4deb-95df-4834f09d338d",
+        "title": "B站：统一准备验证",
+        "topics": null
+      },
+      {
+        "jobId": "bd15fbd4-1c3a-4e72-b969-7489d69e8286",
+        "title": "B站：统一准备完整验证",
+        "topics": null
+      }
+    ]
+  },
+  "validation": {
+    "nodeTests": 19,
+    "pythonXhsSessionTests": 2,
+    "syntax": "passed",
+    "realSingleActionThreePlatformPreparation": true,
+    "independentPlatformVersions": true,
+    "realDouyinSavedTopicsApplied": true,
+    "refreshReceiptRestoration": true,
+    "repeatCreatesNoUploadOrSettingsJobs": true,
+    "desktopUI": "passed",
+    "narrowUI": {
+      "requestedViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "documentClientWidth": 375,
+      "documentScrollWidth": 375,
+      "rows": 3,
+      "overrideReset": true
+    },
+    "publishButtonEnabled": false
+  },
+  "boundaries": {
+    "published": false,
+    "cloudDraftSaved": false,
+    "declarationsChosen": false,
+    "serverRestarted": false,
+    "newDependencies": false,
+    "imageSupport": [
+      "xhs"
+    ],
+    "videoSupport": [
+      "xhs",
+      "douyin",
+      "bilibili"
+    ],
+    "unsupportedKindsNeverUploaded": true
+  },
+  "generatedFiles": [
+    "/Volumes/EXTERNAL/黑客松/app/preparation-queue.test.mjs",
+    "/Volumes/EXTERNAL/黑客松/evidence/multiplatform-before-repeat-20261013.json",
+    "/Volumes/EXTERNAL/黑客松/evidence/multiplatform-bilibili-status-20261013.json",
+    "/Volumes/EXTERNAL/黑客松/evidence/multiplatform-douyin-status-20261013.json",
+    "/Volumes/EXTERNAL/黑客松/evidence/multiplatform-final-before-repeat-20261013.json",
+    "/Volumes/EXTERNAL/黑客松/evidence/multiplatform-final-repeat-check-20261013.json",
+    "/Volumes/EXTERNAL/黑客松/evidence/multiplatform-preparation-receipt-20261013.json",
+    "/Volumes/EXTERNAL/黑客松/evidence/multiplatform-repeat-check-20261013.json",
+    "/Volumes/EXTERNAL/黑客松/evidence/multiplatform-retained-bilibili-final-20261013.json",
+    "/Volumes/EXTERNAL/黑客松/evidence/multiplatform-retained-douyin-20261013.json",
+    "/Volumes/EXTERNAL/黑客松/evidence/multiplatform-retained-douyin-final-20261013.json",
+    "/Volumes/EXTERNAL/黑客松/evidence/multiplatform-xhs-pages-20261013.json",
+    "/Volumes/EXTERNAL/黑客松/evidence/multiplatform-xhs-status-20261013.json",
+    "/Volumes/EXTERNAL/黑客松/evidence/三平台准备-B站-20261013.png",
+    "/Volumes/EXTERNAL/黑客松/evidence/三平台准备-小红书-20261013.png",
+    "/Volumes/EXTERNAL/黑客松/evidence/三平台准备-抖音-20261013.png",
+    "/Volumes/EXTERNAL/黑客松/evidence/工作台三平台准备窄屏-20261013.png",
+    "/Volumes/EXTERNAL/黑客松/evidence/工作台三平台准备通过-20261013.png",
+    "/Volumes/EXTERNAL/黑客松/三平台统一准备接入-20261013.md"
+  ]
+}

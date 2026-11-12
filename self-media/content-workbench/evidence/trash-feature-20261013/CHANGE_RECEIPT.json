@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-13",
+  "scope": "recoverable draft removal and restore",
+  "status": "IMPLEMENTED_AUTOMATED_CHECKS_PASS_UI_PENDING",
+  "sourceFingerprint": {
+    "hash": "794cd811dcf4273048ba3928c2b8eb7ca05524f3a6bb0e9c7f0e7ba7939afcb2",
+    "files": [
+      {
+        "relativePath": "package.json",
+        "sha256": "6c399757c8cefecb94d3d371e83c80d9c42aa7ab51e1e858e4f5440d1f2a9023",
+        "bytes": 237
+      },
+      {
+        "relativePath": "public/app.js",
+        "sha256": "047fc67cc1c77ab75351cfc221ac25558c36adf374a5551e8c571b17bccbb0ae",
+        "bytes": 27368
+      },
+      {
+        "relativePath": "public/index.html",
+        "sha256": "172511e2a54c949f188ffb14c74630af2d8194b59dbbb4915771e227723e516c",
+        "bytes": 11447
+      },
+      {
+        "relativePath": "public/preview-data.js",
+        "sha256": "4622f554ecf2c41d7f4db37a14cc32294a15c90b367f9a4569f156f79011d7ca",
+        "bytes": 3202
+      },
+      {
+        "relativePath": "public/style.css",
+        "sha256": "bd5761af32ee64d172ed0ddb2713bd62ba7df337e708b94289796d44611674b5",
+        "bytes": 24560
+      },
+      {
+        "relativePath": "src/authority.mjs",
+        "sha256": "6d2429b2efc21b03514a755f7aba60429f8c11e24c30f236738fb16708a779e5",
+        "bytes": 1160
+      },
+      {
+        "relativePath": "src/config.mjs",
+        "sha256": "31f45c8c4aba9724d49fa92a11792bb44f100fab6402ea19901b417afbd009c2",
+        "bytes": 1093
+      },
+      {
+        "relativePath": "src/copy-workspaces.mjs",
+        "sha256": "1dc5f07d6f22badebbc2412bf5fd1fac849f0c8c24c13fd27303e6c41432b291",
+        "bytes": 2650
+      },
+      {
+        "relativePath": "src/default-workspace.mjs",
+        "sha256": "d75ba827e92e678ce182c309f24d9dbce1478c6554e51110c3be800bc112e58c",
+        "bytes": 572
+      },
+      {
+        "relativePath": "src/fixture.mjs",
+        "sha256": "fdde3c98597de92d372d3adf4c58d25dc37f0286795eab5f08857e81ada7d909",
+        "bytes": 1196
+      },
+      {
+        "relativePath": "src/init.mjs",
+        "sha256": "03b82ee3d9252ef6aad981fd110aaf4d49bee623d887b9ebb1c3381faa82e9ac",
+        "bytes": 434
+      },
+      {
+        "relativePath": "src/launch.mjs",
+        "sha256": "0ca2e4b009cb24b2f26758836bbea96466b9a9a875ac523afc491db453b7d690",
+        "bytes": 3263
+      },
+      {
+        "relativePath": "src/model.mjs",
+        "sha256": "0b64921aa543869cf95b080e5a2a118d14c94a314b9581a4ba173dcd94f3493d",
+        "bytes": 5828
+      },
+      {
+        "relativePath": "src/pairing.mjs",
+        "sha256": "a10502aa705bd41dbfe7fc0f715ca7f25abf21a4880e8976fbb518942ccd725a",
+        "bytes": 4054
+      },
+      {
+        "relativePath": "src/prepare-sample.mjs",
+        "sha256": "36f0868b316112583600afc36ab81b509d4ec3dfb709b14b6dbb29592dcc9e91",
+        "bytes": 2795
+      },
+      {
+        "relativePath": "src/recover.mjs",
+        "sha256": "8f4da3b2cafae15c8a35c582f1d6dad3a21ab4d660adff9932b680671dfb4ee4",
+        "bytes": 2417
+      },
+      {
+        "relativePath": "src/server.mjs",
+        "sha256": "ca93e8653f910afacb90cf54a061fd99c46247b7f351d7c7fbb358d68f3a08a6",
+        "bytes": 9771
+      },
+      {
+        "relativePath": "src/stop.mjs",
+        "sha256": "187706ceb3992962aadf010e7a6a0391f8f95d4b181e3540557ae3a38bc750c6",
+        "bytes": 727
+      },
+      {
+        "relativePath": "src/store.mjs",
+        "sha256": "1ac76e564f098ba98b15560c6732145055f430928475c62a4e5d5a6cf7d1cf5d",
+        "bytes": 17894
+      },
+      {
+        "relativePath": "workspace.json",
+        "sha256": "ac7ff0c7c833176bb7a4c08aa169f170d9302c3d687263a91fefd7aba6ec3d82",
+        "bytes": 234
+      },
+      {
+        "relativePath": "停止内容工作台.command",
+        "sha256": "6d6d4d7d52ad451047486ee73b233afa9c0df874919909fab6dc871b9115863c",
+        "bytes": 177
+      },
+      {
+        "relativePath": "停止已验收工作台.command",
+        "sha256": "f7826430d44d200b134cc31f261379222c7dc6c0c27cb4260d0a82a3e7280402",
+        "bytes": 112
+      },
+      {
+        "relativePath": "启动内容工作台.command",
+        "sha256": "59caa74b2f2d912b0d807887492b7dfb66bfbd148d9ca826ddb543d4e7322320",
+        "bytes": 179
+      },
+      {
+        "relativePath": "启动已验收工作台.command",
+        "sha256": "a73eeabb33539be6fad8c281ae7345b75c51061fc0f961d621ee70bedaeffa29",
+        "bytes": 112
+      },
+      {
+        "relativePath": "恢复上一副本.command",
+        "sha256": "b0a45fc15e471a6e66ad73195fd67bd71efaacba0bcdfff0ba45fc523abadeea",
+        "bytes": 189
+      }
+    ],
+    "nodeVersion": "v24.19.0"
+  },
+  "tests": 25,
+  "coreSummary": "/Volumes/EXTERNAL/自媒体/content-workbench/evidence/core-1791869241902/summary.json",
+  "serviceActivation": {
+    "date": "2026-10-13",
+    "serviceUrl": "http://127.0.0.1:56442",
+    "pid": 32506,
+    "healthPidMatches": true,
+    "rootMatches": true,
+    "dataByteUnchanged": true,
+    "beforeSha": "1a3f2b7506a56485fb6d56dbd23addc0559aefb70ceeab9b7fda145df7203075",
+    "afterSha": "1a3f2b7506a56485fb6d56dbd23addc0559aefb70ceeab9b7fda145df7203075",
+    "workspaceCount": 9,
+    "noUserDraftRemoved": true,
+    "browserSessionNeedsReconnect": true
+  },
+  "liveAssets": {
+    "http": 200,
+    "uniqueControls": true
+  },
+  "browserVerification": "NOT_PERFORMED; explicit earlier browser-policy refusal remains; user is asked to reconnect existing window",
+  "noPermanentDeletion": true,
+  "autoTrashCleanup": false,
+  "originalDraftsUnchanged": true,
+  "verification": [
+    "trash and restore after store restart",
+    "all original content and relations retained",
+    "revision conflicts",
+    "failed atomic write keeps active draft",
+    "authorization and origin gate",
+    "last draft removed and restored through API",
+    "JS syntax and served controls"
+  ],
+  "owner": "01a12ed9-113b-7fd1-8d30-fdc616bbf2bb"
+}
